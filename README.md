@@ -86,7 +86,10 @@ note for the full rationale.
 
 ## Development
 
-Requires Python 3.12+ and [`uv`](https://docs.astral.sh/uv/).
+Requires Python 3.12+ and [`uv`](https://docs.astral.sh/uv/). The SVG
+normalisation step also needs [SVGO](https://github.com/svg/svgo)
+(`npm install -g svgo`); without it, vectors are passed through un-minified
+(still valid) and a warning is printed — raster normalisation is unaffected.
 
 ```sh
 uv sync

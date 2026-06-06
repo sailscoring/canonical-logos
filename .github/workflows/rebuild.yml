@@ -33,6 +33,9 @@ jobs:
       - name: Sync deps
         run: uv sync
 
+      - name: Install SVGO
+        run: npm install -g svgo  # 02_normalise.py uses `npx --no-install svgo`
+
       - name: Fetch assets
         run: uv run python scripts/01_fetch.py
 
