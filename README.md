@@ -24,8 +24,10 @@ Each tagged GitHub Release will attach:
 - **`manifest.json`** — the canonical dataset: every logo, its `id`, `class`
   (`governing-body` / `sailing-club` / `class-assoc` / `sponsor` / `venue`),
   display name,
-  file + format + `sha256`, available colourway variants, and source
-  provenance (`sourceUrl`, `sourceKind`, `retrievedAt`).
+  file + format + `sha256`, available colourway variants, source provenance
+  (`sourceUrl`, `sourceKind`, `retrievedAt`), and a `quality` flag (`ok`, or
+  `provisional` with a `qualityNote` for a sub-par best-available asset kept
+  deliberately and flagged for upgrade).
 - **`logos.tar.gz`** — all normalised logo files (SVG where the owner has one;
   otherwise a normalised transparent PNG, plus a small derivative for the
   ~100 px results-header slot).

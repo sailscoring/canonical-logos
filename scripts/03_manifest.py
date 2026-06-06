@@ -92,6 +92,8 @@ def main() -> int:
             "licence": entry.get("licence"),
             "attribution": entry.get("attribution"),
             "usageNote": entry.get("usageNote"),
+            "quality": entry.get("quality", "ok"),
+            "qualityNote": entry.get("qualityNote"),
             "retrievedAt": asset["retrievedAt"],
         }
         if small.is_file():
@@ -120,10 +122,13 @@ def main() -> int:
         + "\n",
         encoding="utf-8",
     )
+    provisional = [r["id"] for r in logos if r["quality"] == "provisional"]
     print(
         f"manifest: {len(logos)} logo(s) -> {_rel(MANIFEST_PATH)}; "
         f"{len(unresolved)} unresolved -> {_rel(UNRESOLVED_PATH)}"
     )
+    if provisional:
+        print(f"  provisional (best-available, replace when possible): {', '.join(provisional)}")
     return 0
 
 
