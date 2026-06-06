@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:30:23Z",
+  "generatedAt": "2026-06-06T23:37:38Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -249,6 +249,46 @@
       "fetchedFormat": "svg",
       "rawSha256": "833a4dc2dfc549df4ce08698842309051227d800c62a08fc78a2dd5213e82894",
       "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "cork-week",
+      "assetUrl": "sources/assets/cork-week.png",
+      "file": "logos/cork-week.png",
+      "fetchedFormat": "png",
+      "rawSha256": "175a2fac1d8c8834438ecb4d5fdc253b1bddaa99767b06f908a7e4e5d49eed19",
+      "retrievedAt": "2026-06-06T23:37:38Z"
+    },
+    {
+      "id": "round-ireland",
+      "assetUrl": "sources/assets/round-ireland.png",
+      "file": "logos/round-ireland.png",
+      "fetchedFormat": "png",
+      "rawSha256": "483182c16eae59953f85689190d26c66f8257f616e8fe3ddea3fe5c3e82bcf77",
+      "retrievedAt": "2026-06-06T23:37:38Z"
+    },
+    {
+      "id": "wave-regatta",
+      "assetUrl": "sources/assets/wave-regatta.jpg",
+      "file": "logos/wave-regatta.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "ae59ae2b7c01d065b004480c15e04792f94c4483fe39b9305a275299bc06a6f1",
+      "retrievedAt": "2026-06-06T23:37:38Z"
+    },
+    {
+      "id": "galway-bay-sc",
+      "assetUrl": "sources/assets/galway-bay-sc.jpg",
+      "file": "logos/galway-bay-sc.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "a3e17489d42e3d687df906eff6ce32127c627c9657c98654f92bc8a49a29217e",
+      "retrievedAt": "2026-06-06T23:37:38Z"
+    },
+    {
+      "id": "baltimore-sc",
+      "assetUrl": "sources/assets/baltimore-sc.png",
+      "file": "logos/baltimore-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "dbc7115e348984ce7312fe12f832eee5cfa39544fcd9c4d16f112b03c8fc6279",
+      "retrievedAt": "2026-06-06T23:37:38Z"
     }
   ],
   "unresolved": [
@@ -346,6 +386,18 @@
     },
     {
       "id": "fingal-county-council",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "dlregatta",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "sovereigns-cup",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "d2d",
       "reason": "no assetUrl (not yet sourced)"
     }
   ]

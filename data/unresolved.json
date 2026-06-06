@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:30:30Z",
+  "generatedAt": "2026-06-06T23:37:46Z",
   "entries": [
     {
       "id": "1720",
@@ -12,6 +12,14 @@
     },
     {
       "id": "49er",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "d2d",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "dlregatta",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
@@ -88,6 +96,10 @@
     },
     {
       "id": "sigma-33",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "sovereigns-cup",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

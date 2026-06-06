@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:30:30Z",
+  "generatedAt": "2026-06-06T23:37:46Z",
   "logos": [
     {
       "id": "420",
@@ -78,6 +78,60 @@
       "retrievedAt": "2026-06-06T23:26:34Z",
       "derivatives": {
         "small": "logos/ballyholme-yc.small.png"
+      }
+    },
+    {
+      "id": "baltimore-sc",
+      "class": "sailing-club",
+      "displayName": "Baltimore Sailing Club",
+      "file": "logos/baltimore-sc.png",
+      "format": "png",
+      "sha256": "0e1df6f8d2a76d2426d332ece45279419fb2015fb14cde892741689489051371",
+      "variants": [
+        {
+          "file": "logos/baltimore-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.baltimoresailingclub.ie/wp-content/uploads/2019/01/footer_logo.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/baltimore-sc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:37:38Z",
+      "derivatives": {
+        "small": "logos/baltimore-sc.small.png"
+      }
+    },
+    {
+      "id": "cork-week",
+      "class": "regatta",
+      "displayName": "Cork Week",
+      "file": "logos/cork-week.png",
+      "format": "png",
+      "sha256": "7181ae7542f2a9014fb3287ca8cfea7e3ab6ce1724d28d269c0deb8082a4ce91",
+      "variants": [
+        {
+          "file": "logos/cork-week.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.corkweek.ie/wp-content/uploads/2025/06/cork-week-logo-2026.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/cork-week.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Year-stamped (2026) edition logo. Replace with a year-neutral Cork Week brand mark if available.",
+      "retrievedAt": "2026-06-06T23:37:38Z",
+      "derivatives": {
+        "small": "logos/cork-week.small.png"
       }
     },
     {
@@ -159,6 +213,33 @@
       "retrievedAt": "2026-06-06T22:51:19Z",
       "derivatives": {
         "small": "logos/fireball.small.png"
+      }
+    },
+    {
+      "id": "galway-bay-sc",
+      "class": "sailing-club",
+      "displayName": "Galway Bay Sailing Club",
+      "file": "logos/galway-bay-sc.png",
+      "format": "png",
+      "sha256": "6228f8e5d17662045163ed2076062232b3c51198661bbda3c6bcd419c14e8bb7",
+      "variants": [
+        {
+          "file": "logos/galway-bay-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://static.wixstatic.com/media/524230_4b88c3503c8d41c3a7a8dca680a4548e%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/524230_4b88c3503c8d41c3a7a8dca680a4548e%7Emv2.jpg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/galway-bay-sc.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:37:38Z",
+      "derivatives": {
+        "small": "logos/galway-bay-sc.small.png"
       }
     },
     {
@@ -609,6 +690,33 @@
       }
     },
     {
+      "id": "round-ireland",
+      "class": "regatta",
+      "displayName": "Round Ireland Yacht Race",
+      "file": "logos/round-ireland.png",
+      "format": "png",
+      "sha256": "3c1aa7191aaed2fff3957ea5b01f27607c4fd4a61b8caa0dee727e72c1352250",
+      "variants": [
+        {
+          "file": "logos/round-ireland.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://roundireland.ie/wp/wp-content/uploads/2017/11/Volvo-Round-Ireland-Favicon-114X114.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/round-ireland.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "114px favicon-size mark. Replace with a higher-res Round Ireland logo.",
+      "retrievedAt": "2026-06-06T23:37:38Z",
+      "derivatives": {
+        "small": "logos/round-ireland.small.png"
+      }
+    },
+    {
       "id": "rsgyc",
       "class": "sailing-club",
       "displayName": "Royal St. George Yacht Club",
@@ -792,6 +900,33 @@
       "retrievedAt": "2026-06-06T23:21:12Z",
       "derivatives": {
         "small": "logos/waterford-harbour-sc.small.png"
+      }
+    },
+    {
+      "id": "wave-regatta",
+      "class": "regatta",
+      "displayName": "Wave Regatta",
+      "file": "logos/wave-regatta.png",
+      "format": "png",
+      "sha256": "e96d0e04a6fbaca0db2bceb0b142c3ee3f39bc59d13721421ab0bf8765ff437b",
+      "variants": [
+        {
+          "file": "logos/wave-regatta.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://static.wixstatic.com/media/4d4016_e57772361c9d4aa79fbce3629fc4e7a2%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/4d4016_e57772361c9d4aa79fbce3629fc4e7a2%7Emv2.jpg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/wave-regatta.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:37:38Z",
+      "derivatives": {
+        "small": "logos/wave-regatta.small.png"
       }
     },
     {

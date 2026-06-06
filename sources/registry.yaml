@@ -439,6 +439,67 @@ logos:
     sourceKind: brand-portal
 
 
+  # --- Regattas (issue #3 backlog) ---
+  - id: "dlregatta"
+    class: regatta
+    displayName: "Volvo Dún Laoghaire Regatta"
+    source: https://www.dlregatta.org/
+    sourceKind: brand-portal
+
+  - id: "cork-week"
+    class: regatta
+    displayName: "Cork Week"
+    source: https://www.corkweek.ie/wp-content/uploads/2025/06/cork-week-logo-2026.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/cork-week.png
+    quality: provisional
+    qualityNote: Year-stamped (2026) edition logo. Replace with a year-neutral Cork Week brand mark if available.
+
+  - id: "sovereigns-cup"
+    class: regatta
+    displayName: "Sovereign's Cup"
+    source: https://www.sovereignscup.com/
+    sourceKind: brand-portal
+
+  - id: "round-ireland"
+    class: regatta
+    displayName: "Round Ireland Yacht Race"
+    source: https://roundireland.ie/wp/wp-content/uploads/2017/11/Volvo-Round-Ireland-Favicon-114X114.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/round-ireland.png
+    quality: provisional
+    qualityNote: 114px favicon-size mark. Replace with a higher-res Round Ireland logo.
+
+  - id: "d2d"
+    class: regatta
+    displayName: "Dún Laoghaire to Dingle Race"
+    source: https://www.d2d.ie/
+    sourceKind: brand-portal
+
+  - id: "wave-regatta"
+    class: regatta
+    displayName: "Wave Regatta"
+    source: https://static.wixstatic.com/media/4d4016_e57772361c9d4aa79fbce3629fc4e7a2%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/4d4016_e57772361c9d4aa79fbce3629fc4e7a2%7Emv2.jpg
+    sourceKind: brand-portal
+    assetUrl: sources/assets/wave-regatta.jpg
+
+
+  # --- Sailing clubs (issue #3 backlog) ---
+  - id: "galway-bay-sc"
+    class: sailing-club
+    displayName: "Galway Bay Sailing Club"
+    source: https://static.wixstatic.com/media/524230_4b88c3503c8d41c3a7a8dca680a4548e%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/524230_4b88c3503c8d41c3a7a8dca680a4548e%7Emv2.jpg
+    sourceKind: brand-portal
+    assetUrl: sources/assets/galway-bay-sc.jpg
+
+  - id: "baltimore-sc"
+    class: sailing-club
+    displayName: "Baltimore Sailing Club"
+    source: https://www.baltimoresailingclub.ie/wp-content/uploads/2019/01/footer_logo.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/baltimore-sc.png
+
+
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals
 # from the live set are recorded here with a date and reason.
