@@ -38,8 +38,9 @@ logos:
   - id: world-sailing
     class: governing-body
     displayName: World Sailing
-    source: https://www.sailing.org/
+    source: https://media.sailing.org/sailing/wp-content/uploads/2021/04/16100142/World-Sailing-Logo-2016.svg
     sourceKind: brand-portal
+    assetUrl: sources/assets/world-sailing.svg
 
   - id: irish-sailing
     class: governing-body
@@ -61,8 +62,9 @@ logos:
   - id: dbsc
     class: sailing-club
     displayName: Dublin Bay Sailing Club
-    source: https://www.dbsc.ie/
+    source: https://dbsc.ie/wp-content/uploads/2021/03/Official-DBSC-Logo-high1-e1676634995134.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/dbsc.png
 
   # --- Class associations ---------------------------------------------------
   - id: ilca
@@ -83,26 +85,36 @@ logos:
   - id: gp14
     class: class-assoc
     displayName: GP14
-    source: https://www.gp14.org/
-    sourceKind: brand-portal
+    source: https://commons.wikimedia.org/wiki/File:GP14.svg
+    sourceKind: wikimedia
+    assetUrl: sources/assets/gp14.svg
+    licence: Public domain
+    attribution: Alexx.net (Wikimedia Commons)
 
   - id: fireball
     class: class-assoc
     displayName: Fireball
     source: https://www.fireball-international.com/
     sourceKind: brand-portal
+    # No assetUrl yet. Fireball International's site logo is 99x111 palette PNG
+    # (too small); Fireball Ireland's only mark is a 192px favicon/sticker crop.
+    # Awaiting a clean class logo — candidate to request from Fireball Ireland.
 
   - id: howth-17
     class: class-assoc
     displayName: Howth Seventeen Footer
-    source: https://www.hyc.ie/
+    source: https://hyc.ie/system/sponsor_logos/451/normal/small-125-1-red.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/howth-17.png
+    note: HYC-hosted; the Howth 17 class is based at HYC. Red "17" insignia,
+      transparent PNG.
 
   - id: melges-15
     class: class-assoc
     displayName: Melges 15
-    source: https://melges15.com/
+    source: https://melges15.com/cdn/shop/files/Melges15-Horizontal-RabbitEars.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/melges-15.png
 
   # --- Sponsors -------------------------------------------------------------
   # A sponsor earns canonical status only when it recurs across events; a
@@ -110,14 +122,17 @@ logos:
   - id: aib
     class: sponsor
     displayName: AIB
-    source: https://aib.ie/
+    source: https://aib.ie/content/dam/frontdoor/aib-logo@2x.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/aib.png
+    note: AIB's own og:image. RGB on white (no transparency).
 
   - id: provident
     class: sponsor
     displayName: Provident
-    source: https://www.providentcrm.com/
+    source: https://www.providentcrm.com/wp-content/uploads/2022/10/Provident_Navy_Orange-1-1.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/provident.png
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

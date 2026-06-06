@@ -1,7 +1,104 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T22:13:40Z",
+  "generatedAt": "2026-06-06T22:47:07Z",
   "logos": [
+    {
+      "id": "aib",
+      "class": "sponsor",
+      "displayName": "AIB",
+      "file": "logos/aib.png",
+      "format": "png",
+      "sha256": "57568532146099e3a386e963f1740c46eb06be60ff3f638d436682c1596719a6",
+      "variants": [
+        {
+          "file": "logos/aib.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://aib.ie/content/dam/frontdoor/aib-logo@2x.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/aib.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T22:44:45Z",
+      "derivatives": {
+        "small": "logos/aib.small.png"
+      }
+    },
+    {
+      "id": "dbsc",
+      "class": "sailing-club",
+      "displayName": "Dublin Bay Sailing Club",
+      "file": "logos/dbsc.png",
+      "format": "png",
+      "sha256": "b0843e02c6958adb56a7e7874fc4069d67243e8e081353be7cb90f1a9888b36d",
+      "variants": [
+        {
+          "file": "logos/dbsc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://dbsc.ie/wp-content/uploads/2021/03/Official-DBSC-Logo-high1-e1676634995134.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/dbsc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T22:44:45Z",
+      "derivatives": {
+        "small": "logos/dbsc.small.png"
+      }
+    },
+    {
+      "id": "gp14",
+      "class": "class-assoc",
+      "displayName": "GP14",
+      "file": "logos/gp14.svg",
+      "format": "svg",
+      "sha256": "881272797e85359b599b5e78a05bd82d3eac120ae380a656c4196d0aaf41ecd7",
+      "variants": [
+        {
+          "file": "logos/gp14.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GP14.svg",
+      "sourceKind": "wikimedia",
+      "assetUrl": "sources/assets/gp14.svg",
+      "licence": "Public domain",
+      "attribution": "Alexx.net (Wikimedia Commons)",
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T22:44:45Z"
+    },
+    {
+      "id": "howth-17",
+      "class": "class-assoc",
+      "displayName": "Howth Seventeen Footer",
+      "file": "logos/howth-17.png",
+      "format": "png",
+      "sha256": "4ce144d4b31210f2f188113d90753148e7123e80b798df516cbcf39ecf01b25b",
+      "variants": [
+        {
+          "file": "logos/howth-17.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://hyc.ie/system/sponsor_logos/451/normal/small-125-1-red.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/howth-17.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T22:44:45Z",
+      "derivatives": {
+        "small": "logos/howth-17.small.png"
+      }
+    },
     {
       "id": "hyc",
       "class": "sailing-club",
@@ -73,6 +170,78 @@
       "derivatives": {
         "small": "logos/irish-sailing.small.png"
       }
+    },
+    {
+      "id": "melges-15",
+      "class": "class-assoc",
+      "displayName": "Melges 15",
+      "file": "logos/melges-15.png",
+      "format": "png",
+      "sha256": "3ce0a0f46b01011c61479b98779d9579c32a0ed03469bbc072888003909dfa55",
+      "variants": [
+        {
+          "file": "logos/melges-15.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://melges15.com/cdn/shop/files/Melges15-Horizontal-RabbitEars.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/melges-15.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T22:44:45Z",
+      "derivatives": {
+        "small": "logos/melges-15.small.png"
+      }
+    },
+    {
+      "id": "provident",
+      "class": "sponsor",
+      "displayName": "Provident",
+      "file": "logos/provident.png",
+      "format": "png",
+      "sha256": "32015d2a79ea7bbcd34c9e434d0ce869c12ad2d29ad822c0152ae2f1270f40c1",
+      "variants": [
+        {
+          "file": "logos/provident.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.providentcrm.com/wp-content/uploads/2022/10/Provident_Navy_Orange-1-1.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/provident.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T22:44:45Z",
+      "derivatives": {
+        "small": "logos/provident.small.png"
+      }
+    },
+    {
+      "id": "world-sailing",
+      "class": "governing-body",
+      "displayName": "World Sailing",
+      "file": "logos/world-sailing.svg",
+      "format": "svg",
+      "sha256": "50997c96bda17c309b908647f54b13b30d7e15377319dd4b3c971855f9bc004c",
+      "variants": [
+        {
+          "file": "logos/world-sailing.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://media.sailing.org/sailing/wp-content/uploads/2021/04/16100142/World-Sailing-Logo-2016.svg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/world-sailing.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T22:47:04Z"
     }
   ]
 }

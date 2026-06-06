@@ -1,7 +1,15 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T22:13:39Z",
+  "generatedAt": "2026-06-06T22:47:04Z",
   "assets": [
+    {
+      "id": "world-sailing",
+      "assetUrl": "sources/assets/world-sailing.svg",
+      "file": "logos/world-sailing.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "b978737df30e5dbdc7bd9b90ebee290fab84f084cce2883c62e6084667765c64",
+      "retrievedAt": "2026-06-06T22:47:04Z"
+    },
     {
       "id": "irish-sailing",
       "assetUrl": "sources/assets/irish-sailing.png",
@@ -19,49 +27,69 @@
       "retrievedAt": "2026-06-06T22:13:39Z"
     },
     {
+      "id": "dbsc",
+      "assetUrl": "sources/assets/dbsc.png",
+      "file": "logos/dbsc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "4104862fbd38b8647ae5d872f914fcd76830deedd8d69dde9a39fe4e9da96c8e",
+      "retrievedAt": "2026-06-06T22:44:45Z"
+    },
+    {
       "id": "ilca",
       "assetUrl": "sources/assets/ilca.svg",
       "file": "logos/ilca.svg",
       "fetchedFormat": "svg",
       "rawSha256": "d3bfc71f57b1c51874ef3f3e38f798043eddb44821ecd4320270eea110416ebb",
       "retrievedAt": "2026-06-06T20:07:56Z"
+    },
+    {
+      "id": "gp14",
+      "assetUrl": "sources/assets/gp14.svg",
+      "file": "logos/gp14.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "df187f1294590b188097fe76bea66f7e00becbb49c64cf678219c1d6cb65c7ec",
+      "retrievedAt": "2026-06-06T22:44:45Z"
+    },
+    {
+      "id": "howth-17",
+      "assetUrl": "sources/assets/howth-17.png",
+      "file": "logos/howth-17.png",
+      "fetchedFormat": "png",
+      "rawSha256": "8954f55d8a23ad1d18fb3421fe2ae60baec15ddb2b8df9a61ae21c101cbf96ff",
+      "retrievedAt": "2026-06-06T22:44:45Z"
+    },
+    {
+      "id": "melges-15",
+      "assetUrl": "sources/assets/melges-15.png",
+      "file": "logos/melges-15.png",
+      "fetchedFormat": "png",
+      "rawSha256": "193c3612b88434412982952f48afa385e4cd23df637aa5b1a86af05d92987168",
+      "retrievedAt": "2026-06-06T22:44:45Z"
+    },
+    {
+      "id": "aib",
+      "assetUrl": "sources/assets/aib.png",
+      "file": "logos/aib.png",
+      "fetchedFormat": "png",
+      "rawSha256": "7897f8b49a4b526ec0a737b28ceeea4b088e8b5b282d87f186d932096959010c",
+      "retrievedAt": "2026-06-06T22:44:45Z"
+    },
+    {
+      "id": "provident",
+      "assetUrl": "sources/assets/provident.png",
+      "file": "logos/provident.png",
+      "fetchedFormat": "png",
+      "rawSha256": "90df7aac89b1195d128b203eceace9007ee73e2e365b910ac9f876dafaff1570",
+      "retrievedAt": "2026-06-06T22:44:45Z"
     }
   ],
   "unresolved": [
-    {
-      "id": "world-sailing",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "dbsc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
     {
       "id": "iodai",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "gp14",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "fireball",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "howth-17",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "melges-15",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "aib",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "provident",
       "reason": "no assetUrl (not yet sourced)"
     }
   ]
