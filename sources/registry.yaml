@@ -267,8 +267,9 @@ logos:
   - id: "mirror"
     class: class-assoc
     displayName: "International Mirror"
-    source: https://www.mirrorsailing.org/
+    source: https://mirrorsailing.org/images/international_mirror_class_association/website/imca_website_logo_2026.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/mirror.png
 
   - id: "moth"
     class: class-assoc
@@ -305,8 +306,9 @@ logos:
   - id: "etchells"
     class: class-assoc
     displayName: "Etchells"
-    source: https://www.etchells.org/
+    source: https://etchells.org/assets/images/interface/Etchells_logo-l.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/etchells.png
 
   - id: "j80"
     class: class-assoc
@@ -329,8 +331,11 @@ logos:
   - id: "j24"
     class: class-assoc
     displayName: "J/24"
-    source: https://www.j24class.org/
+    source: https://j24class.org/wp-content/uploads/2023/09/cropped-logo.gif
     sourceKind: brand-portal
+    assetUrl: sources/assets/j24.gif
+    quality: provisional
+    qualityNote: 68x133 small logo from the class site (cropped). Replace with a higher-res J/24 logo.
 
   - id: "rs-feva"
     class: class-assoc

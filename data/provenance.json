@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:26:34Z",
+  "generatedAt": "2026-06-06T23:30:23Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -171,6 +171,14 @@
       "retrievedAt": "2026-06-06T23:21:12Z"
     },
     {
+      "id": "mirror",
+      "assetUrl": "sources/assets/mirror.png",
+      "file": "logos/mirror.png",
+      "fetchedFormat": "png",
+      "rawSha256": "8286ffa95decc58772f4984aa41db6cefa3dafe3a8599eadbc83637dd347f449",
+      "retrievedAt": "2026-06-06T23:30:23Z"
+    },
+    {
       "id": "icra",
       "assetUrl": "sources/assets/icra.png",
       "file": "logos/icra.png",
@@ -185,6 +193,22 @@
       "fetchedFormat": "svg",
       "rawSha256": "8d4ae5088e71160e45f81fa6a56ea8a3592ac489e0f29d6d6e7970f71958203e",
       "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "etchells",
+      "assetUrl": "sources/assets/etchells.png",
+      "file": "logos/etchells.png",
+      "fetchedFormat": "png",
+      "rawSha256": "144179c09df8df92cc5d994502f4704ad1b7e277efee8467274e3e0bc86fde03",
+      "retrievedAt": "2026-06-06T23:30:23Z"
+    },
+    {
+      "id": "j24",
+      "assetUrl": "sources/assets/j24.gif",
+      "file": "logos/j24.gif",
+      "fetchedFormat": "gif",
+      "rawSha256": "500552ee8652ba0b8804de05afe519b5557f50a048bc95872999a9efdbadacaa",
+      "retrievedAt": "2026-06-06T23:30:23Z"
     },
     {
       "id": "squib",
@@ -261,10 +285,6 @@
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "mirror",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "moth",
       "reason": "no assetUrl (not yet sourced)"
     },
@@ -277,10 +297,6 @@
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "etchells",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "j80",
       "reason": "no assetUrl (not yet sourced)"
     },
@@ -290,10 +306,6 @@
     },
     {
       "id": "j109",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "j24",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
