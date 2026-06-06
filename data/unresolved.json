@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:22:22Z",
+  "generatedAt": "2026-06-06T23:26:42Z",
   "entries": [
     {
       "id": "1720",
@@ -15,10 +15,6 @@
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "ballyholme-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "east-antrim-bc",
       "reason": "no assetUrl (not yet sourced)"
     },
@@ -28,10 +24,6 @@
     },
     {
       "id": "fingal-county-council",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "icra",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
@@ -56,10 +48,6 @@
     },
     {
       "id": "lough-ree-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "malahide-yc",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
@@ -112,14 +100,6 @@
     },
     {
       "id": "sigma-33",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "skerries-sc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "squib",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
