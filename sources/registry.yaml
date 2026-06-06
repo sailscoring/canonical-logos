@@ -1,0 +1,66 @@
+# registry.yaml — the canonical logo set
+#
+# This is the curation decision: the hand-maintained list of entities whose
+# logos ship in the built-in canonical library. The pipeline (scripts/) fetches,
+# normalises, and builds a manifest from this file — adding a logo is editing
+# this file and re-running. The canonical set is a human decision, not a scrape.
+#
+# An entity earns a place here if it is BOTH:
+#   - stable & identifiable (one durable identity referenced over years), and
+#   - broadly reused (referenced across many events/workspaces).
+# Ephemeral, one-off artwork (year-stamped event banners, purely local backers)
+# belongs in a scorer's per-workspace library, not here.
+#
+# Each entry:
+#   id          stable kebab-case key; the app references this. Unique.
+#   class       governing-body | class-assoc | sponsor | venue
+#   displayName human-readable name shown in the picker
+#   source      where to obtain the official asset (brand portal / page / contact)
+#   sourceKind  brand-portal | direct | wikimedia
+#   note        optional: anything a maintainer should know (variants, terms offered)
+#
+# This seed is the proof set from the scoping note: it spans every class so the
+# pipeline is exercised on real cases. Assets are not fetched yet.
+
+logos:
+  # --- Governing bodies -----------------------------------------------------
+  - id: world-sailing
+    class: governing-body
+    displayName: World Sailing
+    source: https://www.sailing.org/
+    sourceKind: brand-portal
+
+  - id: irish-sailing
+    class: governing-body
+    displayName: Irish Sailing
+    source: https://www.sailing.ie/
+    sourceKind: brand-portal
+
+  # --- Class associations ---------------------------------------------------
+  - id: ilca
+    class: class-assoc
+    displayName: International Laser Class Association (ILCA)
+    source: https://www.ilca.org/
+    sourceKind: brand-portal
+
+  - id: iodai
+    class: class-assoc
+    displayName: Irish Optimist Dinghy Association (IODAI)
+    source: https://www.optimist.ie/
+    sourceKind: brand-portal
+
+  # --- Recurring sponsors ---------------------------------------------------
+  # A sponsor earns canonical status only when it recurs across events; a
+  # one-off event backer belongs in the per-workspace library. Seeded with a
+  # regular HYC backer to exercise the sponsor path.
+  - id: example-recurring-sponsor
+    class: sponsor
+    displayName: (placeholder — pick a real recurring sponsor)
+    source: TODO
+    sourceKind: direct
+    note: Replace with a genuine recurring sponsor before the first real fetch.
+
+# Entities that have asked not to be hosted, or whose published terms forbid
+# third-party hosting. Never fetched or shipped, even if listed above. Removals
+# from the live set are recorded here with a date and reason.
+denylist: []

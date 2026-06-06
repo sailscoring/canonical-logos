@@ -1,0 +1,56 @@
+canonical-logos — licensing
+============================
+
+This repository contains two kinds of material with different terms.
+
+
+1. Tooling and provenance data
+------------------------------
+
+The build scripts (`scripts/`), configuration, tests, and the generated
+provenance data (`data/manifest.json`, `data/unresolved.json`) are released
+under the MIT licence:
+
+    Copyright (c) 2026 Mark McLoughlin
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+
+2. Logo assets
+--------------
+
+The logo image files under `logos/` are the property of their respective
+owners. They are trademarks and/or copyrighted works of the governing bodies,
+class associations, sponsors, and clubs they identify. They are NOT licensed to
+you by this repository.
+
+They are hosted here in good faith, to be used by scorers and event organisers
+who have a legitimate connection to the entity in question — a sponsorship
+agreement, membership of or representation of the club, or the running of that
+class's event — for the ordinary purpose of identifying that entity on sailing
+results and related materials. The marks are reproduced unaltered (format and
+size normalisation only) and displayed in the associative context their owners
+intend.
+
+If you are the owner of a logo hosted here and want it removed or corrected,
+email mark@hyc.ie. Removal requests are actioned promptly. See README.md
+("Takedown").
+
+Per-asset provenance — where each file was obtained, when, and any usage terms
+the owner published — is recorded in data/manifest.json.

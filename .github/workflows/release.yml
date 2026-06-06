@@ -1,0 +1,36 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Bundle logos
+        run: |
+          if [ -d logos ] && find logos -type f ! -name '.gitkeep' -print -quit | grep -q .; then
+            tar -czf logos.tar.gz logos/
+            echo "logos.tar.gz created"
+          else
+            echo "no logo assets present; skipping logos.tar.gz"
+          fi
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            data/manifest.json
+            data/unresolved.json
+            logos.tar.gz
+          fail_on_unmatched_files: false
+          generate_release_notes: true
