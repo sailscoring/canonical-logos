@@ -79,5 +79,7 @@ def check_registry(data: dict[str, Any]) -> list[str]:
             problems.append(f"{where}: quality must be one of {sorted(VALID_QUALITY)}")
         if quality == "provisional" and not entry.get("qualityNote"):
             problems.append(f"{where}: quality 'provisional' requires a qualityNote")
+        if "candidateUrls" in entry and not isinstance(entry["candidateUrls"], list):
+            problems.append(f"{where}: candidateUrls must be a list")
 
     return problems

@@ -22,5 +22,8 @@ node_modules/
 .env
 .env.local
 
+# Scout staging / report (scripts/05_scout.py)
+.scout/
+
 # Build artefacts
 logos.tar.gz
