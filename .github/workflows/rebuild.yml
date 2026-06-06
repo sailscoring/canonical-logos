@@ -51,14 +51,47 @@ jobs:
       - name: Tests
         run: uv run pytest -q
 
-      - name: Detect changes
+      # Ignore the always-moving timestamps: only open a PR when the dataset
+      # changed semantically (a logo file, or a non-timestamp manifest field).
+      - name: Detect semantic changes
         id: diff
         run: |
-          if git diff --quiet HEAD -- data/ logos/; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
+          python <<'EOF'
+          import hashlib, json, os, subprocess
+          from pathlib import Path
+
+          PATHS = ["data/manifest.json", "data/unresolved.json", "data/provenance.json"]
+          TIMESTAMP_KEYS = {"generatedAt", "retrievedAt"}
+
+          def strip(obj):
+              if isinstance(obj, dict):
+                  return {k: strip(v) for k, v in obj.items() if k not in TIMESTAMP_KEYS}
+              if isinstance(obj, list):
+                  return [strip(x) for x in obj]
+              return obj
+
+          def stable(raw):
+              return hashlib.sha256(
+                  json.dumps(strip(json.loads(raw)), sort_keys=True, ensure_ascii=False).encode()
+              ).hexdigest()
+
+          def now_hash(path):
+              return stable(Path(path).read_bytes()) if Path(path).is_file() else "missing"
+
+          def head_hash(path):
+              try:
+                  return stable(subprocess.check_output(["git", "show", f"HEAD:{path}"]))
+              except subprocess.CalledProcessError:
+                  return "missing"
+
+          json_diff = any(head_hash(p) != now_hash(p) for p in PATHS)
+          logo_diff = subprocess.run(
+              ["git", "diff", "--quiet", "HEAD", "--", "logos/"], check=False
+          ).returncode != 0
+          changed = json_diff or logo_diff
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"changed={'true' if changed else 'false'}\n")
+          EOF
 
       - name: Create PR if anything diverged
         if: steps.diff.outputs.changed == 'true'
