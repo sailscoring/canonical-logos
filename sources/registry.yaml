@@ -29,6 +29,9 @@
 #   quality     optional: "ok" (default) or "provisional" — a sub-par asset kept
 #               deliberately because it is the best available; flagged for upgrade
 #   qualityNote required when quality is "provisional": the limitation + what's wanted
+#   home        optional: homepage to scrape for a logo (scripts/05_scout.py);
+#               defaults to the domain of `source`
+#   candidateUrls optional: list of URLs for the scout to consider as candidates
 #   note        optional: anything else a maintainer should know (variants, etc.)
 #
 # Initial set. The full sourcing backlog (clubs, classes, sponsors) is tracked
