@@ -20,7 +20,10 @@ MANIFEST_PATH = DATA_DIR / "manifest.json"
 UNRESOLVED_PATH = DATA_DIR / "unresolved.json"
 PROVENANCE_PATH = DATA_DIR / "provenance.json"
 
-VALID_CLASSES = {"governing-body", "class-assoc", "sponsor", "venue"}
+# A "venue" is a non-club racing location; a "sailing-club" is the club itself.
+# A club is often the venue, but the scorer picks the club logo when configuring
+# a venue, so the two are tracked as distinct classes.
+VALID_CLASSES = {"governing-body", "sailing-club", "class-assoc", "sponsor", "venue"}
 VALID_SOURCE_KINDS = {"brand-portal", "direct", "wikimedia"}
 REQUIRED_FIELDS = {"id", "class", "displayName", "source", "sourceKind"}
 

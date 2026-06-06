@@ -1,9 +1,9 @@
 # canonical-logos
 
 A maintained, versioned set of **canonical sailing logos** — governing bodies,
-class associations, recurring sponsors, and a hand-picked few frequent host
-venues — built to be consumed by [Sail Scoring](https://app.sailscoring.ie) as
-the built-in tier of its shared logo library.
+sailing clubs, class associations, recurring sponsors, and non-club venues —
+built to be consumed by [Sail Scoring](https://app.sailscoring.ie) as the
+built-in tier of its shared logo library.
 
 A scorer building a series reaches for these so the venue, class, governing
 body, or sponsor is shown with a clean, current, official asset rather than a
@@ -22,7 +22,8 @@ the inverse — see [Nature of this dataset](#nature-of-this-dataset).
 Each tagged GitHub Release will attach:
 
 - **`manifest.json`** — the canonical dataset: every logo, its `id`, `class`
-  (`governing-body` / `class-assoc` / `sponsor` / `venue`), display name,
+  (`governing-body` / `sailing-club` / `class-assoc` / `sponsor` / `venue`),
+  display name,
   file + format + `sha256`, available colourway variants, and source
   provenance (`sourceUrl`, `sourceKind`, `retrievedAt`).
 - **`logos.tar.gz`** — all normalised logo files (SVG where the owner has one;
