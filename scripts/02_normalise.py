@@ -45,13 +45,20 @@ def _normalise_svg(path: Path) -> None:
     if not _svgo_available():
         print(f"  warn: SVGO not installed; left {path.name} un-minified")
         return
-    subprocess.run(
+    # Best-effort: a single SVGO failure must not abort the batch. Keep the
+    # original (still a valid SVG) and warn.
+    r = subprocess.run(
         ["npx", "--no-install", "svgo", "--config", "svgo.config.mjs", "-i", str(path),
          "-o", str(path)],
         cwd=REPO_ROOT,
-        check=True,
+        check=False,
         capture_output=True,
+        text=True,
     )
+    if r.returncode != 0:
+        msg = (r.stderr or r.stdout or "").strip().splitlines()
+        print(f"  warn: SVGO failed on {path.name}, left un-minified: {msg[0] if msg else '?'}")
+        return
     print(f"  svgo: {path.name}")
 
 
