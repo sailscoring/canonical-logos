@@ -1,41 +1,13 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T22:13:40Z",
+  "generatedAt": "2026-06-06T22:47:07Z",
   "entries": [
-    {
-      "id": "aib",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "dbsc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
     {
       "id": "fireball",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "gp14",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "howth-17",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "iodai",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "melges-15",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "provident",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "world-sailing",
       "reason": "no assetUrl (not yet sourced)"
     }
   ]
