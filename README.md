@@ -13,16 +13,17 @@ and borrows its methodology (versioned dataset repo, per-asset provenance
 manifest, build-time consumption, scheduled rebuild). The licensing posture is
 the inverse — see [Nature of this dataset](#nature-of-this-dataset).
 
-> **Status: skeleton.** Structure, tooling, and the pipeline scaffold are in
-> place; the fetch / normalise / manifest / validate scripts are stubs. See
-> the scoping note in `sailscoring/docs/notes/canonical-logo-library.md`.
+> **Status: sourcing in progress.** The pipeline (fetch → normalise → manifest
+> → validate) and the scout are implemented; an initial set of logos is sourced,
+> with more tracked in the GitHub issues. See the scoping note in
+> `sailscoring/docs/notes/canonical-logo-library.md`.
 
 ## What's in a release
 
 Each tagged GitHub Release will attach:
 
 - **`manifest.json`** — the canonical dataset: every logo, its `id`, `class`
-  (`governing-body` / `sailing-club` / `class-assoc` / `sponsor` / `venue`),
+  (`governing-body` / `sailing-club` / `class-assoc` / `sponsor` / `venue` / `regatta`),
   display name,
   file + format + `sha256`, available colourway variants, source provenance
   (`sourceUrl`, `sourceKind`, `retrievedAt`), and a `quality` flag (`ok`, or
