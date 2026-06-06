@@ -144,6 +144,289 @@ logos:
     sourceKind: brand-portal
     assetUrl: sources/assets/provident.png
 
+  # --- Sailing clubs (issue #1 backlog — sourcing in progress) ---
+  - id: "malahide-yc"
+    class: sailing-club
+    displayName: "Malahide Yacht Club"
+    source: https://www.malahideyachtclub.ie/
+    sourceKind: brand-portal
+
+  - id: "skerries-sc"
+    class: sailing-club
+    displayName: "Skerries Sailing Club"
+    source: https://www.skerriessailing.com/
+    sourceKind: brand-portal
+
+  - id: "sutton-dc"
+    class: sailing-club
+    displayName: "Sutton Dinghy Club"
+    source: https://www.suttondinghyclub.com/
+    sourceKind: brand-portal
+
+  - id: "royal-alfred-yc"
+    class: sailing-club
+    displayName: "Royal Alfred Yacht Club"
+    source: https://www.royalalfredyachtclub.com/
+    sourceKind: brand-portal
+
+  - id: "riyc"
+    class: sailing-club
+    displayName: "Royal Irish Yacht Club"
+    source: https://www.riyc.ie/apple-touch-icon
+    sourceKind: brand-portal
+    assetUrl: sources/assets/riyc.png
+
+  - id: "rsgyc"
+    class: sailing-club
+    displayName: "Royal St. George Yacht Club"
+    source: https://rsgyc.ie/wp-content/themes/RSG-Theme/img/rsgy-logo.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/rsgyc.png
+
+  - id: "national-yc"
+    class: sailing-club
+    displayName: "National Yacht Club"
+    source: https://www.nyc.ie/
+    sourceKind: brand-portal
+
+  - id: "royal-cork-yc"
+    class: sailing-club
+    displayName: "Royal Cork Yacht Club"
+    source: https://www.royalcork.com/
+    sourceKind: brand-portal
+
+  - id: "lough-ree-yc"
+    class: sailing-club
+    displayName: "Lough Ree Yacht Club"
+    source: https://www.lryc.ie/
+    sourceKind: brand-portal
+
+  - id: "lough-derg-yc"
+    class: sailing-club
+    displayName: "Lough Derg Yacht Club"
+    source: https://boxstuff-development-thumbnails.s3.amazonaws.com/1779921_orig.jpg
+    sourceKind: brand-portal
+    assetUrl: sources/assets/lough-derg-yc.jpg
+    quality: provisional
+    qualityNote: Composite banner (club wordmark + a training-centre badge) from the site CDN, low height. Replace with the standalone Lough Derg YC logo.
+
+  - id: "waterford-harbour-sc"
+    class: sailing-club
+    displayName: "Waterford Harbour Sailing Club"
+    source: https://whsc.ie/wp-content/uploads/2022/03/LOGO-WHSC.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/waterford-harbour-sc.png
+
+  - id: "kinsale-yc"
+    class: sailing-club
+    displayName: "Kinsale Yacht Club"
+    source: https://www.kyc.ie/wp-content/uploads/2021/01/kyc-logo-2.svg
+    sourceKind: brand-portal
+    assetUrl: sources/assets/kinsale-yc.svg
+
+  - id: "ballyholme-yc"
+    class: sailing-club
+    displayName: "Ballyholme Yacht Club"
+    source: https://www.ballyholmeyc.org/
+    sourceKind: brand-portal
+
+  - id: "east-antrim-bc"
+    class: sailing-club
+    displayName: "East Antrim Boat Club"
+    source: https://www.eastantrimboatclub.com/
+    sourceKind: brand-portal
+
+  - id: "strangford-lough-yc"
+    class: sailing-club
+    displayName: "Strangford Lough Yacht Club"
+    source: https://slyc.co.uk/wp-content/uploads/2025/07/favicon.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/strangford-lough-yc.png
+    quality: provisional
+    qualityNote: 192px club burgee taken from the site favicon. Replace with a higher-res Strangford Lough YC logo.
+
+
+  # --- Class associations (issue #1 backlog — sourcing in progress) ---
+  - id: "1720"
+    class: class-assoc
+    displayName: "1720"
+    source: https://www.1720class.com/
+    sourceKind: brand-portal
+
+  - id: "idra-14"
+    class: class-assoc
+    displayName: "IDRA 14"
+    source: https://www.idra14.com/
+    sourceKind: brand-portal
+
+  - id: "mirror"
+    class: class-assoc
+    displayName: "International Mirror"
+    source: https://www.mirrorsailing.org/
+    sourceKind: brand-portal
+
+  - id: "moth"
+    class: class-assoc
+    displayName: "International Moth"
+    source: https://www.moth-sailing.org/
+    sourceKind: brand-portal
+
+  - id: "29er"
+    class: class-assoc
+    displayName: "29er"
+    source: https://www.29er.org/
+    sourceKind: brand-portal
+
+  - id: "49er"
+    class: class-assoc
+    displayName: "49er"
+    source: https://www.49er.org/
+    sourceKind: brand-portal
+
+  - id: "icra"
+    class: class-assoc
+    displayName: "Irish Cruiser Racing Association"
+    source: https://www.icra.ie/
+    sourceKind: brand-portal
+
+  - id: "420"
+    class: class-assoc
+    displayName: "420"
+    source: https://www.420sailing.org/images/default/470sailing/main-logo.svg
+    sourceKind: brand-portal
+    assetUrl: sources/assets/420.svg
+
+  - id: "etchells"
+    class: class-assoc
+    displayName: "Etchells"
+    source: https://www.etchells.org/
+    sourceKind: brand-portal
+
+  - id: "j80"
+    class: class-assoc
+    displayName: "J/80"
+    source: https://www.sailj80.com/
+    sourceKind: brand-portal
+
+  - id: "j70"
+    class: class-assoc
+    displayName: "J/70"
+    source: https://www.j70.org/
+    sourceKind: brand-portal
+
+  - id: "j109"
+    class: class-assoc
+    displayName: "J/109"
+    source: https://www.j109.org/
+    sourceKind: brand-portal
+
+  - id: "j24"
+    class: class-assoc
+    displayName: "J/24"
+    source: https://www.j24class.org/
+    sourceKind: brand-portal
+
+  - id: "rs-feva"
+    class: class-assoc
+    displayName: "RS Feva"
+    source: https://www.rssailing.com/
+    sourceKind: brand-portal
+
+  - id: "ruffian"
+    class: class-assoc
+    displayName: "Ruffian"
+    source: https://www.ruffian23.com/
+    sourceKind: brand-portal
+
+  - id: "rs200"
+    class: class-assoc
+    displayName: "RS200"
+    source: https://www.rs200class.com/
+    sourceKind: brand-portal
+
+  - id: "rs400"
+    class: class-assoc
+    displayName: "RS400"
+    source: https://www.rs400.org/
+    sourceKind: brand-portal
+
+  - id: "squib"
+    class: class-assoc
+    displayName: "Squib"
+    source: https://www.squib.org.uk/
+    sourceKind: brand-portal
+
+  - id: "waszp"
+    class: class-assoc
+    displayName: "WASZP"
+    source: https://waszp.com/wp-content/uploads/2021/07/WASZP-Logo-01.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/waszp.png
+
+  - id: "mermaid"
+    class: class-assoc
+    displayName: "Mermaid"
+    source: https://www.mermaidsailing.ie/
+    sourceKind: brand-portal
+
+  - id: "water-wags"
+    class: class-assoc
+    displayName: "Water Wags"
+    source: https://www.waterwags.com/
+    sourceKind: brand-portal
+
+  - id: "topper"
+    class: class-assoc
+    displayName: "Topper"
+    source: https://commons.wikimedia.org/wiki/File:Topper_Logo.svg
+    sourceKind: wikimedia
+    assetUrl: sources/assets/topper.svg
+    licence: Public domain
+    attribution: Wikimedia Commons (Juliancam)
+
+  - id: "sigma-33"
+    class: class-assoc
+    displayName: "Sigma 33"
+    source: https://www.sigma33.co.uk/
+    sourceKind: brand-portal
+
+  - id: "sb20"
+    class: class-assoc
+    displayName: "SB20"
+    source: https://www.sb20.org/
+    sourceKind: brand-portal
+
+  - id: "shannon-one-design"
+    class: class-assoc
+    displayName: "Shannon One Design"
+    source: https://www.shannononedesign.com/
+    sourceKind: brand-portal
+
+  - id: "isora"
+    class: class-assoc
+    displayName: "ISORA"
+    source: https://www.isora.org/images/ISORAlogos/ISORA_Logo_Vector.jpg
+    sourceKind: brand-portal
+    assetUrl: sources/assets/isora.jpg
+
+
+  # --- Sponsors (issue #1 backlog — sourcing in progress) ---
+  - id: "monday"
+    class: sponsor
+    displayName: "monday.com"
+    source: https://commons.wikimedia.org/wiki/File:Monday_logo.svg
+    sourceKind: wikimedia
+    assetUrl: sources/assets/monday.svg
+    licence: Public domain
+    attribution: Monday.com
+
+  - id: "fingal-county-council"
+    class: sponsor
+    displayName: "Fingal County Council"
+    source: https://www.fingal.ie/
+    sourceKind: brand-portal
+
+
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals
 # from the live set are recorded here with a date and reason.
