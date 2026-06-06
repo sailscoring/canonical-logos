@@ -1,26 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T19:47:09Z",
-  "assets": [],
+  "generatedAt": "2026-06-06T22:13:39Z",
+  "assets": [
+    {
+      "id": "irish-sailing",
+      "assetUrl": "sources/assets/irish-sailing.png",
+      "file": "logos/irish-sailing.png",
+      "fetchedFormat": "png",
+      "rawSha256": "438df44977394b4354f52f8faa2f21e88d0ffbfe8f0ffa67a0e9d2c22a6372c9",
+      "retrievedAt": "2026-06-06T20:07:56Z"
+    },
+    {
+      "id": "hyc",
+      "assetUrl": "sources/assets/hyc.png",
+      "file": "logos/hyc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "776c4f0547fef7b17ca77ef752d2d4fc12748b4679c14ae3a2373ff7ee5c85e0",
+      "retrievedAt": "2026-06-06T22:13:39Z"
+    },
+    {
+      "id": "ilca",
+      "assetUrl": "sources/assets/ilca.svg",
+      "file": "logos/ilca.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "d3bfc71f57b1c51874ef3f3e38f798043eddb44821ecd4320270eea110416ebb",
+      "retrievedAt": "2026-06-06T20:07:56Z"
+    }
+  ],
   "unresolved": [
     {
       "id": "world-sailing",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "irish-sailing",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "hyc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "dbsc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "ilca",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
