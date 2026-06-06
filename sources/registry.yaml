@@ -46,13 +46,17 @@ logos:
     displayName: Irish Sailing
     source: https://www.sailing.ie/
     sourceKind: brand-portal
+    assetUrl: sources/assets/irish-sailing.png
 
   # --- Sailing clubs --------------------------------------------------------
   - id: hyc
     class: sailing-club
     displayName: Howth Yacht Club
-    source: https://www.hyc.ie/
+    source: https://www.hyc.ie/system/files/7225/original/hyc-logo-new.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/hyc.png
+    note: Modernised HYC logo, the version the club uses on its own results.
+      High-res transparent PNG.
 
   - id: dbsc
     class: sailing-club
@@ -64,8 +68,11 @@ logos:
   - id: ilca
     class: class-assoc
     displayName: International Laser Class Association (ILCA)
-    source: https://www.ilca.org/
-    sourceKind: brand-portal
+    source: https://commons.wikimedia.org/wiki/File:ILCA_class_association_logo.svg
+    sourceKind: wikimedia
+    assetUrl: sources/assets/ilca.svg
+    licence: Public domain
+    attribution: ILCA class association
 
   - id: iodai
     class: class-assoc

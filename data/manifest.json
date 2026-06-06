@@ -1,5 +1,78 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T19:47:09Z",
-  "logos": []
+  "generatedAt": "2026-06-06T22:13:40Z",
+  "logos": [
+    {
+      "id": "hyc",
+      "class": "sailing-club",
+      "displayName": "Howth Yacht Club",
+      "file": "logos/hyc.png",
+      "format": "png",
+      "sha256": "85673df93b90f2bbb159f31e19a795c60467a24517952df2e478353970974425",
+      "variants": [
+        {
+          "file": "logos/hyc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.hyc.ie/system/files/7225/original/hyc-logo-new.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/hyc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T22:13:39Z",
+      "derivatives": {
+        "small": "logos/hyc.small.png"
+      }
+    },
+    {
+      "id": "ilca",
+      "class": "class-assoc",
+      "displayName": "International Laser Class Association (ILCA)",
+      "file": "logos/ilca.svg",
+      "format": "svg",
+      "sha256": "eb0391149be888cf1b37d969cce7a07afc34c8e08e791dd7e9101d604cfb8332",
+      "variants": [
+        {
+          "file": "logos/ilca.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ILCA_class_association_logo.svg",
+      "sourceKind": "wikimedia",
+      "assetUrl": "sources/assets/ilca.svg",
+      "licence": "Public domain",
+      "attribution": "ILCA class association",
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T20:07:56Z"
+    },
+    {
+      "id": "irish-sailing",
+      "class": "governing-body",
+      "displayName": "Irish Sailing",
+      "file": "logos/irish-sailing.png",
+      "format": "png",
+      "sha256": "9cbea8c69c02d58f837127f4271b5a498611f14852e893e4a364c1d4ef50588e",
+      "variants": [
+        {
+          "file": "logos/irish-sailing.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.sailing.ie/",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/irish-sailing.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "retrievedAt": "2026-06-06T20:07:56Z",
+      "derivatives": {
+        "small": "logos/irish-sailing.small.png"
+      }
+    }
+  ]
 }
