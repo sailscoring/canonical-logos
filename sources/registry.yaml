@@ -82,8 +82,9 @@ logos:
   - id: iodai
     class: class-assoc
     displayName: Irish Optimist Dinghy Association (IODAI)
-    source: https://www.optimist.ie/
+    source: https://iodai.com/wp-content/uploads/2018/04/iodai-logo-2018.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/iodai.png
 
   - id: gp14
     class: class-assoc

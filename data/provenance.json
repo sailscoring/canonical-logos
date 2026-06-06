@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T22:51:19Z",
+  "generatedAt": "2026-06-06T23:08:50Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -41,6 +41,14 @@
       "fetchedFormat": "svg",
       "rawSha256": "d3bfc71f57b1c51874ef3f3e38f798043eddb44821ecd4320270eea110416ebb",
       "retrievedAt": "2026-06-06T20:07:56Z"
+    },
+    {
+      "id": "iodai",
+      "assetUrl": "sources/assets/iodai.png",
+      "file": "logos/iodai.png",
+      "fetchedFormat": "png",
+      "rawSha256": "2ea03eb928c79fc5f67370d2fcd72271c11e465196adac028d2c18d45cb620c2",
+      "retrievedAt": "2026-06-06T23:08:50Z"
     },
     {
       "id": "gp14",
@@ -91,10 +99,5 @@
       "retrievedAt": "2026-06-06T22:44:45Z"
     }
   ],
-  "unresolved": [
-    {
-      "id": "iodai",
-      "reason": "no assetUrl (not yet sourced)"
-    }
-  ]
+  "unresolved": []
 }

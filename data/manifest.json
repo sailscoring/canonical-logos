@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T22:51:22Z",
+  "generatedAt": "2026-06-06T23:08:53Z",
   "logos": [
     {
       "id": "aib",
@@ -184,6 +184,33 @@
       "quality": "ok",
       "qualityNote": null,
       "retrievedAt": "2026-06-06T20:07:56Z"
+    },
+    {
+      "id": "iodai",
+      "class": "class-assoc",
+      "displayName": "Irish Optimist Dinghy Association (IODAI)",
+      "file": "logos/iodai.png",
+      "format": "png",
+      "sha256": "1aab1aa91ed5bcd0e56d8b8b1fcfe3b01a596e5d289289e4396194b2c9ef05af",
+      "variants": [
+        {
+          "file": "logos/iodai.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://iodai.com/wp-content/uploads/2018/04/iodai-logo-2018.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/iodai.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:08:50Z",
+      "derivatives": {
+        "small": "logos/iodai.small.png"
+      }
     },
     {
       "id": "irish-sailing",
