@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T22:47:04Z",
+  "generatedAt": "2026-06-06T22:51:19Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -51,6 +51,14 @@
       "retrievedAt": "2026-06-06T22:44:45Z"
     },
     {
+      "id": "fireball",
+      "assetUrl": "sources/assets/fireball.jpg",
+      "file": "logos/fireball.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "46f6d94d8a73104d1c66ac5eb2f4b4a6c15da60ed69234203e97d648017ef2dc",
+      "retrievedAt": "2026-06-06T22:51:19Z"
+    },
+    {
       "id": "howth-17",
       "assetUrl": "sources/assets/howth-17.png",
       "file": "logos/howth-17.png",
@@ -86,10 +94,6 @@
   "unresolved": [
     {
       "id": "iodai",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "fireball",
       "reason": "no assetUrl (not yet sourced)"
     }
   ]

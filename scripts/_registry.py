@@ -26,6 +26,10 @@ PROVENANCE_PATH = DATA_DIR / "provenance.json"
 VALID_CLASSES = {"governing-body", "sailing-club", "class-assoc", "sponsor", "venue"}
 VALID_SOURCE_KINDS = {"brand-portal", "direct", "wikimedia"}
 REQUIRED_FIELDS = {"id", "class", "displayName", "source", "sourceKind"}
+# "ok" (default, absent) = meets the quality bar; "provisional" = sub-par but the
+# best available, kept deliberately and flagged for replacement. The latter must
+# carry a qualityNote explaining the limitation.
+VALID_QUALITY = {"ok", "provisional"}
 
 
 def load_registry() -> dict[str, Any]:
@@ -69,5 +73,11 @@ def check_registry(data: dict[str, Any]) -> list[str]:
             problems.append(f"{where}: class must be one of {sorted(VALID_CLASSES)}")
         if entry["sourceKind"] not in VALID_SOURCE_KINDS:
             problems.append(f"{where}: sourceKind must be one of {sorted(VALID_SOURCE_KINDS)}")
+
+        quality = entry.get("quality", "ok")
+        if quality not in VALID_QUALITY:
+            problems.append(f"{where}: quality must be one of {sorted(VALID_QUALITY)}")
+        if quality == "provisional" and not entry.get("qualityNote"):
+            problems.append(f"{where}: quality 'provisional' requires a qualityNote")
 
     return problems

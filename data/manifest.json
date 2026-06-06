@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T22:47:07Z",
+  "generatedAt": "2026-06-06T22:51:22Z",
   "logos": [
     {
       "id": "aib",
@@ -22,6 +22,8 @@
       "licence": null,
       "attribution": null,
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/aib.small.png"
@@ -47,9 +49,38 @@
       "licence": null,
       "attribution": null,
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/dbsc.small.png"
+      }
+    },
+    {
+      "id": "fireball",
+      "class": "class-assoc",
+      "displayName": "Fireball",
+      "file": "logos/fireball.png",
+      "format": "png",
+      "sha256": "a012a5649380bc81662189090c0addd49aac002f4c4da84aab40e620c59812b9",
+      "variants": [
+        {
+          "file": "logos/fireball.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://hyc.ie/system/sponsor_logos/597/normal/FB_Ireland_Good.jpg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/fireball.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "266x214 JPEG on white, no transparency — the best the class could supply (International's site logo is a tiny 99px palette PNG; Fireball Ireland's other mark is a favicon crop). Replace if Fireball Ireland issues a clean, higher-res or transparent logo.",
+      "retrievedAt": "2026-06-06T22:51:19Z",
+      "derivatives": {
+        "small": "logos/fireball.small.png"
       }
     },
     {
@@ -72,6 +103,8 @@
       "licence": "Public domain",
       "attribution": "Alexx.net (Wikimedia Commons)",
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T22:44:45Z"
     },
     {
@@ -94,6 +127,8 @@
       "licence": null,
       "attribution": null,
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/howth-17.small.png"
@@ -119,6 +154,8 @@
       "licence": null,
       "attribution": null,
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T22:13:39Z",
       "derivatives": {
         "small": "logos/hyc.small.png"
@@ -144,6 +181,8 @@
       "licence": "Public domain",
       "attribution": "ILCA class association",
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T20:07:56Z"
     },
     {
@@ -166,6 +205,8 @@
       "licence": null,
       "attribution": null,
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T20:07:56Z",
       "derivatives": {
         "small": "logos/irish-sailing.small.png"
@@ -191,6 +232,8 @@
       "licence": null,
       "attribution": null,
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/melges-15.small.png"
@@ -216,6 +259,8 @@
       "licence": null,
       "attribution": null,
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/provident.small.png"
@@ -241,6 +286,8 @@
       "licence": null,
       "attribution": null,
       "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
       "retrievedAt": "2026-06-06T22:47:04Z"
     }
   ]

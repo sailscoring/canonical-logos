@@ -26,6 +26,9 @@
 #   licence     optional: a real free licence (e.g. Wikimedia), if any
 #   attribution optional: required when `licence` is set and not public-domain/CC0
 #   usageNote   optional: any terms the owner published or offered (recorded, not a gate)
+#   quality     optional: "ok" (default) or "provisional" — a sub-par asset kept
+#               deliberately because it is the best available; flagged for upgrade
+#   qualityNote required when quality is "provisional": the limitation + what's wanted
 #   note        optional: anything else a maintainer should know (variants, etc.)
 #
 # Initial set. The full sourcing backlog (clubs, classes, sponsors) is tracked
@@ -94,11 +97,14 @@ logos:
   - id: fireball
     class: class-assoc
     displayName: Fireball
-    source: https://www.fireball-international.com/
+    source: https://hyc.ie/system/sponsor_logos/597/normal/FB_Ireland_Good.jpg
     sourceKind: brand-portal
-    # No assetUrl yet. Fireball International's site logo is 99x111 palette PNG
-    # (too small); Fireball Ireland's only mark is a 192px favicon/sticker crop.
-    # Awaiting a clean class logo — candidate to request from Fireball Ireland.
+    assetUrl: sources/assets/fireball.jpg
+    quality: provisional
+    qualityNote: 266x214 JPEG on white, no transparency — the best the class
+      could supply (International's site logo is a tiny 99px palette PNG;
+      Fireball Ireland's other mark is a favicon crop). Replace if Fireball
+      Ireland issues a clean, higher-res or transparent logo.
 
   - id: howth-17
     class: class-assoc
