@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:26:42Z",
+  "generatedAt": "2026-06-06T23:30:30Z",
   "logos": [
     {
       "id": "420",
@@ -105,6 +105,33 @@
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/dbsc.small.png"
+      }
+    },
+    {
+      "id": "etchells",
+      "class": "class-assoc",
+      "displayName": "Etchells",
+      "file": "logos/etchells.png",
+      "format": "png",
+      "sha256": "55448e9b6b8eafae4eae6516fae92a8ca25df1ac4e2f5f20c691fb86bc4c978b",
+      "variants": [
+        {
+          "file": "logos/etchells.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://etchells.org/assets/images/interface/Etchells_logo-l.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/etchells.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:30:23Z",
+      "derivatives": {
+        "small": "logos/etchells.small.png"
       }
     },
     {
@@ -345,6 +372,33 @@
       }
     },
     {
+      "id": "j24",
+      "class": "class-assoc",
+      "displayName": "J/24",
+      "file": "logos/j24.png",
+      "format": "png",
+      "sha256": "af49d3df988fa5c48cc90abf53cfdb4b4ed13d0ed295fa658e2968969f308cb8",
+      "variants": [
+        {
+          "file": "logos/j24.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://j24class.org/wp-content/uploads/2023/09/cropped-logo.gif",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/j24.gif",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "68x133 small logo from the class site (cropped). Replace with a higher-res J/24 logo.",
+      "retrievedAt": "2026-06-06T23:30:23Z",
+      "derivatives": {
+        "small": "logos/j24.small.png"
+      }
+    },
+    {
       "id": "kinsale-yc",
       "class": "sailing-club",
       "displayName": "Kinsale Yacht Club",
@@ -447,6 +501,33 @@
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/melges-15.small.png"
+      }
+    },
+    {
+      "id": "mirror",
+      "class": "class-assoc",
+      "displayName": "International Mirror",
+      "file": "logos/mirror.png",
+      "format": "png",
+      "sha256": "b67242dc66b57a71327fab60cd4a7dae641cc38cfc3e4e9bde090a7f455c8ec1",
+      "variants": [
+        {
+          "file": "logos/mirror.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://mirrorsailing.org/images/international_mirror_class_association/website/imca_website_logo_2026.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/mirror.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:30:23Z",
+      "derivatives": {
+        "small": "logos/mirror.small.png"
       }
     },
     {
