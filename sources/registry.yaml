@@ -13,7 +13,9 @@
 #
 # Each entry:
 #   id          stable kebab-case key; the app references this. Unique.
-#   class       governing-body | class-assoc | sponsor | venue
+#   class       governing-body | sailing-club | class-assoc | sponsor | venue
+#               (sailing-club is the club; venue is a non-club racing location —
+#                a club is often the venue, but the scorer picks the club logo)
 #   displayName human-readable name shown in the picker
 #   source      human-facing provenance page (brand portal / page / contact)
 #   sourceKind  brand-portal | direct | wikimedia
@@ -26,9 +28,10 @@
 #   usageNote   optional: any terms the owner published or offered (recorded, not a gate)
 #   note        optional: anything else a maintainer should know (variants, etc.)
 #
-# This seed is the proof set from the scoping note: it spans every class so the
-# pipeline is exercised on real cases. No assetUrls yet — every entry currently
-# resolves to "not yet sourced", which is the honest pre-sourcing state.
+# Initial set. The full sourcing backlog (clubs, classes, sponsors) is tracked
+# as a checklist in the canonical-logos GitHub issue. `source` URLs here are
+# provenance pointers to refine when each asset is sourced; no assetUrls yet, so
+# every entry currently resolves to "not yet sourced" until its asset is added.
 
 logos:
   # --- Governing bodies -----------------------------------------------------
@@ -44,6 +47,19 @@ logos:
     source: https://www.sailing.ie/
     sourceKind: brand-portal
 
+  # --- Sailing clubs --------------------------------------------------------
+  - id: hyc
+    class: sailing-club
+    displayName: Howth Yacht Club
+    source: https://www.hyc.ie/
+    sourceKind: brand-portal
+
+  - id: dbsc
+    class: sailing-club
+    displayName: Dublin Bay Sailing Club
+    source: https://www.dbsc.ie/
+    sourceKind: brand-portal
+
   # --- Class associations ---------------------------------------------------
   - id: ilca
     class: class-assoc
@@ -57,16 +73,44 @@ logos:
     source: https://www.optimist.ie/
     sourceKind: brand-portal
 
-  # --- Recurring sponsors ---------------------------------------------------
+  - id: gp14
+    class: class-assoc
+    displayName: GP14
+    source: https://www.gp14.org/
+    sourceKind: brand-portal
+
+  - id: fireball
+    class: class-assoc
+    displayName: Fireball
+    source: https://www.fireball-international.com/
+    sourceKind: brand-portal
+
+  - id: howth-17
+    class: class-assoc
+    displayName: Howth Seventeen Footer
+    source: https://www.hyc.ie/
+    sourceKind: brand-portal
+
+  - id: melges-15
+    class: class-assoc
+    displayName: Melges 15
+    source: https://melges15.com/
+    sourceKind: brand-portal
+
+  # --- Sponsors -------------------------------------------------------------
   # A sponsor earns canonical status only when it recurs across events; a
-  # one-off event backer belongs in the per-workspace library. Seeded with a
-  # regular HYC backer to exercise the sponsor path.
-  - id: example-recurring-sponsor
+  # one-off event backer belongs in the per-workspace library.
+  - id: aib
     class: sponsor
-    displayName: (placeholder — pick a real recurring sponsor)
-    source: TODO
-    sourceKind: direct
-    note: Replace with a genuine recurring sponsor before the first real fetch.
+    displayName: AIB
+    source: https://aib.ie/
+    sourceKind: brand-portal
+
+  - id: provident
+    class: sponsor
+    displayName: Provident
+    source: https://www.providentcrm.com/
+    sourceKind: brand-portal
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals
