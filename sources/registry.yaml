@@ -13,7 +13,7 @@
 #
 # Each entry:
 #   id          stable kebab-case key; the app references this. Unique.
-#   class       governing-body | sailing-club | class-assoc | sponsor | venue
+#   class       governing-body | sailing-club | class-assoc | sponsor | venue | regatta
 #               (sailing-club is the club; venue is a non-club racing location —
 #                a club is often the venue, but the scorer picks the club logo)
 #   displayName human-readable name shown in the picker

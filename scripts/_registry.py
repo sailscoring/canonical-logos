@@ -22,8 +22,10 @@ PROVENANCE_PATH = DATA_DIR / "provenance.json"
 
 # A "venue" is a non-club racing location; a "sailing-club" is the club itself.
 # A club is often the venue, but the scorer picks the club logo when configuring
-# a venue, so the two are tracked as distinct classes.
-VALID_CLASSES = {"governing-body", "sailing-club", "class-assoc", "sponsor", "venue"}
+# a venue, so the two are tracked as distinct classes. A "regatta" is a recurring
+# regatta-series brand (Cork Week, Volvo Dún Laoghaire Regatta) — its stable mark,
+# not the one-off year-stamped artwork, which belongs in a per-workspace library.
+VALID_CLASSES = {"governing-body", "sailing-club", "class-assoc", "sponsor", "venue", "regatta"}
 VALID_SOURCE_KINDS = {"brand-portal", "direct", "wikimedia"}
 REQUIRED_FIELDS = {"id", "class", "displayName", "source", "sourceKind"}
 # "ok" (default, absent) = meets the quality bar; "provisional" = sub-par but the
