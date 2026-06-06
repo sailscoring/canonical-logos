@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:21:12Z",
+  "generatedAt": "2026-06-06T23:26:34Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -99,6 +99,22 @@
       "retrievedAt": "2026-06-06T22:44:45Z"
     },
     {
+      "id": "malahide-yc",
+      "assetUrl": "sources/assets/malahide-yc.png",
+      "file": "logos/malahide-yc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "22864e7e77eba11db9455814c4197495e139c61ac997efa889f6a6b7a9568959",
+      "retrievedAt": "2026-06-06T23:26:34Z"
+    },
+    {
+      "id": "skerries-sc",
+      "assetUrl": "sources/assets/skerries-sc.jpg",
+      "file": "logos/skerries-sc.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "6ae15d2ee4c18409fe59891151b54f57705d845941ee253de7b2ae3b60fedb70",
+      "retrievedAt": "2026-06-06T23:26:34Z"
+    },
+    {
       "id": "riyc",
       "assetUrl": "sources/assets/riyc.png",
       "file": "logos/riyc.png",
@@ -139,6 +155,14 @@
       "retrievedAt": "2026-06-06T23:21:12Z"
     },
     {
+      "id": "ballyholme-yc",
+      "assetUrl": "sources/assets/ballyholme-yc.png",
+      "file": "logos/ballyholme-yc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "7535674982dae83942a48007eae78eea10da93d42309fa6736d996a75c79ff22",
+      "retrievedAt": "2026-06-06T23:26:34Z"
+    },
+    {
       "id": "strangford-lough-yc",
       "assetUrl": "sources/assets/strangford-lough-yc.png",
       "file": "logos/strangford-lough-yc.png",
@@ -147,12 +171,28 @@
       "retrievedAt": "2026-06-06T23:21:12Z"
     },
     {
+      "id": "icra",
+      "assetUrl": "sources/assets/icra.png",
+      "file": "logos/icra.png",
+      "fetchedFormat": "png",
+      "rawSha256": "6b4f1b3f4e1d14bc2b4c3d41eb2b57c3fed143032fd247a7f2c3cac6f67734ab",
+      "retrievedAt": "2026-06-06T23:26:34Z"
+    },
+    {
       "id": "420",
       "assetUrl": "sources/assets/420.svg",
       "file": "logos/420.svg",
       "fetchedFormat": "svg",
       "rawSha256": "8d4ae5088e71160e45f81fa6a56ea8a3592ac489e0f29d6d6e7970f71958203e",
       "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "squib",
+      "assetUrl": "sources/assets/squib.png",
+      "file": "logos/squib.png",
+      "fetchedFormat": "png",
+      "rawSha256": "2cc6dd37ef46d020d55a15aeb271fe2eaeab776a44601d91971255b152a9db12",
+      "retrievedAt": "2026-06-06T23:26:34Z"
     },
     {
       "id": "waszp",
@@ -189,14 +229,6 @@
   ],
   "unresolved": [
     {
-      "id": "malahide-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "skerries-sc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "sutton-dc",
       "reason": "no assetUrl (not yet sourced)"
     },
@@ -214,10 +246,6 @@
     },
     {
       "id": "lough-ree-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "ballyholme-yc",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
@@ -246,10 +274,6 @@
     },
     {
       "id": "49er",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "icra",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
@@ -286,10 +310,6 @@
     },
     {
       "id": "rs400",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "squib",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

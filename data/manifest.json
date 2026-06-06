@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:22:22Z",
+  "generatedAt": "2026-06-06T23:26:42Z",
   "logos": [
     {
       "id": "420",
@@ -51,6 +51,33 @@
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/aib.small.png"
+      }
+    },
+    {
+      "id": "ballyholme-yc",
+      "class": "sailing-club",
+      "displayName": "Ballyholme Yacht Club",
+      "file": "logos/ballyholme-yc.png",
+      "format": "png",
+      "sha256": "cc4629bc5681ddf6b8f72b9a653ff38833da97806807358670340ae5321c78ca",
+      "variants": [
+        {
+          "file": "logos/ballyholme-yc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://ballyholme.com/wp-content/uploads/2025/06/Ballyholme-BYC-Logo-Burgee-with-text-Outline-Colour-Final-051121.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/ballyholme-yc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:26:34Z",
+      "derivatives": {
+        "small": "logos/ballyholme-yc.small.png"
       }
     },
     {
@@ -183,6 +210,33 @@
       "retrievedAt": "2026-06-06T22:13:39Z",
       "derivatives": {
         "small": "logos/hyc.small.png"
+      }
+    },
+    {
+      "id": "icra",
+      "class": "class-assoc",
+      "displayName": "Irish Cruiser Racing Association",
+      "file": "logos/icra.png",
+      "format": "png",
+      "sha256": "55c2b158613c5315f31a727994b4a4aa87785f33f7a8889adf7d4c4fa5b6d8c6",
+      "variants": [
+        {
+          "file": "logos/icra.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://cruiserracing.ie/images/icra-logo-small.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/icra.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:26:34Z",
+      "derivatives": {
+        "small": "logos/icra.small.png"
       }
     },
     {
@@ -342,6 +396,33 @@
       }
     },
     {
+      "id": "malahide-yc",
+      "class": "sailing-club",
+      "displayName": "Malahide Yacht Club",
+      "file": "logos/malahide-yc.png",
+      "format": "png",
+      "sha256": "1fa798f8ae987d44d242f58023662c5f5f48687e77c03b6372e331671b3ee5a8",
+      "variants": [
+        {
+          "file": "logos/malahide-yc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.myc.ie/wp-content/uploads/2016/07/New-MYC-Logo-300x180-1.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/malahide-yc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:26:34Z",
+      "derivatives": {
+        "small": "logos/malahide-yc.small.png"
+      }
+    },
+    {
       "id": "melges-15",
       "class": "class-assoc",
       "displayName": "Melges 15",
@@ -471,6 +552,60 @@
       "retrievedAt": "2026-06-06T23:21:12Z",
       "derivatives": {
         "small": "logos/rsgyc.small.png"
+      }
+    },
+    {
+      "id": "skerries-sc",
+      "class": "sailing-club",
+      "displayName": "Skerries Sailing Club",
+      "file": "logos/skerries-sc.png",
+      "format": "png",
+      "sha256": "1425c63114662bbb83dae886a14667b5b27aa93b176b2eea73e19777003b2865",
+      "variants": [
+        {
+          "file": "logos/skerries-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://boxstuff-development-thumbnails.s3.amazonaws.com/1421253_orig.jpg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/skerries-sc.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Horizontal club banner with a baked dark background (no transparency); shows as a dark bar on a light header. Replace with a transparent Skerries SC logo.",
+      "retrievedAt": "2026-06-06T23:26:34Z",
+      "derivatives": {
+        "small": "logos/skerries-sc.small.png"
+      }
+    },
+    {
+      "id": "squib",
+      "class": "class-assoc",
+      "displayName": "Squib",
+      "file": "logos/squib.png",
+      "format": "png",
+      "sha256": "b96cd50eb17951b85b8530f797cf58f2cddbfb491596dffbb7d6cc26c688b470",
+      "variants": [
+        {
+          "file": "logos/squib.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://squibs.co.uk/wp-content/uploads/2022/07/National-Squib-400px.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/squib.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:26:34Z",
+      "derivatives": {
+        "small": "logos/squib.small.png"
       }
     },
     {

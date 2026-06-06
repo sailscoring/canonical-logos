@@ -148,19 +148,23 @@ logos:
   - id: "malahide-yc"
     class: sailing-club
     displayName: "Malahide Yacht Club"
-    source: https://www.malahideyachtclub.ie/
+    source: https://www.myc.ie/wp-content/uploads/2016/07/New-MYC-Logo-300x180-1.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/malahide-yc.png
 
   - id: "skerries-sc"
     class: sailing-club
     displayName: "Skerries Sailing Club"
-    source: https://www.skerriessailing.com/
+    source: https://boxstuff-development-thumbnails.s3.amazonaws.com/1421253_orig.jpg
     sourceKind: brand-portal
+    assetUrl: sources/assets/skerries-sc.jpg
+    quality: provisional
+    qualityNote: Horizontal club banner with a baked dark background (no transparency); shows as a dark bar on a light header. Replace with a transparent Skerries SC logo.
 
   - id: "sutton-dc"
     class: sailing-club
     displayName: "Sutton Dinghy Club"
-    source: https://www.suttondinghyclub.com/
+    source: https://sdc.ie/
     sourceKind: brand-portal
 
   - id: "royal-alfred-yc"
@@ -227,8 +231,9 @@ logos:
   - id: "ballyholme-yc"
     class: sailing-club
     displayName: "Ballyholme Yacht Club"
-    source: https://www.ballyholmeyc.org/
+    source: https://ballyholme.com/wp-content/uploads/2025/06/Ballyholme-BYC-Logo-Burgee-with-text-Outline-Colour-Final-051121.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/ballyholme-yc.png
 
   - id: "east-antrim-bc"
     class: sailing-club
@@ -286,8 +291,9 @@ logos:
   - id: "icra"
     class: class-assoc
     displayName: "Irish Cruiser Racing Association"
-    source: https://www.icra.ie/
+    source: https://cruiserracing.ie/images/icra-logo-small.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/icra.png
 
   - id: "420"
     class: class-assoc
@@ -353,8 +359,9 @@ logos:
   - id: "squib"
     class: class-assoc
     displayName: "Squib"
-    source: https://www.squib.org.uk/
+    source: https://squibs.co.uk/wp-content/uploads/2022/07/National-Squib-400px.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/squib.png
 
   - id: "waszp"
     class: class-assoc
@@ -393,7 +400,7 @@ logos:
   - id: "sb20"
     class: class-assoc
     displayName: "SB20"
-    source: https://www.sb20.org/
+    source: https://sb20class.org/
     sourceKind: brand-portal
 
   - id: "shannon-one-design"
