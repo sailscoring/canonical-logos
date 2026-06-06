@@ -1,7 +1,31 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:08:53Z",
+  "generatedAt": "2026-06-06T23:22:22Z",
   "logos": [
+    {
+      "id": "420",
+      "class": "class-assoc",
+      "displayName": "420",
+      "file": "logos/420.svg",
+      "format": "svg",
+      "sha256": "9a728d9fd475cb9cfc77195ea5d3a19c686354ed75e44bbee3e48a8e3c68fc8c",
+      "variants": [
+        {
+          "file": "logos/420.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.420sailing.org/images/default/470sailing/main-logo.svg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/420.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
     {
       "id": "aib",
       "class": "sponsor",
@@ -240,6 +264,84 @@
       }
     },
     {
+      "id": "isora",
+      "class": "class-assoc",
+      "displayName": "ISORA",
+      "file": "logos/isora.png",
+      "format": "png",
+      "sha256": "ea6b46b49f1993fcff117fe52014f157a590a0c1b2b9d240de31e9d436d69f06",
+      "variants": [
+        {
+          "file": "logos/isora.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.isora.org/images/ISORAlogos/ISORA_Logo_Vector.jpg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/isora.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:21:12Z",
+      "derivatives": {
+        "small": "logos/isora.small.png"
+      }
+    },
+    {
+      "id": "kinsale-yc",
+      "class": "sailing-club",
+      "displayName": "Kinsale Yacht Club",
+      "file": "logos/kinsale-yc.svg",
+      "format": "svg",
+      "sha256": "1fada17f887f4dc351b17e1241c0df9f49c1d47fa0859aa99133cc34aff4facb",
+      "variants": [
+        {
+          "file": "logos/kinsale-yc.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.kyc.ie/wp-content/uploads/2021/01/kyc-logo-2.svg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/kinsale-yc.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "lough-derg-yc",
+      "class": "sailing-club",
+      "displayName": "Lough Derg Yacht Club",
+      "file": "logos/lough-derg-yc.png",
+      "format": "png",
+      "sha256": "ad87c5c14458b4ef3a6b98f894ac284149875889e2fa8e38391d64307c4ed1d2",
+      "variants": [
+        {
+          "file": "logos/lough-derg-yc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://boxstuff-development-thumbnails.s3.amazonaws.com/1779921_orig.jpg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/lough-derg-yc.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Composite banner (club wordmark + a training-centre badge) from the site CDN, low height. Replace with the standalone Lough Derg YC logo.",
+      "retrievedAt": "2026-06-06T23:21:12Z",
+      "derivatives": {
+        "small": "logos/lough-derg-yc.small.png"
+      }
+    },
+    {
       "id": "melges-15",
       "class": "class-assoc",
       "displayName": "Melges 15",
@@ -267,6 +369,30 @@
       }
     },
     {
+      "id": "monday",
+      "class": "sponsor",
+      "displayName": "monday.com",
+      "file": "logos/monday.svg",
+      "format": "svg",
+      "sha256": "20db06bfd50b782baa96074517dd1d7194ad8330cb974697d4f51680b788582d",
+      "variants": [
+        {
+          "file": "logos/monday.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monday_logo.svg",
+      "sourceKind": "wikimedia",
+      "assetUrl": "sources/assets/monday.svg",
+      "licence": "Public domain",
+      "attribution": "Monday.com",
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
       "id": "provident",
       "class": "sponsor",
       "displayName": "Provident",
@@ -291,6 +417,165 @@
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/provident.small.png"
+      }
+    },
+    {
+      "id": "riyc",
+      "class": "sailing-club",
+      "displayName": "Royal Irish Yacht Club",
+      "file": "logos/riyc.png",
+      "format": "png",
+      "sha256": "44e57fb4081add769f507a6863d2403eefc368893cf66a8c5e1b542edd44aca8",
+      "variants": [
+        {
+          "file": "logos/riyc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.riyc.ie/apple-touch-icon",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/riyc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:21:12Z",
+      "derivatives": {
+        "small": "logos/riyc.small.png"
+      }
+    },
+    {
+      "id": "rsgyc",
+      "class": "sailing-club",
+      "displayName": "Royal St. George Yacht Club",
+      "file": "logos/rsgyc.png",
+      "format": "png",
+      "sha256": "5840bc92e3818f192b39f7d977be9f9a058c8e855d36d3e6ef7d4b249df66719",
+      "variants": [
+        {
+          "file": "logos/rsgyc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://rsgyc.ie/wp-content/themes/RSG-Theme/img/rsgy-logo.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/rsgyc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:21:12Z",
+      "derivatives": {
+        "small": "logos/rsgyc.small.png"
+      }
+    },
+    {
+      "id": "strangford-lough-yc",
+      "class": "sailing-club",
+      "displayName": "Strangford Lough Yacht Club",
+      "file": "logos/strangford-lough-yc.png",
+      "format": "png",
+      "sha256": "6e3f0b5ac66855f64c779b204f68e0b77dce5334bc272695f3178b8a3bc670cd",
+      "variants": [
+        {
+          "file": "logos/strangford-lough-yc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://slyc.co.uk/wp-content/uploads/2025/07/favicon.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/strangford-lough-yc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "192px club burgee taken from the site favicon. Replace with a higher-res Strangford Lough YC logo.",
+      "retrievedAt": "2026-06-06T23:21:12Z",
+      "derivatives": {
+        "small": "logos/strangford-lough-yc.small.png"
+      }
+    },
+    {
+      "id": "topper",
+      "class": "class-assoc",
+      "displayName": "Topper",
+      "file": "logos/topper.svg",
+      "format": "svg",
+      "sha256": "3f9b150f80bb79ce617844c2029045ac0495fc397f9c56bd7fcb6b2964272b52",
+      "variants": [
+        {
+          "file": "logos/topper.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Topper_Logo.svg",
+      "sourceKind": "wikimedia",
+      "assetUrl": "sources/assets/topper.svg",
+      "licence": "Public domain",
+      "attribution": "Wikimedia Commons (Juliancam)",
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "waszp",
+      "class": "class-assoc",
+      "displayName": "WASZP",
+      "file": "logos/waszp.png",
+      "format": "png",
+      "sha256": "b7a7a341a98345bb3b1bdae4e70572b05337d7e782700091040a5d2acab944c8",
+      "variants": [
+        {
+          "file": "logos/waszp.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://waszp.com/wp-content/uploads/2021/07/WASZP-Logo-01.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/waszp.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:21:12Z",
+      "derivatives": {
+        "small": "logos/waszp.small.png"
+      }
+    },
+    {
+      "id": "waterford-harbour-sc",
+      "class": "sailing-club",
+      "displayName": "Waterford Harbour Sailing Club",
+      "file": "logos/waterford-harbour-sc.png",
+      "format": "png",
+      "sha256": "524756648e7ab945acd0fb29b59e0b18daa7912f8e3945c2c11501dd9d18e5dc",
+      "variants": [
+        {
+          "file": "logos/waterford-harbour-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://whsc.ie/wp-content/uploads/2022/03/LOGO-WHSC.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/waterford-harbour-sc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-06T23:21:12Z",
+      "derivatives": {
+        "small": "logos/waterford-harbour-sc.small.png"
       }
     },
     {

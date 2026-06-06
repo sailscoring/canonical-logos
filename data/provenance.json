@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:08:50Z",
+  "generatedAt": "2026-06-06T23:21:12Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -97,7 +97,224 @@
       "fetchedFormat": "png",
       "rawSha256": "90df7aac89b1195d128b203eceace9007ee73e2e365b910ac9f876dafaff1570",
       "retrievedAt": "2026-06-06T22:44:45Z"
+    },
+    {
+      "id": "riyc",
+      "assetUrl": "sources/assets/riyc.png",
+      "file": "logos/riyc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "70168d53e5086387a7f229661bb59e72ed00a9b4540fd99f9f27d5aa52aabfba",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "rsgyc",
+      "assetUrl": "sources/assets/rsgyc.png",
+      "file": "logos/rsgyc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "96ef25028a9ece514e121d773cbcf5765d9fe3b9527a0b7d7f20588060b1ea98",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "lough-derg-yc",
+      "assetUrl": "sources/assets/lough-derg-yc.jpg",
+      "file": "logos/lough-derg-yc.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "e052575d38c11af7be74343f3d37baafddb6b0a2c5ee65824c6029ba3ab20248",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "waterford-harbour-sc",
+      "assetUrl": "sources/assets/waterford-harbour-sc.png",
+      "file": "logos/waterford-harbour-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "7aacaa14639441f381c2d06cd713767d2972632b0de95335e726b7a9b8acc883",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "kinsale-yc",
+      "assetUrl": "sources/assets/kinsale-yc.svg",
+      "file": "logos/kinsale-yc.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "ca32998a90477c16aa389af06b7e57b9f096905487bf7401c2fce42bb99d170e",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "strangford-lough-yc",
+      "assetUrl": "sources/assets/strangford-lough-yc.png",
+      "file": "logos/strangford-lough-yc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "0a6774f1480ad796538f277941b150bf08f05ff6b18d67f3bd5b1cdcbd8a5b12",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "420",
+      "assetUrl": "sources/assets/420.svg",
+      "file": "logos/420.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "8d4ae5088e71160e45f81fa6a56ea8a3592ac489e0f29d6d6e7970f71958203e",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "waszp",
+      "assetUrl": "sources/assets/waszp.png",
+      "file": "logos/waszp.png",
+      "fetchedFormat": "png",
+      "rawSha256": "0f8228a010d359d8af4bc136297bd274bb91825cedea89b66d0a4b76af66e8a0",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "topper",
+      "assetUrl": "sources/assets/topper.svg",
+      "file": "logos/topper.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "a6ed414f4b9234c2b0fcd33efbcc50daaf18a17494911baa2131ee8d084440ff",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "isora",
+      "assetUrl": "sources/assets/isora.jpg",
+      "file": "logos/isora.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "15a6c049809cb2584efcd08814a58fd880cc25790a71cccf90e044037ba38c7d",
+      "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "monday",
+      "assetUrl": "sources/assets/monday.svg",
+      "file": "logos/monday.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "833a4dc2dfc549df4ce08698842309051227d800c62a08fc78a2dd5213e82894",
+      "retrievedAt": "2026-06-06T23:21:12Z"
     }
   ],
-  "unresolved": []
+  "unresolved": [
+    {
+      "id": "malahide-yc",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "skerries-sc",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "sutton-dc",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "royal-alfred-yc",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "national-yc",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "royal-cork-yc",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "lough-ree-yc",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "ballyholme-yc",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "east-antrim-bc",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "1720",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "idra-14",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "mirror",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "moth",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "29er",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "49er",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "icra",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "etchells",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "j80",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "j70",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "j109",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "j24",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "rs-feva",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "ruffian",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "rs200",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "rs400",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "squib",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "mermaid",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "water-wags",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "sigma-33",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "sb20",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "shannon-one-design",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "fingal-county-council",
+      "reason": "no assetUrl (not yet sourced)"
+    }
+  ]
 }
