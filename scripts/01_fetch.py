@@ -15,6 +15,7 @@ Outputs:
 
 from __future__ import annotations
 
+import gzip
 import hashlib
 import json
 import sys
@@ -114,6 +115,11 @@ def main() -> int:
         if ext is None:
             unresolved.append({"id": eid, "reason": "unrecognised image format"})
             continue
+
+        # SVGZ served with a .svg extension (common from WordPress media):
+        # transparently decompress so we store a usable plain SVG.
+        if ext == "svg" and data[:2] == b"\x1f\x8b":
+            data = gzip.decompress(data)
 
         sha = _sha256(data)
         dest = LOGOS_DIR / f"{eid}.{ext}"
