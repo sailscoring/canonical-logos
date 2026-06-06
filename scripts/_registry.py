@@ -18,6 +18,7 @@ LOGOS_DIR = REPO_ROOT / "logos"
 DATA_DIR = REPO_ROOT / "data"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
 UNRESOLVED_PATH = DATA_DIR / "unresolved.json"
+PROVENANCE_PATH = DATA_DIR / "provenance.json"
 
 VALID_CLASSES = {"governing-body", "class-assoc", "sponsor", "venue"}
 VALID_SOURCE_KINDS = {"brand-portal", "direct", "wikimedia"}
@@ -39,8 +40,11 @@ def check_registry(data: dict[str, Any]) -> list[str]:
     """
     problems: list[str] = []
     seen_ids: set[str] = set()
-    denylist = {str(x) for x in data.get("denylist", [])}
 
+    # A denylisted id may still appear in `logos` — the denylist exists to
+    # override (suppress) a curation row when an owner asks for removal, not to
+    # require deleting it. The fetch step skips denylisted ids; coexistence is
+    # expected, so it is not flagged here.
     for i, entry in enumerate(data.get("logos", [])):
         where = f"logos[{i}]"
         if not isinstance(entry, dict):
@@ -58,8 +62,6 @@ def check_registry(data: dict[str, Any]) -> list[str]:
             problems.append(f"{where}: duplicate id")
         seen_ids.add(eid)
 
-        if eid in denylist:
-            problems.append(f"{where}: id is on the denylist but still listed in logos")
         if entry["class"] not in VALID_CLASSES:
             problems.append(f"{where}: class must be one of {sorted(VALID_CLASSES)}")
         if entry["sourceKind"] not in VALID_SOURCE_KINDS:

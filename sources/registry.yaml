@@ -15,12 +15,20 @@
 #   id          stable kebab-case key; the app references this. Unique.
 #   class       governing-body | class-assoc | sponsor | venue
 #   displayName human-readable name shown in the picker
-#   source      where to obtain the official asset (brand portal / page / contact)
+#   source      human-facing provenance page (brand portal / page / contact)
 #   sourceKind  brand-portal | direct | wikimedia
-#   note        optional: anything a maintainer should know (variants, terms offered)
+#   assetUrl    optional: direct link to the official file — an http(s) URL, or a
+#               repo-relative path (e.g. sources/assets/<id>.svg) for an asset an
+#               owner sent directly. Without it, the entry is recorded as
+#               unresolved ("not yet sourced") rather than fetched.
+#   licence     optional: a real free licence (e.g. Wikimedia), if any
+#   attribution optional: required when `licence` is set and not public-domain/CC0
+#   usageNote   optional: any terms the owner published or offered (recorded, not a gate)
+#   note        optional: anything else a maintainer should know (variants, etc.)
 #
 # This seed is the proof set from the scoping note: it spans every class so the
-# pipeline is exercised on real cases. Assets are not fetched yet.
+# pipeline is exercised on real cases. No assetUrls yet — every entry currently
+# resolves to "not yet sourced", which is the honest pre-sourcing state.
 
 logos:
   # --- Governing bodies -----------------------------------------------------
