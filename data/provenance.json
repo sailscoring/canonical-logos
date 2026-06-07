@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:29:17Z",
+  "generatedAt": "2026-06-07T11:18:03Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -52,11 +52,11 @@
     },
     {
       "id": "gp14",
-      "assetUrl": "sources/assets/gp14.svg",
-      "file": "logos/gp14.svg",
-      "fetchedFormat": "svg",
-      "rawSha256": "df187f1294590b188097fe76bea66f7e00becbb49c64cf678219c1d6cb65c7ec",
-      "retrievedAt": "2026-06-06T22:44:45Z"
+      "assetUrl": "sources/assets/gp14.png",
+      "file": "logos/gp14.png",
+      "fetchedFormat": "png",
+      "rawSha256": "e8d7cb5d84cfcfec0c39cb32b6cdb290f4525d57f9697bfb6473e26ce1424840",
+      "retrievedAt": "2026-06-07T11:18:03Z"
     },
     {
       "id": "fireball",

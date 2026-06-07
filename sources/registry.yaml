@@ -92,13 +92,14 @@ logos:
   - id: gp14
     class: class-assoc
     displayName: GP14
-    source: https://commons.wikimedia.org/wiki/File:GP14.svg
-    sourceKind: wikimedia
-    assetUrl: sources/assets/gp14.svg
-    licence: Public domain
-    attribution: Alexx.net (Wikimedia Commons)
-    quality: provisional
-    qualityNote: Wikimedia sail-insignia silhouette (renders as a solid black sail); the class's full GP14 wordmark logo would be better.
+    source: https://gp14.org/wp-content/uploads/2024/12/admin-ajax-removebg-preview.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/gp14.png
+    note: International GP14 Class Association site header logo (blue bell +
+      GP14 + www.gp14.org), 268x112 transparent PNG. Retrieved via the Wayback
+      Machine because gp14.org applies hotlink/UA protection to wp-content; the
+      bytes match the live header logo. Supersedes the Wikimedia sail-insignia
+      silhouette (a solid black bell).
 
   - id: fireball
     class: class-assoc
