@@ -476,8 +476,11 @@ logos:
   - id: "sovereigns-cup"
     class: regatta
     displayName: "Sovereign's Cup"
-    source: https://www.sovereignscup.com/
+    source: https://www.kyc.ie/wp-content/uploads/2024/11/sov-cup-2025.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/sovereigns-cup.png
+    quality: provisional
+    qualityNote: Year-stamped (2025) crest. Replace with a year-neutral Sovereign's Cup mark if available.
 
   - id: "round-ireland"
     class: regatta

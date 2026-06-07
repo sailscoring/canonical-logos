@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:26:13Z",
+  "generatedAt": "2026-06-07T07:29:17Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -371,6 +371,14 @@
       "retrievedAt": "2026-06-06T23:37:38Z"
     },
     {
+      "id": "sovereigns-cup",
+      "assetUrl": "sources/assets/sovereigns-cup.png",
+      "file": "logos/sovereigns-cup.png",
+      "fetchedFormat": "png",
+      "rawSha256": "262fdfbd5021d2659bab9a10c77b06cf47aa53224f54f220ce0cd9831b6ed835",
+      "retrievedAt": "2026-06-07T07:29:17Z"
+    },
+    {
       "id": "round-ireland",
       "assetUrl": "sources/assets/round-ireland.png",
       "file": "logos/round-ireland.png",
@@ -446,10 +454,6 @@
     },
     {
       "id": "sb20",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "sovereigns-cup",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

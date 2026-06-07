@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:26:23Z",
+  "generatedAt": "2026-06-07T07:29:31Z",
   "entries": [
     {
       "id": "29er",
@@ -44,10 +44,6 @@
     },
     {
       "id": "sigma-33",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "sovereigns-cup",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
