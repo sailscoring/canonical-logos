@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:37:38Z",
+  "generatedAt": "2026-06-07T07:19:06Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -115,6 +115,14 @@
       "retrievedAt": "2026-06-06T23:26:34Z"
     },
     {
+      "id": "sutton-dc",
+      "assetUrl": "sources/assets/sutton-dc.jpg",
+      "file": "logos/sutton-dc.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "239de451f90ddf7f1f9f891c02cea976ca5648d0cefdd5311284064c0f29f8f9",
+      "retrievedAt": "2026-06-07T07:19:06Z"
+    },
+    {
       "id": "riyc",
       "assetUrl": "sources/assets/riyc.png",
       "file": "logos/riyc.png",
@@ -129,6 +137,30 @@
       "fetchedFormat": "png",
       "rawSha256": "96ef25028a9ece514e121d773cbcf5765d9fe3b9527a0b7d7f20588060b1ea98",
       "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "national-yc",
+      "assetUrl": "sources/assets/national-yc.png",
+      "file": "logos/national-yc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "1446b5df01cf85942ce2f7506bdbe0809da7a8a4d67f030356e9ae7788dc26f1",
+      "retrievedAt": "2026-06-07T07:19:06Z"
+    },
+    {
+      "id": "royal-cork-yc",
+      "assetUrl": "sources/assets/royal-cork-yc.svg",
+      "file": "logos/royal-cork-yc.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "29f361b0baa6134559ff4035596170efcc3a84d34bea06101559c9fe2affaf43",
+      "retrievedAt": "2026-06-07T07:19:06Z"
+    },
+    {
+      "id": "lough-ree-yc",
+      "assetUrl": "sources/assets/lough-ree-yc.jpg",
+      "file": "logos/lough-ree-yc.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "74dcfbaa0cd86f30f701edad8d577f140d41a46724a523340e9514df2b4bb700",
+      "retrievedAt": "2026-06-07T07:19:06Z"
     },
     {
       "id": "lough-derg-yc",
@@ -293,23 +325,7 @@
   ],
   "unresolved": [
     {
-      "id": "sutton-dc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "royal-alfred-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "national-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "royal-cork-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "lough-ree-yc",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

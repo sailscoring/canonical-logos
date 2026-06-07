@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:37:46Z",
+  "generatedAt": "2026-06-07T07:19:16Z",
   "entries": [
     {
       "id": "1720",
@@ -47,10 +47,6 @@
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "lough-ree-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "mermaid",
       "reason": "no assetUrl (not yet sourced)"
     },
@@ -59,15 +55,7 @@
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "national-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "royal-alfred-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "royal-cork-yc",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
@@ -100,10 +88,6 @@
     },
     {
       "id": "sovereigns-cup",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "sutton-dc",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
