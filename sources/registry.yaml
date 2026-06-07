@@ -370,8 +370,9 @@ logos:
   - id: "rs400"
     class: class-assoc
     displayName: "RS400"
-    source: https://www.rs400.org/
+    source: https://www.rs400.org/logos/rs400-logo.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/rs400.png
 
   - id: "squib"
     class: class-assoc
@@ -423,8 +424,9 @@ logos:
   - id: "shannon-one-design"
     class: class-assoc
     displayName: "Shannon One Design"
-    source: https://www.shannononedesign.com/
+    source: https://images.clubexpress.com/514833/graphics/SODA_logo_v1_27937270.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/shannon-one-design.png
 
   - id: "isora"
     class: class-assoc

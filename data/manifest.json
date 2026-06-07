@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:21:56Z",
+  "generatedAt": "2026-06-07T07:24:14Z",
   "logos": [
     {
       "id": "1720",
@@ -876,6 +876,33 @@
       }
     },
     {
+      "id": "rs400",
+      "class": "class-assoc",
+      "displayName": "RS400",
+      "file": "logos/rs400.png",
+      "format": "png",
+      "sha256": "773769ccc32a2ab85f5b548e583913f06cce4a0fb5044ef697ad13d90b1001c0",
+      "variants": [
+        {
+          "file": "logos/rs400.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.rs400.org/logos/rs400-logo.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/rs400.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:24:04Z",
+      "derivatives": {
+        "small": "logos/rs400.small.png"
+      }
+    },
+    {
       "id": "rsgyc",
       "class": "sailing-club",
       "displayName": "Royal St. George Yacht Club",
@@ -927,6 +954,33 @@
       "retrievedAt": "2026-06-07T07:21:46Z",
       "derivatives": {
         "small": "logos/ruffian.small.png"
+      }
+    },
+    {
+      "id": "shannon-one-design",
+      "class": "class-assoc",
+      "displayName": "Shannon One Design",
+      "file": "logos/shannon-one-design.png",
+      "format": "png",
+      "sha256": "4672c42a3b3171cddb24bae68ff54515a92f01afb3a46ced8536031058db3859",
+      "variants": [
+        {
+          "file": "logos/shannon-one-design.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://images.clubexpress.com/514833/graphics/SODA_logo_v1_27937270.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/shannon-one-design.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:24:04Z",
+      "derivatives": {
+        "small": "logos/shannon-one-design.small.png"
       }
     },
     {

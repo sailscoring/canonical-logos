@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:21:46Z",
+  "generatedAt": "2026-06-07T07:24:04Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -275,6 +275,14 @@
       "retrievedAt": "2026-06-07T07:21:46Z"
     },
     {
+      "id": "rs400",
+      "assetUrl": "sources/assets/rs400.png",
+      "file": "logos/rs400.png",
+      "fetchedFormat": "png",
+      "rawSha256": "4408de8b0d8e2d681039845ad060e5799f83470c000dc54d152fad07485c2211",
+      "retrievedAt": "2026-06-07T07:24:04Z"
+    },
+    {
       "id": "squib",
       "assetUrl": "sources/assets/squib.png",
       "file": "logos/squib.png",
@@ -297,6 +305,14 @@
       "fetchedFormat": "svg",
       "rawSha256": "a6ed414f4b9234c2b0fcd33efbcc50daaf18a17494911baa2131ee8d084440ff",
       "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "shannon-one-design",
+      "assetUrl": "sources/assets/shannon-one-design.png",
+      "file": "logos/shannon-one-design.png",
+      "fetchedFormat": "png",
+      "rawSha256": "c8dc90630382256d408883e3589e6771f295d87530be5e1e9dd462d9ba372014",
+      "retrievedAt": "2026-06-07T07:24:04Z"
     },
     {
       "id": "isora",
@@ -393,10 +409,6 @@
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "rs400",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "mermaid",
       "reason": "no assetUrl (not yet sourced)"
     },
@@ -410,10 +422,6 @@
     },
     {
       "id": "sb20",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "shannon-one-design",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
