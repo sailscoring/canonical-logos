@@ -326,8 +326,9 @@ logos:
   - id: "j70"
     class: class-assoc
     displayName: "J/70"
-    source: https://www.j70.org/
+    source: https://j70ica.org/wp-content/uploads/2024/08/70INT.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/j70.png
 
   - id: "j109"
     class: class-assoc
@@ -350,8 +351,9 @@ logos:
   - id: "rs-feva"
     class: class-assoc
     displayName: "RS Feva"
-    source: https://www.rssailing.com/
+    source: https://www.rsfeva.org/wp-content/uploads/2019/09/RS-Feva-logo.jpg
     sourceKind: brand-portal
+    assetUrl: sources/assets/rs-feva.jpg
 
   - id: "ruffian"
     class: class-assoc
@@ -449,16 +451,18 @@ logos:
   - id: "fingal-county-council"
     class: sponsor
     displayName: "Fingal County Council"
-    source: https://www.fingal.ie/
+    source: https://www.fingal.ie/themes/custom/weatherlab/components/_patterns/01-basic-elements/icons/png/Official_Mark_Colour.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/fingal-county-council.png
 
 
   # --- Regattas (issue #3 backlog) ---
   - id: "dlregatta"
     class: regatta
     displayName: "Volvo Dún Laoghaire Regatta"
-    source: https://www.dlregatta.org/
+    source: https://www.dlregatta.org/wp-content/uploads/2024/12/homepage%20feature%20VDLR%20logo.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/dlregatta.png
 
   - id: "cork-week"
     class: regatta

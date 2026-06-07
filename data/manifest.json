@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:24:14Z",
+  "generatedAt": "2026-06-07T07:26:23Z",
   "logos": [
     {
       "id": "1720",
@@ -189,6 +189,33 @@
       }
     },
     {
+      "id": "dlregatta",
+      "class": "regatta",
+      "displayName": "Volvo Dún Laoghaire Regatta",
+      "file": "logos/dlregatta.png",
+      "format": "png",
+      "sha256": "d9c8661ac22e0d8a2e207be3d629aba680e5678093535df67a52e42e7df43a88",
+      "variants": [
+        {
+          "file": "logos/dlregatta.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.dlregatta.org/wp-content/uploads/2024/12/homepage%20feature%20VDLR%20logo.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/dlregatta.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:26:13Z",
+      "derivatives": {
+        "small": "logos/dlregatta.small.png"
+      }
+    },
+    {
       "id": "etchells",
       "class": "class-assoc",
       "displayName": "Etchells",
@@ -213,6 +240,33 @@
       "retrievedAt": "2026-06-06T23:30:23Z",
       "derivatives": {
         "small": "logos/etchells.small.png"
+      }
+    },
+    {
+      "id": "fingal-county-council",
+      "class": "sponsor",
+      "displayName": "Fingal County Council",
+      "file": "logos/fingal-county-council.png",
+      "format": "png",
+      "sha256": "7ac19201e675f8c316b7f3579c1712c849d5576b5334dc4684751f371d1c8048",
+      "variants": [
+        {
+          "file": "logos/fingal-county-council.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.fingal.ie/themes/custom/weatherlab/components/_patterns/01-basic-elements/icons/png/Official_Mark_Colour.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/fingal-county-council.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:26:13Z",
+      "derivatives": {
+        "small": "logos/fingal-county-council.small.png"
       }
     },
     {
@@ -534,6 +588,33 @@
       }
     },
     {
+      "id": "j70",
+      "class": "class-assoc",
+      "displayName": "J/70",
+      "file": "logos/j70.png",
+      "format": "png",
+      "sha256": "f627cad2291bbb6fb6f217212ebf753bac5720ef26e906f5efd734bedd3dfc27",
+      "variants": [
+        {
+          "file": "logos/j70.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://j70ica.org/wp-content/uploads/2024/08/70INT.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/j70.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:26:13Z",
+      "derivatives": {
+        "small": "logos/j70.small.png"
+      }
+    },
+    {
       "id": "kinsale-yc",
       "class": "sailing-club",
       "displayName": "Kinsale Yacht Club",
@@ -847,6 +928,33 @@
       "quality": "ok",
       "qualityNote": null,
       "retrievedAt": "2026-06-07T07:19:06Z"
+    },
+    {
+      "id": "rs-feva",
+      "class": "class-assoc",
+      "displayName": "RS Feva",
+      "file": "logos/rs-feva.png",
+      "format": "png",
+      "sha256": "e693a6fe315073005c03e419f0e6d4b4e2b9c2817b3de7b1aa119a6c46e1ba51",
+      "variants": [
+        {
+          "file": "logos/rs-feva.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.rsfeva.org/wp-content/uploads/2019/09/RS-Feva-logo.jpg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/rs-feva.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:26:13Z",
+      "derivatives": {
+        "small": "logos/rs-feva.small.png"
+      }
     },
     {
       "id": "rs200",
