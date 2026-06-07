@@ -118,6 +118,13 @@ Curation lives in `sources/registry.yaml`: adding a logo is editing that file
 and re-running the pipeline. The canonical set is a human decision, not a scrape.
 See `CLAUDE.md` for the full contributor / logo-upgrade workflow.
 
+## Contributing
+
+To **request** a logo (add / update / takedown), open an issue using the forms
+on the [new-issue page](https://github.com/sailscoring/canonical-logos/issues/new/choose).
+To **contribute** a logo or code, see [CONTRIBUTING.md](./CONTRIBUTING.md) and
+[CLAUDE.md](./CLAUDE.md).
+
 ## Versioning
 
 Semantic versioning. `v1.x.y` adds entities, refreshes assets, or fixes

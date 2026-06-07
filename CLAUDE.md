@@ -43,10 +43,11 @@ improving a specific logo:
 
 1. **Pick** the entity to improve (usually one flagged `quality: provisional`).
 2. **Research** — source every variation you can find. Download each candidate
-   and actually look at it: dimensions, transparency (`identify -format
-   '%wx%h %[channels]'`), whether it's a clean vector/asset or a scan/JPG with a
-   baked background. Beware extensions that lie (e.g. a `.ico` that is really a
-   1024px PNG with alpha).
+   and actually look at it: dimensions and transparency (`uv run python -c "from
+   PIL import Image; im = Image.open('FILE').convert('RGBA');
+   print(im.size, im.getchannel('A').getextrema() != (255, 255))"`), whether it's
+   a clean vector/asset or a scan/JPG with a baked background. Beware extensions
+   that lie (e.g. a `.ico` that is really a 1024px PNG with alpha).
 3. **Decide** against the house standard (below) and, where the call is a real
    curation judgement, ask the user before committing to a direction.
 4. **File a GitHub issue** capturing the findings and reasoning *before or with*
