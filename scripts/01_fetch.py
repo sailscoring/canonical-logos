@@ -1,6 +1,6 @@
 """Resolve and download the official asset for every entity in registry.yaml.
 
-Per scoping note §5: an entry's `assetUrl` points at the official file — an
+An entry's `assetUrl` points at the official file — an
 http(s) URL (brand portal / press kit / Wikimedia) or a repo-relative path for
 an asset an owner sent us directly and we dropped under sources/. Entries on the
 denylist are skipped; entries without an assetUrl (not yet sourced) are recorded

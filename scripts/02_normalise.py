@@ -1,4 +1,4 @@
-"""Normalise downloaded assets to the house standard (scoping note §6).
+"""Normalise downloaded assets to the house standard (see CLAUDE.md).
 
 Format and size only — NEVER recolour, crop into, or restyle a mark.
   - SVG: run SVGO (svgo.config.mjs) in place. Best-effort — if SVGO is not

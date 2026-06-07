@@ -1,4 +1,4 @@
-"""Validate the dataset (scoping note §9 step 5).
+"""Validate the dataset (see CLAUDE.md).
 
 Always validates the shape of sources/registry.yaml — required fields, valid
 class / sourceKind, unique ids, and that nothing on the denylist is still listed
