@@ -4,13 +4,6 @@
   "buildCommand": null,
   "installCommand": null,
   "outputDirectory": "logos",
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://github.com/sailscoring/canonical-logos",
-      "permanent": false
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
