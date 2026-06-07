@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:24:04Z",
+  "generatedAt": "2026-06-07T07:26:13Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -243,6 +243,14 @@
       "retrievedAt": "2026-06-06T23:30:23Z"
     },
     {
+      "id": "j70",
+      "assetUrl": "sources/assets/j70.png",
+      "file": "logos/j70.png",
+      "fetchedFormat": "png",
+      "rawSha256": "318362f2b782f386ba90146657cd4d6bfdef1abb9cbd8df53e0c8e871cfc447b",
+      "retrievedAt": "2026-06-07T07:26:13Z"
+    },
+    {
       "id": "j109",
       "assetUrl": "sources/assets/j109.gif",
       "file": "logos/j109.gif",
@@ -257,6 +265,14 @@
       "fetchedFormat": "gif",
       "rawSha256": "500552ee8652ba0b8804de05afe519b5557f50a048bc95872999a9efdbadacaa",
       "retrievedAt": "2026-06-06T23:30:23Z"
+    },
+    {
+      "id": "rs-feva",
+      "assetUrl": "sources/assets/rs-feva.jpg",
+      "file": "logos/rs-feva.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "9bb0030c263b68f597b1687460f70998f843837c4f60a042d1d51f054588e1b4",
+      "retrievedAt": "2026-06-07T07:26:13Z"
     },
     {
       "id": "ruffian",
@@ -331,6 +347,22 @@
       "retrievedAt": "2026-06-06T23:21:12Z"
     },
     {
+      "id": "fingal-county-council",
+      "assetUrl": "sources/assets/fingal-county-council.png",
+      "file": "logos/fingal-county-council.png",
+      "fetchedFormat": "png",
+      "rawSha256": "c66148d719fb87b79a1f4ef295e6d15b6d089280d6eaae7f86f1e43dc4fdc770",
+      "retrievedAt": "2026-06-07T07:26:13Z"
+    },
+    {
+      "id": "dlregatta",
+      "assetUrl": "sources/assets/dlregatta.png",
+      "file": "logos/dlregatta.png",
+      "fetchedFormat": "png",
+      "rawSha256": "af5e67b40a2707375b30fffd71472083ba564facc0b070a338863a35b4c29a09",
+      "retrievedAt": "2026-06-07T07:26:13Z"
+    },
+    {
       "id": "cork-week",
       "assetUrl": "sources/assets/cork-week.png",
       "file": "logos/cork-week.png",
@@ -401,14 +433,6 @@
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "j70",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "rs-feva",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "mermaid",
       "reason": "no assetUrl (not yet sourced)"
     },
@@ -422,14 +446,6 @@
     },
     {
       "id": "sb20",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "fingal-county-council",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "dlregatta",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
