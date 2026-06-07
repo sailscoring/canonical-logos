@@ -101,6 +101,20 @@ logos:
       bytes match the live header logo. Supersedes the Wikimedia sail-insignia
       silhouette (a solid black bell).
 
+  - id: gp14-ireland
+    class: class-assoc
+    displayName: GP14 Ireland
+    source: https://sdc.ie/wp-content/uploads/2023/07/GP14-Ireland-251x.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/gp14-ireland.png
+    quality: provisional
+    qualityNote: 251x131 RGB PNG on white (no transparency) — the GP14 Ireland
+      mark (bell-in-sail + GP14 + gp14ireland.com). gp14ireland.com only serves
+      a 70x62 logo crop, so this Skerries SC-hosted copy is the best usable
+      rendering. Replace if GP14 Ireland issues a clean transparent or vector
+      logo (contact info@gp14ireland.com). The international class mark is the
+      separate `gp14` entry. See issue #4.
+
   - id: fireball
     class: class-assoc
     displayName: Fireball

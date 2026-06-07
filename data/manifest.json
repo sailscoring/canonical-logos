@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T11:18:40Z",
+  "generatedAt": "2026-06-07T11:37:07Z",
   "logos": [
     {
       "id": "1720",
@@ -348,6 +348,33 @@
       "retrievedAt": "2026-06-07T11:18:03Z",
       "derivatives": {
         "small": "logos/gp14.small.png"
+      }
+    },
+    {
+      "id": "gp14-ireland",
+      "class": "class-assoc",
+      "displayName": "GP14 Ireland",
+      "file": "logos/gp14-ireland.png",
+      "format": "png",
+      "sha256": "97335ebc653a8f3ceafd910bc03d4482bc579658fe2b5edcd41bed12a0eb53b0",
+      "variants": [
+        {
+          "file": "logos/gp14-ireland.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://sdc.ie/wp-content/uploads/2023/07/GP14-Ireland-251x.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/gp14-ireland.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "251x131 RGB PNG on white (no transparency) — the GP14 Ireland mark (bell-in-sail + GP14 + gp14ireland.com). gp14ireland.com only serves a 70x62 logo crop, so this Skerries SC-hosted copy is the best usable rendering. Replace if GP14 Ireland issues a clean transparent or vector logo (contact info@gp14ireland.com). The international class mark is the separate `gp14` entry. See issue",
+      "retrievedAt": "2026-06-07T11:36:22Z",
+      "derivatives": {
+        "small": "logos/gp14-ireland.small.png"
       }
     },
     {
