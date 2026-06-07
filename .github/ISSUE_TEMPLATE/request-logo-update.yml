@@ -1,0 +1,30 @@
+name: Request a logo update
+description: An existing logo is wrong, outdated, or could be better
+title: "Update logo: <id>"
+labels: ["logo-update"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Which logo (registry id or display name)
+      placeholder: e.g. gp14, or "Royal Cork Yacht Club"
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: What's changed / wrong
+      options:
+        - Rebrand / new logo
+        - Better or vector file available
+        - Wrong or outdated artwork
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: newasset
+    attributes:
+      label: New source URL or file
+      description: Link or attach the replacement — vector or large transparent PNG preferred.
+    validations:
+      required: true

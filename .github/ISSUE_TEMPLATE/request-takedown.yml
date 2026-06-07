@@ -1,0 +1,45 @@
+name: Request a takedown
+description: You own a logo hosted here and want it removed or corrected
+title: "Takedown: <entity>"
+labels: ["takedown"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We host logos in good faith and **remove them promptly on request** — no
+        questions, no fuss. You can also just email **mark@hyc.ie**. Sorry for
+        any hassle.
+  - type: input
+    id: id
+    attributes:
+      label: Which logo (registry id or display name)
+    validations:
+      required: true
+  - type: checkboxes
+    id: authority
+    attributes:
+      label: Authority
+      options:
+        - label: I am the owner, or an authorised representative, of this entity
+          required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: What would you like?
+      options:
+        - Remove it
+        - Correct it (tell us how below)
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Reason / details
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact email
+    validations:
+      required: true

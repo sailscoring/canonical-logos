@@ -1,0 +1,55 @@
+name: Request a new logo
+description: Ask us to add an entity's logo to the canonical library
+title: "Add logo: <entity>"
+labels: ["logo-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the library. We host logos in good faith for use
+        by scorers connected to the entity, and remove them on request — see the
+        README's "Nature of this dataset".
+  - type: input
+    id: entity
+    attributes:
+      label: Entity name
+      placeholder: e.g. Howth Yacht Club
+    validations:
+      required: true
+  - type: dropdown
+    id: class
+    attributes:
+      label: Class
+      description: What kind of entity is this?
+      options:
+        - governing-body
+        - sailing-club
+        - class-assoc
+        - sponsor
+        - venue
+        - regatta
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official website (or where to find the logo)
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: asset
+    attributes:
+      label: Preferred logo file
+      description: >
+        Link or attach the best version you have — a vector (SVG) or a large
+        transparent PNG if possible. Drag-and-drop attaches a file.
+  - type: input
+    id: relationship
+    attributes:
+      label: Your relationship to the entity (optional)
+      placeholder: e.g. club member, class officer, event organiser
+  - type: textarea
+    id: usage
+    attributes:
+      label: Any usage terms the owner publishes (optional)
