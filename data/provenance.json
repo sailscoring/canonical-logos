@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T11:36:22Z",
+  "generatedAt": "2026-06-07T11:39:39Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -116,11 +116,11 @@
     },
     {
       "id": "skerries-sc",
-      "assetUrl": "sources/assets/skerries-sc.jpg",
-      "file": "logos/skerries-sc.jpg",
-      "fetchedFormat": "jpg",
-      "rawSha256": "6ae15d2ee4c18409fe59891151b54f57705d845941ee253de7b2ae3b60fedb70",
-      "retrievedAt": "2026-06-06T23:26:34Z"
+      "assetUrl": "sources/assets/skerries-sc.png",
+      "file": "logos/skerries-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "ed248bdba54dbed33de8e609c386c69b3c53c2540cbb69a5c583f8503378cdd2",
+      "retrievedAt": "2026-06-07T11:37:58Z"
     },
     {
       "id": "sutton-dc",

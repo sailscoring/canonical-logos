@@ -172,11 +172,11 @@ logos:
   - id: "skerries-sc"
     class: sailing-club
     displayName: "Skerries Sailing Club"
-    source: https://boxstuff-development-thumbnails.s3.amazonaws.com/1421253_orig.jpg
+    source: https://skerriessailingclub.com/generated-favicons/1458635.ico
     sourceKind: brand-portal
-    assetUrl: sources/assets/skerries-sc.jpg
+    assetUrl: sources/assets/skerries-sc.png
     quality: provisional
-    qualityNote: Horizontal club banner with a baked dark background (no transparency); shows as a dark bar on a light header. Replace with a transparent Skerries SC logo.
+    qualityNote: Official club burgee (goat's-head pennant), clean 1024px transparent PNG from the club site. Burgee-only — no wordmark; would prefer an official transparent wordmark-bearing logo. See issue #5.
 
   - id: "sutton-dc"
     class: sailing-club
