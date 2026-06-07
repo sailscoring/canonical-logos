@@ -19,7 +19,7 @@ editing that file and re-running the pipeline — never hand-edit `data/` or
 ```sh
 uv run python scripts/01_fetch.py       # resolve & download assets from registry.yaml
 uv run python scripts/02_normalise.py   # trim, cap size, force transparent PNG (or SVGO for vectors)
-uv run python scripts/03_manifest.py    # build data/manifest.json (+ provenance.json, unresolved.json)
+uv run python scripts/03_manifest.py    # build data/manifest.json (+ provenance.json, unresolved.json) and logos/index.html landing page
 uv run python scripts/04_validate.py    # shape, formats, denylist, attribution — must end "dataset valid."
 ```
 
