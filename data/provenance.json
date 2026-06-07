@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T11:18:03Z",
+  "generatedAt": "2026-06-07T11:36:22Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -57,6 +57,14 @@
       "fetchedFormat": "png",
       "rawSha256": "e8d7cb5d84cfcfec0c39cb32b6cdb290f4525d57f9697bfb6473e26ce1424840",
       "retrievedAt": "2026-06-07T11:18:03Z"
+    },
+    {
+      "id": "gp14-ireland",
+      "assetUrl": "sources/assets/gp14-ireland.png",
+      "file": "logos/gp14-ireland.png",
+      "fetchedFormat": "png",
+      "rawSha256": "92226319352c9db09a01325d32893e9183c45d428c11c6fc94bfd585ce06989c",
+      "retrievedAt": "2026-06-07T11:36:22Z"
     },
     {
       "id": "fireball",
