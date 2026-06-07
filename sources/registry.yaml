@@ -261,8 +261,9 @@ logos:
   - id: "1720"
     class: class-assoc
     displayName: "1720"
-    source: https://www.1720class.com/
+    source: https://images.squarespace-cdn.com/content/v1/61ec2d9f25b1e667d92ce4a7/1f2feec9-7180-415d-997a-fce2ca7d986f/1720SportsboatClassLogo.png?format=1500w
     sourceKind: brand-portal
+    assetUrl: sources/assets/1720.webp
 
   - id: "idra-14"
     class: class-assoc
@@ -331,8 +332,11 @@ logos:
   - id: "j109"
     class: class-assoc
     displayName: "J/109"
-    source: https://www.j109.org/
+    source: https://j109.org/blog/wp-content/uploads/2015/01/j109-wp-header.gif
     sourceKind: brand-portal
+    assetUrl: sources/assets/j109.gif
+    quality: provisional
+    qualityNote: 262x50 thin header-banner GIF; replace with a taller J/109 logo.
 
   - id: "j24"
     class: class-assoc
@@ -352,14 +356,16 @@ logos:
   - id: "ruffian"
     class: class-assoc
     displayName: "Ruffian"
-    source: https://www.ruffian23.com/
+    source: https://images.squarespace-cdn.com/content/v1/63c05d9d885995581be85932/1673551285606-UEIQE758SG6F4V9EU825/ruffian.jpeg?format=1500w
     sourceKind: brand-portal
+    assetUrl: sources/assets/ruffian.webp
 
   - id: "rs200"
     class: class-assoc
     displayName: "RS200"
-    source: https://www.rs200class.com/
+    source: https://www.rs200sailing.org/logos/rs200-logo.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/rs200.png
 
   - id: "rs400"
     class: class-assoc

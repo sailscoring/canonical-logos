@@ -1,7 +1,34 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:19:16Z",
+  "generatedAt": "2026-06-07T07:21:56Z",
   "logos": [
+    {
+      "id": "1720",
+      "class": "class-assoc",
+      "displayName": "1720",
+      "file": "logos/1720.png",
+      "format": "png",
+      "sha256": "40a875828bd5373ea49b499274d864427ec94c2fdb6b5017c78fa624ef08d83c",
+      "variants": [
+        {
+          "file": "logos/1720.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/61ec2d9f25b1e667d92ce4a7/1f2feec9-7180-415d-997a-fce2ca7d986f/1720SportsboatClassLogo.png?format=1500w",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/1720.webp",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:21:46Z",
+      "derivatives": {
+        "small": "logos/1720.small.png"
+      }
+    },
     {
       "id": "420",
       "class": "class-assoc",
@@ -453,6 +480,33 @@
       }
     },
     {
+      "id": "j109",
+      "class": "class-assoc",
+      "displayName": "J/109",
+      "file": "logos/j109.png",
+      "format": "png",
+      "sha256": "e6f0e1fce8ad8d974223208d557ad46e33c045f83da6dc64760fdbef1b09703d",
+      "variants": [
+        {
+          "file": "logos/j109.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://j109.org/blog/wp-content/uploads/2015/01/j109-wp-header.gif",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/j109.gif",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "262x50 thin header-banner GIF; replace with a taller J/109 logo.",
+      "retrievedAt": "2026-06-07T07:21:46Z",
+      "derivatives": {
+        "small": "logos/j109.small.png"
+      }
+    },
+    {
       "id": "j24",
       "class": "class-assoc",
       "displayName": "J/24",
@@ -795,6 +849,33 @@
       "retrievedAt": "2026-06-07T07:19:06Z"
     },
     {
+      "id": "rs200",
+      "class": "class-assoc",
+      "displayName": "RS200",
+      "file": "logos/rs200.png",
+      "format": "png",
+      "sha256": "e91dafc803404d00666092ad2292a674e7372d1d0cd593a722a23e8fcda64bd7",
+      "variants": [
+        {
+          "file": "logos/rs200.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.rs200sailing.org/logos/rs200-logo.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/rs200.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:21:46Z",
+      "derivatives": {
+        "small": "logos/rs200.small.png"
+      }
+    },
+    {
       "id": "rsgyc",
       "class": "sailing-club",
       "displayName": "Royal St. George Yacht Club",
@@ -819,6 +900,33 @@
       "retrievedAt": "2026-06-06T23:21:12Z",
       "derivatives": {
         "small": "logos/rsgyc.small.png"
+      }
+    },
+    {
+      "id": "ruffian",
+      "class": "class-assoc",
+      "displayName": "Ruffian",
+      "file": "logos/ruffian.png",
+      "format": "png",
+      "sha256": "5e027358797bd1905257fbc6a3b983d808ca708bd6075e44eb3a3002cf494665",
+      "variants": [
+        {
+          "file": "logos/ruffian.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/63c05d9d885995581be85932/1673551285606-UEIQE758SG6F4V9EU825/ruffian.jpeg?format=1500w",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/ruffian.webp",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:21:46Z",
+      "derivatives": {
+        "small": "logos/ruffian.small.png"
       }
     },
     {
