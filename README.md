@@ -75,8 +75,8 @@ pin a tag, fetch `manifest.json` + `logos.tar.gz`, verify the SHA, extract into
 a gitignored path. Canonical logos are referenced by a stable public URL
 (`logos.sailscoring.ie/...`) rather than inlined into published results HTML —
 the reference is the point, and mixed image formats don't inline cleanly. Clean
-SVGs may optionally be inlined for the offline-archival case. See the scoping
-note for the full rationale.
+SVGs may optionally be inlined for the offline-archival case — a possible future
+enhancement on the consuming side.
 
 ## Layout
 
@@ -106,7 +106,7 @@ uv run ruff check
 ```sh
 uv run python scripts/01_fetch.py       # resolve & download assets from registry.yaml
 uv run python scripts/02_normalise.py   # SVGO (vectors) / Pillow (rasters); format + size only
-uv run python scripts/03_manifest.py    # build data/manifest.json with post-normalisation sha256
+uv run python scripts/03_manifest.py    # build data/manifest.json with post-normalisation sha256 (+ logos/index.html landing page)
 uv run python scripts/04_validate.py    # shape, formats, denylist, attribution, exclusions
 ```
 
