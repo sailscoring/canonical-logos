@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-06T23:37:46Z",
+  "generatedAt": "2026-06-07T07:19:16Z",
   "logos": [
     {
       "id": "420",
@@ -262,8 +262,8 @@
       "licence": "Public domain",
       "attribution": "Alexx.net (Wikimedia Commons)",
       "usageNote": null,
-      "quality": "ok",
-      "qualityNote": null,
+      "quality": "provisional",
+      "qualityNote": "Wikimedia sail-insignia silhouette (renders as a solid black sail); the class's full GP14 wordmark logo would be better.",
       "retrievedAt": "2026-06-06T22:44:45Z"
     },
     {
@@ -531,6 +531,33 @@
       }
     },
     {
+      "id": "lough-ree-yc",
+      "class": "sailing-club",
+      "displayName": "Lough Ree Yacht Club",
+      "file": "logos/lough-ree-yc.png",
+      "format": "png",
+      "sha256": "4addf38349067736eb6fa24b191a61a5b87cefa0924be407e7dbce686f32236b",
+      "variants": [
+        {
+          "file": "logos/lough-ree-yc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.lryc.ie/wp-content/uploads/2024/02/plainLogo2.jpg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/lough-ree-yc.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:19:06Z",
+      "derivatives": {
+        "small": "logos/lough-ree-yc.small.png"
+      }
+    },
+    {
       "id": "malahide-yc",
       "class": "sailing-club",
       "displayName": "Malahide Yacht Club",
@@ -636,6 +663,33 @@
       "retrievedAt": "2026-06-06T23:21:12Z"
     },
     {
+      "id": "national-yc",
+      "class": "sailing-club",
+      "displayName": "National Yacht Club",
+      "file": "logos/national-yc.png",
+      "format": "png",
+      "sha256": "18df8c2f5cff5282cc24086e0270887da75dedda4001685bd4e43bb736d89b5d",
+      "variants": [
+        {
+          "file": "logos/national-yc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://nyc.ie/wp-content/uploads/2022/07/The_National_Yacht_Club-PNG-01.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/national-yc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:19:06Z",
+      "derivatives": {
+        "small": "logos/national-yc.small.png"
+      }
+    },
+    {
       "id": "provident",
       "class": "sponsor",
       "displayName": "Provident",
@@ -715,6 +769,30 @@
       "derivatives": {
         "small": "logos/round-ireland.small.png"
       }
+    },
+    {
+      "id": "royal-cork-yc",
+      "class": "sailing-club",
+      "displayName": "Royal Cork Yacht Club",
+      "file": "logos/royal-cork-yc.svg",
+      "format": "svg",
+      "sha256": "b753052da840a51bf2fbd8a4eccb37722cb88b64a28ce83d461462c6a32f5e21",
+      "variants": [
+        {
+          "file": "logos/royal-cork-yc.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.royalcork.com/wp-content/uploads/2025/07/royal-cork-yacht-club-logo.svg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/royal-cork-yc.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:19:06Z"
     },
     {
       "id": "rsgyc",
@@ -822,6 +900,33 @@
       "retrievedAt": "2026-06-06T23:21:12Z",
       "derivatives": {
         "small": "logos/strangford-lough-yc.small.png"
+      }
+    },
+    {
+      "id": "sutton-dc",
+      "class": "sailing-club",
+      "displayName": "Sutton Dinghy Club",
+      "file": "logos/sutton-dc.png",
+      "format": "png",
+      "sha256": "2a91fa3f56e1594ba5adbc42bb170df396811c49f62cfa03ee2931f24a255d62",
+      "variants": [
+        {
+          "file": "logos/sutton-dc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://sdc.ie/wp-content/uploads/2018/05/SDC-Logo-Horizontal-60px.jpg",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/sutton-dc.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T07:19:06Z",
+      "derivatives": {
+        "small": "logos/sutton-dc.small.png"
       }
     },
     {

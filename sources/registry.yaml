@@ -97,6 +97,8 @@ logos:
     assetUrl: sources/assets/gp14.svg
     licence: Public domain
     attribution: Alexx.net (Wikimedia Commons)
+    quality: provisional
+    qualityNote: Wikimedia sail-insignia silhouette (renders as a solid black sail); the class's full GP14 wordmark logo would be better.
 
   - id: fireball
     class: class-assoc
@@ -164,8 +166,9 @@ logos:
   - id: "sutton-dc"
     class: sailing-club
     displayName: "Sutton Dinghy Club"
-    source: https://sdc.ie/
+    source: https://sdc.ie/wp-content/uploads/2018/05/SDC-Logo-Horizontal-60px.jpg
     sourceKind: brand-portal
+    assetUrl: sources/assets/sutton-dc.jpg
 
   - id: "royal-alfred-yc"
     class: sailing-club
@@ -190,20 +193,23 @@ logos:
   - id: "national-yc"
     class: sailing-club
     displayName: "National Yacht Club"
-    source: https://www.nyc.ie/
+    source: https://nyc.ie/wp-content/uploads/2022/07/The_National_Yacht_Club-PNG-01.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/national-yc.png
 
   - id: "royal-cork-yc"
     class: sailing-club
     displayName: "Royal Cork Yacht Club"
-    source: https://www.royalcork.com/
+    source: https://www.royalcork.com/wp-content/uploads/2025/07/royal-cork-yacht-club-logo.svg
     sourceKind: brand-portal
+    assetUrl: sources/assets/royal-cork-yc.svg
 
   - id: "lough-ree-yc"
     class: sailing-club
     displayName: "Lough Ree Yacht Club"
-    source: https://www.lryc.ie/
+    source: https://www.lryc.ie/wp-content/uploads/2024/02/plainLogo2.jpg
     sourceKind: brand-portal
+    assetUrl: sources/assets/lough-ree-yc.jpg
 
   - id: "lough-derg-yc"
     class: sailing-club
