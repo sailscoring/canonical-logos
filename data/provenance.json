@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:19:06Z",
+  "generatedAt": "2026-06-07T07:21:46Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -203,6 +203,14 @@
       "retrievedAt": "2026-06-06T23:21:12Z"
     },
     {
+      "id": "1720",
+      "assetUrl": "sources/assets/1720.webp",
+      "file": "logos/1720.webp",
+      "fetchedFormat": "webp",
+      "rawSha256": "b4ac3e33da49f6090e142b777ec0f5ebc0ec4d11d016da104ca2b8c63111401f",
+      "retrievedAt": "2026-06-07T07:21:46Z"
+    },
+    {
       "id": "mirror",
       "assetUrl": "sources/assets/mirror.png",
       "file": "logos/mirror.png",
@@ -235,12 +243,36 @@
       "retrievedAt": "2026-06-06T23:30:23Z"
     },
     {
+      "id": "j109",
+      "assetUrl": "sources/assets/j109.gif",
+      "file": "logos/j109.gif",
+      "fetchedFormat": "gif",
+      "rawSha256": "772fb493bfb8751baad5ede6a7c3f2005a1592dfae0749e372266e74bd2c9b38",
+      "retrievedAt": "2026-06-07T07:21:46Z"
+    },
+    {
       "id": "j24",
       "assetUrl": "sources/assets/j24.gif",
       "file": "logos/j24.gif",
       "fetchedFormat": "gif",
       "rawSha256": "500552ee8652ba0b8804de05afe519b5557f50a048bc95872999a9efdbadacaa",
       "retrievedAt": "2026-06-06T23:30:23Z"
+    },
+    {
+      "id": "ruffian",
+      "assetUrl": "sources/assets/ruffian.webp",
+      "file": "logos/ruffian.webp",
+      "fetchedFormat": "webp",
+      "rawSha256": "f3dfcb4965de613b6bc149f3214f437307a31baa7937a63b54ecb076f4fbaa1d",
+      "retrievedAt": "2026-06-07T07:21:46Z"
+    },
+    {
+      "id": "rs200",
+      "assetUrl": "sources/assets/rs200.png",
+      "file": "logos/rs200.png",
+      "fetchedFormat": "png",
+      "rawSha256": "897f41417df9be638d6c2cb60a13d7c6f10226e5109c9f67894d9af8e452fa2f",
+      "retrievedAt": "2026-06-07T07:21:46Z"
     },
     {
       "id": "squib",
@@ -333,10 +365,6 @@
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "1720",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "idra-14",
       "reason": "no assetUrl (not yet sourced)"
     },
@@ -361,19 +389,7 @@
       "reason": "no assetUrl (not yet sourced)"
     },
     {
-      "id": "j109",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
       "id": "rs-feva",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "ruffian",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "rs200",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
