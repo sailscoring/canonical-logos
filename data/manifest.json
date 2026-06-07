@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:26:23Z",
+  "generatedAt": "2026-06-07T07:29:31Z",
   "logos": [
     {
       "id": "1720",
@@ -1116,6 +1116,33 @@
       "retrievedAt": "2026-06-06T23:26:34Z",
       "derivatives": {
         "small": "logos/skerries-sc.small.png"
+      }
+    },
+    {
+      "id": "sovereigns-cup",
+      "class": "regatta",
+      "displayName": "Sovereign's Cup",
+      "file": "logos/sovereigns-cup.png",
+      "format": "png",
+      "sha256": "ccbd0d40056956982e15419926d7a84cca864370b8399b2352bfb8435d1229d5",
+      "variants": [
+        {
+          "file": "logos/sovereigns-cup.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.kyc.ie/wp-content/uploads/2024/11/sov-cup-2025.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/sovereigns-cup.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Year-stamped (2025) crest. Replace with a year-neutral Sovereign's Cup mark if available.",
+      "retrievedAt": "2026-06-07T07:29:17Z",
+      "derivatives": {
+        "small": "logos/sovereigns-cup.small.png"
       }
     },
     {
