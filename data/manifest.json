@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T07:29:31Z",
+  "generatedAt": "2026-06-07T11:18:40Z",
   "logos": [
     {
       "id": "1720",
@@ -327,25 +327,28 @@
       "id": "gp14",
       "class": "class-assoc",
       "displayName": "GP14",
-      "file": "logos/gp14.svg",
-      "format": "svg",
-      "sha256": "881272797e85359b599b5e78a05bd82d3eac120ae380a656c4196d0aaf41ecd7",
+      "file": "logos/gp14.png",
+      "format": "png",
+      "sha256": "0fc63e0444e0ac2004658760631547e6eeea6dd8a02169a8dd837d7a2171a10f",
       "variants": [
         {
-          "file": "logos/gp14.svg",
+          "file": "logos/gp14.png",
           "variant": "primary",
           "background": "any"
         }
       ],
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GP14.svg",
-      "sourceKind": "wikimedia",
-      "assetUrl": "sources/assets/gp14.svg",
-      "licence": "Public domain",
-      "attribution": "Alexx.net (Wikimedia Commons)",
+      "sourceUrl": "https://gp14.org/wp-content/uploads/2024/12/admin-ajax-removebg-preview.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/gp14.png",
+      "licence": null,
+      "attribution": null,
       "usageNote": null,
-      "quality": "provisional",
-      "qualityNote": "Wikimedia sail-insignia silhouette (renders as a solid black sail); the class's full GP14 wordmark logo would be better.",
-      "retrievedAt": "2026-06-06T22:44:45Z"
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-07T11:18:03Z",
+      "derivatives": {
+        "small": "logos/gp14.small.png"
+      }
     },
     {
       "id": "howth-17",
