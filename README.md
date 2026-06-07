@@ -15,8 +15,8 @@ the inverse — see [Nature of this dataset](#nature-of-this-dataset).
 
 > **Status: sourcing in progress.** The pipeline (fetch → normalise → manifest
 > → validate) and the scout are implemented; an initial set of logos is sourced,
-> with more tracked in the GitHub issues. See the scoping note in
-> `sailscoring/docs/notes/canonical-logo-library.md`.
+> with more tracked in the GitHub issues. See `CLAUDE.md` for the contributor
+> playbook; the original design rationale lives in the Sail Scoring repo.
 
 ## What's in a release
 
@@ -105,13 +105,18 @@ uv run ruff check
 
 ```sh
 uv run python scripts/01_fetch.py       # resolve & download assets from registry.yaml
-uv run python scripts/02_normalise.py   # SVGO / sharp; format + size only, never recolour
+uv run python scripts/02_normalise.py   # SVGO (vectors) / Pillow (rasters); format + size only
 uv run python scripts/03_manifest.py    # build data/manifest.json with post-normalisation sha256
 uv run python scripts/04_validate.py    # shape, formats, denylist, attribution, exclusions
 ```
 
+`scripts/05_scout.py` is an optional research aid: for entries without an
+`assetUrl` it proposes candidate logos (homepage og:image/icons, Wikimedia,
+explicit `candidateUrls`) into `.scout/` for review — it never edits the registry.
+
 Curation lives in `sources/registry.yaml`: adding a logo is editing that file
 and re-running the pipeline. The canonical set is a human decision, not a scrape.
+See `CLAUDE.md` for the full contributor / logo-upgrade workflow.
 
 ## Versioning
 

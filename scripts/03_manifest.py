@@ -1,4 +1,4 @@
-"""Build data/manifest.json + data/unresolved.json (scoping note §5).
+"""Build data/manifest.json + data/unresolved.json (see CLAUDE.md).
 
 Joins the curation decision (registry.yaml), the fetch provenance
 (provenance.json), and the normalised files on disk (logos/). One manifest

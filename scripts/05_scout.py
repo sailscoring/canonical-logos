@@ -1,6 +1,6 @@
 """Propose candidate logo files for unsourced registry entries.
 
-Casts the net wider than Commons (scoping note §2): per registry entry without
+Casts the net wider than Commons: per registry entry without
 an assetUrl, gather candidates from
   - candidateUrls   explicit hints on the entry
   - homepage        og:image / icons / logo <img>s on the entity's own site

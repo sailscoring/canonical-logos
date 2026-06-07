@@ -1,7 +1,7 @@
 name: rebuild
 
 # Periodic refresh of the canonical assets from their upstream sources
-# (scoping note §9). Unlike national-letters, there is no authoritative list to
+# Unlike national-letters, there is no authoritative list to
 # re-extract — the canonical set is the hand-maintained registry.yaml — so this
 # only re-fetches the assets already listed and flags any that changed upstream.
 # Logo "drift" is a brand change, which is rare, so the cadence is light.
