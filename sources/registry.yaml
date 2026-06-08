@@ -118,14 +118,28 @@ logos:
   - id: fireball
     class: class-assoc
     displayName: Fireball
+    source: https://www.fireballsailing.org.uk/images/fireball-logo-tr.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/fireball.png
+    note: International Fireball class wordmark (red ball + "fire ball"), 200x197
+      transparent PNG from the UK Fireball Association site — the
+      country-neutral class mark. Supersedes the previous Fireball Ireland JPEG
+      (now the separate `fireball-ireland` entry) and the Wikimedia Fireball.svg,
+      which is only the bare red sail-emblem disc, not the wordmark. See issue
+      #6.
+
+  - id: fireball-ireland
+    class: class-assoc
+    displayName: Fireball Ireland
     source: https://hyc.ie/system/sponsor_logos/597/normal/FB_Ireland_Good.jpg
     sourceKind: brand-portal
-    assetUrl: sources/assets/fireball.jpg
+    assetUrl: sources/assets/fireball-ireland.jpg
     quality: provisional
-    qualityNote: 266x214 JPEG on white, no transparency — the best the class
-      could supply (International's site logo is a tiny 99px palette PNG;
-      Fireball Ireland's other mark is a favicon crop). Replace if Fireball
-      Ireland issues a clean, higher-res or transparent logo.
+    qualityNote: 266x214 JPEG on white, no transparency — the Fireball Ireland
+      badge (red ball + "fire ball" + boat silhouette + IRELAND), the best the
+      class could supply via HYC's sponsor portal. The country-neutral
+      international mark is the separate `fireball` entry. Replace if Fireball
+      Ireland issues a clean, higher-res or transparent logo. See issue #6.
 
   - id: howth-17
     class: class-assoc

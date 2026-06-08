@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T11:39:39Z",
+  "generatedAt": "2026-06-08T22:22:05Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -68,11 +68,19 @@
     },
     {
       "id": "fireball",
-      "assetUrl": "sources/assets/fireball.jpg",
-      "file": "logos/fireball.jpg",
+      "assetUrl": "sources/assets/fireball.png",
+      "file": "logos/fireball.png",
+      "fetchedFormat": "png",
+      "rawSha256": "89324fb6a9058113ddc6c8be4d1b95a1b9ac1a52f697e8d95a3f027852364f4c",
+      "retrievedAt": "2026-06-08T22:22:05Z"
+    },
+    {
+      "id": "fireball-ireland",
+      "assetUrl": "sources/assets/fireball-ireland.jpg",
+      "file": "logos/fireball-ireland.jpg",
       "fetchedFormat": "jpg",
       "rawSha256": "46f6d94d8a73104d1c66ac5eb2f4b4a6c15da60ed69234203e97d648017ef2dc",
-      "retrievedAt": "2026-06-06T22:51:19Z"
+      "retrievedAt": "2026-06-08T22:22:05Z"
     },
     {
       "id": "howth-17",
