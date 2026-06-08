@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-07T16:09:58Z",
+  "generatedAt": "2026-06-08T22:22:15Z",
   "logos": [
     {
       "id": "1720",
@@ -275,7 +275,7 @@
       "displayName": "Fireball",
       "file": "logos/fireball.png",
       "format": "png",
-      "sha256": "a012a5649380bc81662189090c0addd49aac002f4c4da84aab40e620c59812b9",
+      "sha256": "1721c451dfd8f83bddf6af42fa6baaf7129e4899b54abbc40ef41f6cd19bc8b8",
       "variants": [
         {
           "file": "logos/fireball.png",
@@ -283,17 +283,44 @@
           "background": "any"
         }
       ],
+      "sourceUrl": "https://www.fireballsailing.org.uk/images/fireball-logo-tr.png",
+      "sourceKind": "brand-portal",
+      "assetUrl": "sources/assets/fireball.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-06-08T22:22:05Z",
+      "derivatives": {
+        "small": "logos/fireball.small.png"
+      }
+    },
+    {
+      "id": "fireball-ireland",
+      "class": "class-assoc",
+      "displayName": "Fireball Ireland",
+      "file": "logos/fireball-ireland.png",
+      "format": "png",
+      "sha256": "a012a5649380bc81662189090c0addd49aac002f4c4da84aab40e620c59812b9",
+      "variants": [
+        {
+          "file": "logos/fireball-ireland.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
       "sourceUrl": "https://hyc.ie/system/sponsor_logos/597/normal/FB_Ireland_Good.jpg",
       "sourceKind": "brand-portal",
-      "assetUrl": "sources/assets/fireball.jpg",
+      "assetUrl": "sources/assets/fireball-ireland.jpg",
       "licence": null,
       "attribution": null,
       "usageNote": null,
       "quality": "provisional",
-      "qualityNote": "266x214 JPEG on white, no transparency — the best the class could supply (International's site logo is a tiny 99px palette PNG; Fireball Ireland's other mark is a favicon crop). Replace if Fireball Ireland issues a clean, higher-res or transparent logo.",
-      "retrievedAt": "2026-06-06T22:51:19Z",
+      "qualityNote": "266x214 JPEG on white, no transparency — the Fireball Ireland badge (red ball + \"fire ball\" + boat silhouette + IRELAND), the best the class could supply via HYC's sponsor portal. The country-neutral international mark is the separate `fireball` entry. Replace if Fireball Ireland issues a clean, higher-res or transparent logo. See issue",
+      "retrievedAt": "2026-06-08T22:22:05Z",
       "derivatives": {
-        "small": "logos/fireball.small.png"
+        "small": "logos/fireball-ireland.small.png"
       }
     },
     {
