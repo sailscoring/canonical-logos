@@ -152,14 +152,14 @@ def write_index(logos: list[dict], generated_at: str) -> None:
     h2 {{ font-size: .85rem; text-transform: uppercase; letter-spacing: .06em;
       color: #64748b; margin: 0 0 .75rem; }}
     h2 .n {{ color: #94a3b8; font-weight: 400; }}
-    .grid {{ display: grid; gap: .75rem;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }}
-    .card {{ display: flex; align-items: center; gap: .75rem; padding: .6rem;
+    .grid {{ display: grid; gap: 1rem;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }}
+    .card {{ display: flex; align-items: center; gap: 1rem; padding: .85rem;
       background: #fff; border: 1px solid #e2e8f0; border-radius: 10px;
       text-decoration: none; color: inherit; transition: border-color .15s, box-shadow .15s; }}
     .card:hover {{ border-color: #1f6feb; box-shadow: 0 1px 8px rgba(31,111,235,.12); }}
-    .swatch {{ flex: 0 0 56px; height: 56px; display: grid; place-items: center;
-      border-radius: 8px; padding: 6px;
+    .swatch {{ flex: 0 0 80px; width: 80px; height: 80px; padding: 8px;
+      border-radius: 8px;
       background-image:
         linear-gradient(45deg, #eef2f7 25%, transparent 25%),
         linear-gradient(-45deg, #eef2f7 25%, transparent 25%),
@@ -167,10 +167,12 @@ def write_index(logos: list[dict], generated_at: str) -> None:
         linear-gradient(-45deg, transparent 75%, #eef2f7 75%);
       background-size: 12px 12px;
       background-position: 0 0, 0 6px, 6px -6px, -6px 0; }}
-    .swatch img {{ max-width: 100%; max-height: 100%; }}
+    .swatch img {{ display: block; width: 100%; height: 100%; object-fit: contain; }}
     .meta {{ display: flex; flex-direction: column; min-width: 0; }}
-    .name {{ font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
-    .sub {{ display: flex; align-items: center; gap: .4rem; margin-top: .15rem; }}
+    .name {{ font-weight: 600; line-height: 1.25; overflow-wrap: anywhere;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+      overflow: hidden; }}
+    .sub {{ display: flex; align-items: center; flex-wrap: wrap; gap: .4rem; margin-top: .25rem; }}
     .sub code {{ font-size: .8rem; color: #64748b; }}
     .badge {{ font-size: .65rem; font-weight: 600; letter-spacing: .03em;
       padding: .1rem .35rem; border-radius: 5px; background: #eef2f7; color: #475569; }}
