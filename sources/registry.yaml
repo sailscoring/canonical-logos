@@ -135,6 +135,7 @@ logos:
     source: https://www.fireballsailing.org.uk/images/fireball-logo-tr.png
     sourceKind: brand-portal
     assetUrl: sources/assets/fireball.png
+    homepageUrl: https://www.fireball-international.com
     note: International Fireball class wordmark (red ball + "fire ball"), 200x197
       transparent PNG from the UK Fireball Association site — the
       country-neutral class mark. Supersedes the previous Fireball Ireland JPEG
@@ -148,6 +149,7 @@ logos:
     source: https://hyc.ie/system/sponsor_logos/597/normal/FB_Ireland_Good.jpg
     sourceKind: brand-portal
     assetUrl: sources/assets/fireball-ireland.jpg
+    homepageUrl: https://fireball-ireland.com
     quality: provisional
     qualityNote: 266x214 JPEG on white, no transparency — the Fireball Ireland
       badge (red ball + "fire ball" + boat silhouette + IRELAND), the best the
@@ -161,8 +163,10 @@ logos:
     source: https://hyc.ie/system/sponsor_logos/451/normal/small-125-1-red.png
     sourceKind: brand-portal
     assetUrl: sources/assets/howth-17.png
+    homepageUrl: https://hyc.ie/howth-17
     note: HYC-hosted; the Howth 17 class is based at HYC. Red "17" insignia,
-      transparent PNG.
+      transparent PNG. The class has no standalone domain — its web home is the
+      HYC class page.
 
   - id: melges-15
     class: class-assoc
@@ -324,6 +328,7 @@ logos:
     source: https://images.squarespace-cdn.com/content/v1/61ec2d9f25b1e667d92ce4a7/1f2feec9-7180-415d-997a-fce2ca7d986f/1720SportsboatClassLogo.png?format=1500w
     sourceKind: brand-portal
     assetUrl: sources/assets/1720.webp
+    homepageUrl: https://1720sportsboat.org
 
   - id: "idra-14"
     class: class-assoc
@@ -434,6 +439,7 @@ logos:
     source: https://images.squarespace-cdn.com/content/v1/63c05d9d885995581be85932/1673551285606-UEIQE758SG6F4V9EU825/ruffian.jpeg?format=1500w
     sourceKind: brand-portal
     assetUrl: sources/assets/ruffian.webp
+    homepageUrl: https://www.ruffians.ie
 
   - id: "rs200"
     class: class-assoc
@@ -484,11 +490,49 @@ logos:
   - id: "topper"
     class: class-assoc
     displayName: "Topper"
-    source: https://commons.wikimedia.org/wiki/File:Topper_Logo.svg
-    sourceKind: wikimedia
+    source: https://www.itcaworld.org/assets/svg/itca-logo.svg
+    sourceKind: brand-portal
     assetUrl: sources/assets/topper.svg
-    licence: Public domain
-    attribution: Wikimedia Commons (Juliancam)
+    homepageUrl: https://www.itcaworld.org
+    quality: provisional
+    qualityNote: Official International Topper Class Association (ITCA) mark — the
+      "ITCA" wordmark + Topper sail (black top-hat class insignia) over waves +
+      "International Topper Class Association" subtitle — as a clean transparent
+      vector. White-on-blue variant only (single-colour white), so it is invisible
+      on a light background; itcaworld.org publishes the generic, country-neutral
+      mark in white only. Supersedes the Wikimedia "Topper_Logo.svg", which was
+      the Topper *boat-builder* wordmark, not the class association. Replace with
+      the generic colour ITCA vector once ITCA issues one (the colour mark is
+      currently only published with a national code — see the topper-gbr and
+      topper-ireland entries). See issue #7.
+
+  - id: "topper-gbr"
+    class: class-assoc
+    displayName: "Topper GBR"
+    source: https://www.sail-world.com/photos/misc2019/yysw237253.jpg
+    sourceKind: direct
+    assetUrl: sources/assets/topper-gbr.jpg
+    homepageUrl: https://www.itca-gbr.co.uk
+    quality: provisional
+    qualityNote: 800x875 JPEG on white, no transparency — the ITCA-GBR colour mark
+      (navy "ITCA", red/white sail with the black top-hat insignia + "GBR", blue
+      waves, "International Topper Class Association" subtitle). itca-gbr.co.uk
+      only serves a 178px copy on a baked white rounded card, so this hi-res
+      rendering (via sail-world) is the best usable one. GBR national variant; the
+      international class mark is the separate `topper` entry. Replace with a clean
+      transparent or vector ITCA-GBR logo (contact itca-gbr.co.uk). See issue #7.
+
+  - id: "topper-ireland"
+    class: class-assoc
+    displayName: "Topper Ireland"
+    source: https://topperireland.com/wp-content/uploads/2025/04/newlogo-1.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/topper-ireland.png
+    homepageUrl: https://topperireland.com
+    note: 501x155 transparent PNG — the Topper Ireland horizontal lockup (ITCA sail
+      badge with "IRL" + "International Topper Class Association" + a "Topper
+      Ireland" wordmark) from the class site header. IRL national variant; the
+      international class mark is the separate `topper` entry. See issue #7.
 
   - id: "sigma-33"
     class: class-assoc
@@ -510,6 +554,7 @@ logos:
     source: https://images.clubexpress.com/514833/graphics/SODA_logo_v1_27937270.png
     sourceKind: brand-portal
     assetUrl: sources/assets/shannon-one-design.png
+    homepageUrl: https://soda.clubexpress.com
 
   - id: "isora"
     class: class-assoc
@@ -565,6 +610,7 @@ logos:
     source: https://www.kyc.ie/wp-content/uploads/2024/11/sov-cup-2025.png
     sourceKind: brand-portal
     assetUrl: sources/assets/sovereigns-cup.png
+    homepageUrl: https://www.sovereignscup.com
     quality: provisional
     qualityNote: Year-stamped (2025) crest. Replace with a year-neutral Sovereign's Cup mark if available.
 

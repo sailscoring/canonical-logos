@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-06-17T21:53:13Z",
+  "generatedAt": "2026-06-17T21:57:59Z",
   "logos": [
     {
       "id": "1720",
@@ -1337,7 +1337,7 @@
       "displayName": "Topper",
       "file": "logos/topper.svg",
       "format": "svg",
-      "sha256": "3f9b150f80bb79ce617844c2029045ac0495fc397f9c56bd7fcb6b2964272b52",
+      "sha256": "2efbb50509bfa17a20438af2348d46ec1b18448d545c80f29e0be2fcc6278368",
       "variants": [
         {
           "file": "logos/topper.svg",
@@ -1345,16 +1345,72 @@
           "background": "any"
         }
       ],
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Topper_Logo.svg",
-      "sourceKind": "wikimedia",
-      "homepageUrl": null,
+      "sourceUrl": "https://www.itcaworld.org/assets/svg/itca-logo.svg",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.itcaworld.org",
       "assetUrl": "sources/assets/topper.svg",
-      "licence": "Public domain",
-      "attribution": "Wikimedia Commons (Juliancam)",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Official International Topper Class Association (ITCA) mark — the \"ITCA\" wordmark + Topper sail (black top-hat class insignia) over waves + \"International Topper Class Association\" subtitle — as a clean transparent vector. White-on-blue variant only (single-colour white), so it is invisible on a light background; itcaworld.org publishes the generic, country-neutral mark in white only. Supersedes the Wikimedia \"Topper_Logo.svg\", which was the Topper *boat-builder* wordmark, not the class association. Replace with the generic colour ITCA vector once ITCA issues one (the colour mark is currently only published with a national code — see the topper-gbr and topper-ireland entries). See issue",
+      "retrievedAt": "2026-06-17T21:57:48Z"
+    },
+    {
+      "id": "topper-gbr",
+      "class": "class-assoc",
+      "displayName": "Topper GBR",
+      "file": "logos/topper-gbr.png",
+      "format": "png",
+      "sha256": "8e943b83de74aba949ea027acb49b655f4b84143b5e3aa4d5f76e0c70b4114e7",
+      "variants": [
+        {
+          "file": "logos/topper-gbr.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.sail-world.com/photos/misc2019/yysw237253.jpg",
+      "sourceKind": "direct",
+      "homepageUrl": "https://www.itca-gbr.co.uk",
+      "assetUrl": "sources/assets/topper-gbr.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "800x875 JPEG on white, no transparency — the ITCA-GBR colour mark (navy \"ITCA\", red/white sail with the black top-hat insignia + \"GBR\", blue waves, \"International Topper Class Association\" subtitle). itca-gbr.co.uk only serves a 178px copy on a baked white rounded card, so this hi-res rendering (via sail-world) is the best usable one. GBR national variant; the international class mark is the separate `topper` entry. Replace with a clean transparent or vector ITCA-GBR logo (contact itca-gbr.co.uk). See issue",
+      "retrievedAt": "2026-06-17T21:57:48Z",
+      "derivatives": {
+        "small": "logos/topper-gbr.small.png"
+      }
+    },
+    {
+      "id": "topper-ireland",
+      "class": "class-assoc",
+      "displayName": "Topper Ireland",
+      "file": "logos/topper-ireland.png",
+      "format": "png",
+      "sha256": "a314d2cc84c03641c13331c49c350d56e1237ae06c1d25eeb927e62de803bc47",
+      "variants": [
+        {
+          "file": "logos/topper-ireland.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://topperireland.com/wp-content/uploads/2025/04/newlogo-1.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://topperireland.com",
+      "assetUrl": "sources/assets/topper-ireland.png",
+      "licence": null,
+      "attribution": null,
       "usageNote": null,
       "quality": "ok",
       "qualityNote": null,
-      "retrievedAt": "2026-06-06T23:21:12Z"
+      "retrievedAt": "2026-06-17T21:57:48Z",
+      "derivatives": {
+        "small": "logos/topper-ireland.small.png"
+      }
     },
     {
       "id": "waszp",
