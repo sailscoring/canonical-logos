@@ -276,6 +276,7 @@ logos:
     source: https://boxstuff-development-thumbnails.s3.amazonaws.com/1779921_orig.jpg
     sourceKind: brand-portal
     assetUrl: sources/assets/lough-derg-yc.jpg
+    homepageUrl: https://www.ldyc.ie
     quality: provisional
     qualityNote: Composite banner (club wordmark + a training-centre badge) from the site CDN, low height. Replace with the standalone Lough Derg YC logo.
 
@@ -637,6 +638,7 @@ logos:
     source: https://static.wixstatic.com/media/4d4016_e57772361c9d4aa79fbce3629fc4e7a2%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/4d4016_e57772361c9d4aa79fbce3629fc4e7a2%7Emv2.jpg
     sourceKind: brand-portal
     assetUrl: sources/assets/wave-regatta.jpg
+    homepageUrl: https://www.waveregatta.com
 
 
   # --- Sailing clubs (issue #3 backlog) ---
@@ -646,6 +648,7 @@ logos:
     source: https://static.wixstatic.com/media/524230_4b88c3503c8d41c3a7a8dca680a4548e%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/524230_4b88c3503c8d41c3a7a8dca680a4548e%7Emv2.jpg
     sourceKind: brand-portal
     assetUrl: sources/assets/galway-bay-sc.jpg
+    homepageUrl: https://www.gbsc.ie
 
   - id: "baltimore-sc"
     class: sailing-club
