@@ -83,5 +83,10 @@ def check_registry(data: dict[str, Any]) -> list[str]:
             problems.append(f"{where}: quality 'provisional' requires a qualityNote")
         if "candidateUrls" in entry and not isinstance(entry["candidateUrls"], list):
             problems.append(f"{where}: candidateUrls must be a list")
+        homepage = entry.get("homepageUrl")
+        if homepage is not None and not (
+            isinstance(homepage, str) and homepage.startswith(("http://", "https://"))
+        ):
+            problems.append(f"{where}: homepageUrl must be an http(s) URL")
 
     return problems

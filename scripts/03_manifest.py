@@ -4,7 +4,8 @@ Joins the curation decision (registry.yaml), the fetch provenance
 (provenance.json), and the normalised files on disk (logos/). One manifest
 record per shipped logo: id, class, displayName, file + format + post-
 normalisation sha256, any small derivative, colourway variants, source
-provenance, and any free-licence terms. Entities that could not be sourced, or
+provenance, the org's official homepage (homepageUrl, the app's default
+click-through target), and any free-licence terms. Entities that could not be sourced, or
 are on the denylist, are carried into unresolved.json with their reason.
 
 Run after 01_fetch.py and 02_normalise.py.
@@ -237,6 +238,7 @@ def main() -> int:
             "variants": [{"file": _rel(primary), "variant": "primary", "background": "any"}],
             "sourceUrl": entry["source"],
             "sourceKind": entry["sourceKind"],
+            "homepageUrl": entry.get("homepageUrl"),
             "assetUrl": asset["assetUrl"],
             "licence": entry.get("licence"),
             "attribution": entry.get("attribution"),
@@ -256,7 +258,7 @@ def main() -> int:
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
     MANIFEST_PATH.write_text(
         json.dumps(
-            {"schemaVersion": "1.0", "generatedAt": generated_at, "logos": logos},
+            {"schemaVersion": "1.1", "generatedAt": generated_at, "logos": logos},
             indent=2,
             ensure_ascii=False,
         )

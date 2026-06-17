@@ -29,6 +29,12 @@
 #   quality     optional: "ok" (default) or "provisional" — a sub-par asset kept
 #               deliberately because it is the best available; flagged for upgrade
 #   qualityNote required when quality is "provisional": the limitation + what's wanted
+#   homepageUrl optional: the org's official website (e.g. https://iodai.com).
+#               The app uses it as the default click-through target when a scorer
+#               picks this canonical logo for a series. Distinct from `source`
+#               (where the image came from) and `home` (the scout's scrape
+#               target) — though those often share the org's domain and can seed
+#               the backfill. Emitted into manifest.json.
 #   home        optional: homepage to scrape for a logo (scripts/05_scout.py);
 #               defaults to the domain of `source`
 #   candidateUrls optional: list of URLs for the scout to consider as candidates
@@ -47,6 +53,7 @@ logos:
     source: https://media.sailing.org/sailing/wp-content/uploads/2021/04/16100142/World-Sailing-Logo-2016.svg
     sourceKind: brand-portal
     assetUrl: sources/assets/world-sailing.svg
+    homepageUrl: https://www.sailing.org
 
   - id: irish-sailing
     class: governing-body
@@ -54,6 +61,7 @@ logos:
     source: https://www.sailing.ie/
     sourceKind: brand-portal
     assetUrl: sources/assets/irish-sailing.png
+    homepageUrl: https://www.sailing.ie
 
   # --- Sailing clubs --------------------------------------------------------
   - id: hyc
@@ -62,6 +70,7 @@ logos:
     source: https://www.hyc.ie/system/files/7225/original/hyc-logo-new.png
     sourceKind: brand-portal
     assetUrl: sources/assets/hyc.png
+    homepageUrl: https://www.hyc.ie
     note: Modernised HYC logo, the version the club uses on its own results.
       High-res transparent PNG.
 
@@ -71,6 +80,7 @@ logos:
     source: https://dbsc.ie/wp-content/uploads/2021/03/Official-DBSC-Logo-high1-e1676634995134.png
     sourceKind: brand-portal
     assetUrl: sources/assets/dbsc.png
+    homepageUrl: https://dbsc.ie
 
   # --- Class associations ---------------------------------------------------
   - id: ilca
@@ -81,6 +91,7 @@ logos:
     assetUrl: sources/assets/ilca.svg
     licence: Public domain
     attribution: ILCA class association
+    homepageUrl: https://www.ilca-dinghy.org
 
   - id: iodai
     class: class-assoc
@@ -88,6 +99,7 @@ logos:
     source: https://iodai.com/wp-content/uploads/2018/04/iodai-logo-2018.png
     sourceKind: brand-portal
     assetUrl: sources/assets/iodai.png
+    homepageUrl: https://iodai.com
 
   - id: gp14
     class: class-assoc
@@ -95,6 +107,7 @@ logos:
     source: https://gp14.org/wp-content/uploads/2024/12/admin-ajax-removebg-preview.png
     sourceKind: brand-portal
     assetUrl: sources/assets/gp14.png
+    homepageUrl: https://gp14.org
     note: International GP14 Class Association site header logo (blue bell +
       GP14 + www.gp14.org), 268x112 transparent PNG. Retrieved via the Wayback
       Machine because gp14.org applies hotlink/UA protection to wp-content; the
@@ -107,6 +120,7 @@ logos:
     source: https://sdc.ie/wp-content/uploads/2023/07/GP14-Ireland-251x.png
     sourceKind: brand-portal
     assetUrl: sources/assets/gp14-ireland.png
+    homepageUrl: https://gp14ireland.com
     quality: provisional
     qualityNote: 251x131 RGB PNG on white (no transparency) — the GP14 Ireland
       mark (bell-in-sail + GP14 + gp14ireland.com). gp14ireland.com only serves
@@ -156,6 +170,7 @@ logos:
     source: https://melges15.com/cdn/shop/files/Melges15-Horizontal-RabbitEars.png
     sourceKind: brand-portal
     assetUrl: sources/assets/melges-15.png
+    homepageUrl: https://melges15.com
 
   # --- Sponsors -------------------------------------------------------------
   # A sponsor earns canonical status only when it recurs across events; a
@@ -166,6 +181,7 @@ logos:
     source: https://aib.ie/content/dam/frontdoor/aib-logo@2x.png
     sourceKind: brand-portal
     assetUrl: sources/assets/aib.png
+    homepageUrl: https://aib.ie
     note: AIB's own og:image. RGB on white (no transparency).
 
   - id: provident
@@ -174,6 +190,7 @@ logos:
     source: https://www.providentcrm.com/wp-content/uploads/2022/10/Provident_Navy_Orange-1-1.png
     sourceKind: brand-portal
     assetUrl: sources/assets/provident.png
+    homepageUrl: https://www.providentcrm.com
 
   # --- Sailing clubs (issue #1 backlog — sourcing in progress) ---
   - id: "malahide-yc"
@@ -182,6 +199,7 @@ logos:
     source: https://www.myc.ie/wp-content/uploads/2016/07/New-MYC-Logo-300x180-1.png
     sourceKind: brand-portal
     assetUrl: sources/assets/malahide-yc.png
+    homepageUrl: https://www.myc.ie
 
   - id: "skerries-sc"
     class: sailing-club
@@ -189,6 +207,7 @@ logos:
     source: https://skerriessailingclub.com/generated-favicons/1458635.ico
     sourceKind: brand-portal
     assetUrl: sources/assets/skerries-sc.png
+    homepageUrl: https://skerriessailingclub.com
     quality: provisional
     qualityNote: Official club burgee (goat's-head pennant), clean 1024px transparent PNG from the club site. Burgee-only — no wordmark; would prefer an official transparent wordmark-bearing logo. See issue #5.
 
@@ -198,12 +217,14 @@ logos:
     source: https://sdc.ie/wp-content/uploads/2018/05/SDC-Logo-Horizontal-60px.jpg
     sourceKind: brand-portal
     assetUrl: sources/assets/sutton-dc.jpg
+    homepageUrl: https://sdc.ie
 
   - id: "royal-alfred-yc"
     class: sailing-club
     displayName: "Royal Alfred Yacht Club"
     source: https://www.royalalfredyachtclub.com/
     sourceKind: brand-portal
+    homepageUrl: https://www.royalalfredyachtclub.com
 
   - id: "riyc"
     class: sailing-club
@@ -211,6 +232,7 @@ logos:
     source: https://www.riyc.ie/apple-touch-icon
     sourceKind: brand-portal
     assetUrl: sources/assets/riyc.png
+    homepageUrl: https://www.riyc.ie
 
   - id: "rsgyc"
     class: sailing-club
@@ -218,6 +240,7 @@ logos:
     source: https://rsgyc.ie/wp-content/themes/RSG-Theme/img/rsgy-logo.png
     sourceKind: brand-portal
     assetUrl: sources/assets/rsgyc.png
+    homepageUrl: https://rsgyc.ie
 
   - id: "national-yc"
     class: sailing-club
@@ -225,6 +248,7 @@ logos:
     source: https://nyc.ie/wp-content/uploads/2022/07/The_National_Yacht_Club-PNG-01.png
     sourceKind: brand-portal
     assetUrl: sources/assets/national-yc.png
+    homepageUrl: https://nyc.ie
 
   - id: "royal-cork-yc"
     class: sailing-club
@@ -232,6 +256,7 @@ logos:
     source: https://www.royalcork.com/wp-content/uploads/2025/07/royal-cork-yacht-club-logo.svg
     sourceKind: brand-portal
     assetUrl: sources/assets/royal-cork-yc.svg
+    homepageUrl: https://www.royalcork.com
 
   - id: "lough-ree-yc"
     class: sailing-club
@@ -239,6 +264,7 @@ logos:
     source: https://www.lryc.ie/wp-content/uploads/2024/02/plainLogo2.jpg
     sourceKind: brand-portal
     assetUrl: sources/assets/lough-ree-yc.jpg
+    homepageUrl: https://www.lryc.ie
 
   - id: "lough-derg-yc"
     class: sailing-club
@@ -255,6 +281,7 @@ logos:
     source: https://whsc.ie/wp-content/uploads/2022/03/LOGO-WHSC.png
     sourceKind: brand-portal
     assetUrl: sources/assets/waterford-harbour-sc.png
+    homepageUrl: https://whsc.ie
 
   - id: "kinsale-yc"
     class: sailing-club
@@ -262,6 +289,7 @@ logos:
     source: https://www.kyc.ie/wp-content/uploads/2021/01/kyc-logo-2.svg
     sourceKind: brand-portal
     assetUrl: sources/assets/kinsale-yc.svg
+    homepageUrl: https://www.kyc.ie
 
   - id: "ballyholme-yc"
     class: sailing-club
@@ -269,12 +297,14 @@ logos:
     source: https://ballyholme.com/wp-content/uploads/2025/06/Ballyholme-BYC-Logo-Burgee-with-text-Outline-Colour-Final-051121.png
     sourceKind: brand-portal
     assetUrl: sources/assets/ballyholme-yc.png
+    homepageUrl: https://ballyholme.com
 
   - id: "east-antrim-bc"
     class: sailing-club
     displayName: "East Antrim Boat Club"
     source: https://www.eastantrimboatclub.com/
     sourceKind: brand-portal
+    homepageUrl: https://www.eastantrimboatclub.com
 
   - id: "strangford-lough-yc"
     class: sailing-club
@@ -282,6 +312,7 @@ logos:
     source: https://slyc.co.uk/wp-content/uploads/2025/07/favicon.png
     sourceKind: brand-portal
     assetUrl: sources/assets/strangford-lough-yc.png
+    homepageUrl: https://slyc.co.uk
     quality: provisional
     qualityNote: 192px club burgee taken from the site favicon. Replace with a higher-res Strangford Lough YC logo.
 
@@ -299,6 +330,7 @@ logos:
     displayName: "IDRA 14"
     source: https://www.idra14.com/
     sourceKind: brand-portal
+    homepageUrl: https://www.idra14.com
 
   - id: "mirror"
     class: class-assoc
@@ -306,24 +338,28 @@ logos:
     source: https://mirrorsailing.org/images/international_mirror_class_association/website/imca_website_logo_2026.png
     sourceKind: brand-portal
     assetUrl: sources/assets/mirror.png
+    homepageUrl: https://mirrorsailing.org
 
   - id: "moth"
     class: class-assoc
     displayName: "International Moth"
     source: https://www.moth-sailing.org/
     sourceKind: brand-portal
+    homepageUrl: https://www.moth-sailing.org
 
   - id: "29er"
     class: class-assoc
     displayName: "29er"
     source: https://www.29er.org/
     sourceKind: brand-portal
+    homepageUrl: https://www.29er.org
 
   - id: "49er"
     class: class-assoc
     displayName: "49er"
     source: https://www.49er.org/
     sourceKind: brand-portal
+    homepageUrl: https://www.49er.org
 
   - id: "icra"
     class: class-assoc
@@ -331,6 +367,7 @@ logos:
     source: https://cruiserracing.ie/images/icra-logo-small.png
     sourceKind: brand-portal
     assetUrl: sources/assets/icra.png
+    homepageUrl: https://cruiserracing.ie
 
   - id: "420"
     class: class-assoc
@@ -338,6 +375,7 @@ logos:
     source: https://www.420sailing.org/images/default/470sailing/main-logo.svg
     sourceKind: brand-portal
     assetUrl: sources/assets/420.svg
+    homepageUrl: https://www.420sailing.org
 
   - id: "etchells"
     class: class-assoc
@@ -345,12 +383,14 @@ logos:
     source: https://etchells.org/assets/images/interface/Etchells_logo-l.png
     sourceKind: brand-portal
     assetUrl: sources/assets/etchells.png
+    homepageUrl: https://etchells.org
 
   - id: "j80"
     class: class-assoc
     displayName: "J/80"
     source: https://www.sailj80.com/
     sourceKind: brand-portal
+    homepageUrl: https://www.sailj80.com
 
   - id: "j70"
     class: class-assoc
@@ -358,6 +398,7 @@ logos:
     source: https://j70ica.org/wp-content/uploads/2024/08/70INT.png
     sourceKind: brand-portal
     assetUrl: sources/assets/j70.png
+    homepageUrl: https://j70ica.org
 
   - id: "j109"
     class: class-assoc
@@ -365,6 +406,7 @@ logos:
     source: https://j109.org/blog/wp-content/uploads/2015/01/j109-wp-header.gif
     sourceKind: brand-portal
     assetUrl: sources/assets/j109.gif
+    homepageUrl: https://j109.org
     quality: provisional
     qualityNote: 262x50 thin header-banner GIF; replace with a taller J/109 logo.
 
@@ -374,6 +416,7 @@ logos:
     source: https://j24class.org/wp-content/uploads/2023/09/cropped-logo.gif
     sourceKind: brand-portal
     assetUrl: sources/assets/j24.gif
+    homepageUrl: https://j24class.org
     quality: provisional
     qualityNote: 68x133 small logo from the class site (cropped). Replace with a higher-res J/24 logo.
 
@@ -383,6 +426,7 @@ logos:
     source: https://www.rsfeva.org/wp-content/uploads/2019/09/RS-Feva-logo.jpg
     sourceKind: brand-portal
     assetUrl: sources/assets/rs-feva.jpg
+    homepageUrl: https://www.rsfeva.org
 
   - id: "ruffian"
     class: class-assoc
@@ -397,6 +441,7 @@ logos:
     source: https://www.rs200sailing.org/logos/rs200-logo.png
     sourceKind: brand-portal
     assetUrl: sources/assets/rs200.png
+    homepageUrl: https://www.rs200sailing.org
 
   - id: "rs400"
     class: class-assoc
@@ -404,6 +449,7 @@ logos:
     source: https://www.rs400.org/logos/rs400-logo.png
     sourceKind: brand-portal
     assetUrl: sources/assets/rs400.png
+    homepageUrl: https://www.rs400.org
 
   - id: "squib"
     class: class-assoc
@@ -411,6 +457,7 @@ logos:
     source: https://squibs.co.uk/wp-content/uploads/2022/07/National-Squib-400px.png
     sourceKind: brand-portal
     assetUrl: sources/assets/squib.png
+    homepageUrl: https://squibs.co.uk
 
   - id: "waszp"
     class: class-assoc
@@ -418,18 +465,21 @@ logos:
     source: https://waszp.com/wp-content/uploads/2021/07/WASZP-Logo-01.png
     sourceKind: brand-portal
     assetUrl: sources/assets/waszp.png
+    homepageUrl: https://waszp.com
 
   - id: "mermaid"
     class: class-assoc
     displayName: "Mermaid"
     source: https://www.mermaidsailing.ie/
     sourceKind: brand-portal
+    homepageUrl: https://www.mermaidsailing.ie
 
   - id: "water-wags"
     class: class-assoc
     displayName: "Water Wags"
     source: https://www.waterwags.com/
     sourceKind: brand-portal
+    homepageUrl: https://www.waterwags.com
 
   - id: "topper"
     class: class-assoc
@@ -445,12 +495,14 @@ logos:
     displayName: "Sigma 33"
     source: https://www.sigma33.co.uk/
     sourceKind: brand-portal
+    homepageUrl: https://www.sigma33.co.uk
 
   - id: "sb20"
     class: class-assoc
     displayName: "SB20"
     source: https://sb20class.org/
     sourceKind: brand-portal
+    homepageUrl: https://sb20class.org
 
   - id: "shannon-one-design"
     class: class-assoc
@@ -465,6 +517,7 @@ logos:
     source: https://www.isora.org/images/ISORAlogos/ISORA_Logo_Vector.jpg
     sourceKind: brand-portal
     assetUrl: sources/assets/isora.jpg
+    homepageUrl: https://www.isora.org
 
 
   # --- Sponsors (issue #1 backlog — sourcing in progress) ---
@@ -476,6 +529,7 @@ logos:
     assetUrl: sources/assets/monday.svg
     licence: Public domain
     attribution: Monday.com
+    homepageUrl: https://monday.com
 
   - id: "fingal-county-council"
     class: sponsor
@@ -483,6 +537,7 @@ logos:
     source: https://www.fingal.ie/themes/custom/weatherlab/components/_patterns/01-basic-elements/icons/png/Official_Mark_Colour.png
     sourceKind: brand-portal
     assetUrl: sources/assets/fingal-county-council.png
+    homepageUrl: https://www.fingal.ie
 
 
   # --- Regattas (issue #3 backlog) ---
@@ -492,6 +547,7 @@ logos:
     source: https://www.dlregatta.org/wp-content/uploads/2024/12/homepage%20feature%20VDLR%20logo.png
     sourceKind: brand-portal
     assetUrl: sources/assets/dlregatta.png
+    homepageUrl: https://www.dlregatta.org
 
   - id: "cork-week"
     class: regatta
@@ -499,6 +555,7 @@ logos:
     source: https://www.corkweek.ie/wp-content/uploads/2025/06/cork-week-logo-2026.png
     sourceKind: brand-portal
     assetUrl: sources/assets/cork-week.png
+    homepageUrl: https://www.corkweek.ie
     quality: provisional
     qualityNote: Year-stamped (2026) edition logo. Replace with a year-neutral Cork Week brand mark if available.
 
@@ -517,6 +574,7 @@ logos:
     source: https://roundireland.ie/wp/wp-content/uploads/2017/11/Volvo-Round-Ireland-Favicon-114X114.png
     sourceKind: brand-portal
     assetUrl: sources/assets/round-ireland.png
+    homepageUrl: https://roundireland.ie
     quality: provisional
     qualityNote: 114px favicon-size mark. Replace with a higher-res Round Ireland logo.
 
@@ -525,6 +583,7 @@ logos:
     displayName: "Dún Laoghaire to Dingle Race"
     source: https://www.d2d.ie/
     sourceKind: brand-portal
+    homepageUrl: https://www.d2d.ie
 
   - id: "wave-regatta"
     class: regatta
@@ -548,6 +607,7 @@ logos:
     source: https://www.baltimoresailingclub.ie/wp-content/uploads/2019/01/footer_logo.png
     sourceKind: brand-portal
     assetUrl: sources/assets/baltimore-sc.png
+    homepageUrl: https://www.baltimoresailingclub.ie
 
 
 # Entities that have asked not to be hosted, or whose published terms forbid
