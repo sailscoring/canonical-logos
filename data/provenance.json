@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-08T22:22:05Z",
+  "generatedAt": "2026-06-17T21:57:48Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -335,8 +335,24 @@
       "assetUrl": "sources/assets/topper.svg",
       "file": "logos/topper.svg",
       "fetchedFormat": "svg",
-      "rawSha256": "a6ed414f4b9234c2b0fcd33efbcc50daaf18a17494911baa2131ee8d084440ff",
-      "retrievedAt": "2026-06-06T23:21:12Z"
+      "rawSha256": "2106c01e0e87557f677b8d20f00055f0f113369a566f72698a99d335f69e8a56",
+      "retrievedAt": "2026-06-17T21:57:48Z"
+    },
+    {
+      "id": "topper-gbr",
+      "assetUrl": "sources/assets/topper-gbr.jpg",
+      "file": "logos/topper-gbr.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "814131f6814dabfde3eb10d0afc85a9fd2104f7438e1cf823b65e57315ec4c37",
+      "retrievedAt": "2026-06-17T21:57:48Z"
+    },
+    {
+      "id": "topper-ireland",
+      "assetUrl": "sources/assets/topper-ireland.png",
+      "file": "logos/topper-ireland.png",
+      "fetchedFormat": "png",
+      "rawSha256": "282488640d28a53b0bb2840462997d2a1855ee09de48dcc584a606f468ed2723",
+      "retrievedAt": "2026-06-17T21:57:48Z"
     },
     {
       "id": "shannon-one-design",
