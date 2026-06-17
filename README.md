@@ -26,9 +26,11 @@ Each tagged GitHub Release will attach:
   (`governing-body` / `sailing-club` / `class-assoc` / `sponsor` / `venue` / `regatta`),
   display name,
   file + format + `sha256`, available colourway variants, source provenance
-  (`sourceUrl`, `sourceKind`, `retrievedAt`), and a `quality` flag (`ok`, or
-  `provisional` with a `qualityNote` for a sub-par best-available asset kept
-  deliberately and flagged for upgrade).
+  (`sourceUrl`, `sourceKind`, `retrievedAt`), the org's official homepage
+  (`homepageUrl`, optional — the default click-through target a consumer applies
+  when a scorer picks the logo), and a `quality` flag (`ok`, or `provisional`
+  with a `qualityNote` for a sub-par best-available asset kept deliberately and
+  flagged for upgrade).
 - **`logos.tar.gz`** — all normalised logo files (SVG where the owner has one;
   otherwise a normalised transparent PNG, plus a small derivative for the
   ~100 px results-header slot).
