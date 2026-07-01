@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-06-17T22:03:06Z",
+  "generatedAt": "2026-07-01T08:00:23Z",
   "logos": [
     {
       "id": "1720",
@@ -8,7 +8,7 @@
       "displayName": "1720",
       "file": "logos/1720.png",
       "format": "png",
-      "sha256": "40a875828bd5373ea49b499274d864427ec94c2fdb6b5017c78fa624ef08d83c",
+      "sha256": "e8a010c4adea91f9e6cea07c5a8f8459a23813da7735eb113edd13ce5f74af26",
       "variants": [
         {
           "file": "logos/1720.png",
@@ -61,7 +61,7 @@
       "displayName": "AIB",
       "file": "logos/aib.png",
       "format": "png",
-      "sha256": "57568532146099e3a386e963f1740c46eb06be60ff3f638d436682c1596719a6",
+      "sha256": "3c8b9446d4ccf67dba3b5446bdbd48948dc5287fc0ca5fdff7146f396cc67f9f",
       "variants": [
         {
           "file": "logos/aib.png",
@@ -89,7 +89,7 @@
       "displayName": "Ballyholme Yacht Club",
       "file": "logos/ballyholme-yc.png",
       "format": "png",
-      "sha256": "cc4629bc5681ddf6b8f72b9a653ff38833da97806807358670340ae5321c78ca",
+      "sha256": "a84a554d08b23e3956d876f6b3cb36136625047cc4c90bbdb0adf565fb74ad9f",
       "variants": [
         {
           "file": "logos/ballyholme-yc.png",
@@ -117,7 +117,7 @@
       "displayName": "Baltimore Sailing Club",
       "file": "logos/baltimore-sc.png",
       "format": "png",
-      "sha256": "0e1df6f8d2a76d2426d332ece45279419fb2015fb14cde892741689489051371",
+      "sha256": "2d3560a74d4d23659028ad899f6ff2006686e618d65292f6b8ee6ff8340ada3e",
       "variants": [
         {
           "file": "logos/baltimore-sc.png",
@@ -145,7 +145,7 @@
       "displayName": "Cork Week",
       "file": "logos/cork-week.png",
       "format": "png",
-      "sha256": "7181ae7542f2a9014fb3287ca8cfea7e3ab6ce1724d28d269c0deb8082a4ce91",
+      "sha256": "37549da3abd435f8808b0813cbd3ca756fba323323773adcf2499986a51b3cfe",
       "variants": [
         {
           "file": "logos/cork-week.png",
@@ -173,7 +173,7 @@
       "displayName": "Dublin Bay Sailing Club",
       "file": "logos/dbsc.png",
       "format": "png",
-      "sha256": "b0843e02c6958adb56a7e7874fc4069d67243e8e081353be7cb90f1a9888b36d",
+      "sha256": "4581fae0a85521dfee0357c6edb886014ebb830d346b94e1c033b14d9fc8f7b0",
       "variants": [
         {
           "file": "logos/dbsc.png",
@@ -201,7 +201,7 @@
       "displayName": "Volvo Dún Laoghaire Regatta",
       "file": "logos/dlregatta.png",
       "format": "png",
-      "sha256": "d9c8661ac22e0d8a2e207be3d629aba680e5678093535df67a52e42e7df43a88",
+      "sha256": "8bb850eafaaf0897b3abe15d3047f80c2a62c005a9a7c852509be22f37409bf7",
       "variants": [
         {
           "file": "logos/dlregatta.png",
@@ -229,7 +229,7 @@
       "displayName": "Etchells",
       "file": "logos/etchells.png",
       "format": "png",
-      "sha256": "55448e9b6b8eafae4eae6516fae92a8ca25df1ac4e2f5f20c691fb86bc4c978b",
+      "sha256": "8ba3d204c0371adc9223ce224477ac8803e257c443a6f1699cc01525302770bf",
       "variants": [
         {
           "file": "logos/etchells.png",
@@ -257,7 +257,7 @@
       "displayName": "Fingal County Council",
       "file": "logos/fingal-county-council.png",
       "format": "png",
-      "sha256": "7ac19201e675f8c316b7f3579c1712c849d5576b5334dc4684751f371d1c8048",
+      "sha256": "b97008d8f19db9e247a5dd4283b1a194e2a04b18ce12d4f9eb7036a6e8d81534",
       "variants": [
         {
           "file": "logos/fingal-county-council.png",
@@ -285,7 +285,7 @@
       "displayName": "Fireball",
       "file": "logos/fireball.png",
       "format": "png",
-      "sha256": "1721c451dfd8f83bddf6af42fa6baaf7129e4899b54abbc40ef41f6cd19bc8b8",
+      "sha256": "ddc059ce80bf7fc9133c5eb291462c9479051b293d392a790d03d2aa2553e956",
       "variants": [
         {
           "file": "logos/fireball.png",
@@ -313,7 +313,7 @@
       "displayName": "Fireball Ireland",
       "file": "logos/fireball-ireland.png",
       "format": "png",
-      "sha256": "a012a5649380bc81662189090c0addd49aac002f4c4da84aab40e620c59812b9",
+      "sha256": "033e326abb305123ca0bb0bc5ec475aa00bf3ac009b384ffaff253b55b0510e8",
       "variants": [
         {
           "file": "logos/fireball-ireland.png",
@@ -341,7 +341,7 @@
       "displayName": "Galway Bay Sailing Club",
       "file": "logos/galway-bay-sc.png",
       "format": "png",
-      "sha256": "6228f8e5d17662045163ed2076062232b3c51198661bbda3c6bcd419c14e8bb7",
+      "sha256": "91164bb71f68988be71c96267450509f500a4607d5d5c9f6f73c3f3b6eb30143",
       "variants": [
         {
           "file": "logos/galway-bay-sc.png",
@@ -369,7 +369,7 @@
       "displayName": "GP14",
       "file": "logos/gp14.png",
       "format": "png",
-      "sha256": "0fc63e0444e0ac2004658760631547e6eeea6dd8a02169a8dd837d7a2171a10f",
+      "sha256": "669549096f90af8a35c27843db35ad3ccfd5940381ce61e6dec9b060a25ab696",
       "variants": [
         {
           "file": "logos/gp14.png",
@@ -397,7 +397,7 @@
       "displayName": "GP14 Ireland",
       "file": "logos/gp14-ireland.png",
       "format": "png",
-      "sha256": "97335ebc653a8f3ceafd910bc03d4482bc579658fe2b5edcd41bed12a0eb53b0",
+      "sha256": "492d1bf5a6e56fbbeb7ba7449c47d4e960b71e2cfcc26baff4706b9a118e33a3",
       "variants": [
         {
           "file": "logos/gp14-ireland.png",
@@ -425,7 +425,7 @@
       "displayName": "Howth Seventeen Footer",
       "file": "logos/howth-17.png",
       "format": "png",
-      "sha256": "4ce144d4b31210f2f188113d90753148e7123e80b798df516cbcf39ecf01b25b",
+      "sha256": "5206ba55ce7ed05a862d1fc973ec9a756abdeab11b996b1bdd71c0a1975609af",
       "variants": [
         {
           "file": "logos/howth-17.png",
@@ -453,7 +453,7 @@
       "displayName": "Howth Yacht Club",
       "file": "logos/hyc.png",
       "format": "png",
-      "sha256": "85673df93b90f2bbb159f31e19a795c60467a24517952df2e478353970974425",
+      "sha256": "43e28b761092023ae25c59029afe262d6b33d13768ad63fe10d9c380b5679b05",
       "variants": [
         {
           "file": "logos/hyc.png",
@@ -481,7 +481,7 @@
       "displayName": "Irish Cruiser Racing Association",
       "file": "logos/icra.png",
       "format": "png",
-      "sha256": "55c2b158613c5315f31a727994b4a4aa87785f33f7a8889adf7d4c4fa5b6d8c6",
+      "sha256": "8f0cd7be0015c7fda6a49cfa73e5e5528dccd32ddb30c78dffc8e17f2b5e01ff",
       "variants": [
         {
           "file": "logos/icra.png",
@@ -534,7 +534,7 @@
       "displayName": "Irish Optimist Dinghy Association (IODAI)",
       "file": "logos/iodai.png",
       "format": "png",
-      "sha256": "1aab1aa91ed5bcd0e56d8b8b1fcfe3b01a596e5d289289e4396194b2c9ef05af",
+      "sha256": "ac520cc4c2d7b774e42252fa2415d392f7a6b33193da53d29920493ac9df2454",
       "variants": [
         {
           "file": "logos/iodai.png",
@@ -562,7 +562,7 @@
       "displayName": "Irish Sailing",
       "file": "logos/irish-sailing.png",
       "format": "png",
-      "sha256": "9cbea8c69c02d58f837127f4271b5a498611f14852e893e4a364c1d4ef50588e",
+      "sha256": "ff9f255a1038401d70701c9ae330d4e78c950c8b0a0305a3db43814e4f024c46",
       "variants": [
         {
           "file": "logos/irish-sailing.png",
@@ -590,7 +590,7 @@
       "displayName": "ISORA",
       "file": "logos/isora.png",
       "format": "png",
-      "sha256": "ea6b46b49f1993fcff117fe52014f157a590a0c1b2b9d240de31e9d436d69f06",
+      "sha256": "d83cdd55efea77d77063a1cde789fe68aa9f58f5897db629f19788149d38cf5a",
       "variants": [
         {
           "file": "logos/isora.png",
@@ -618,7 +618,7 @@
       "displayName": "J/109",
       "file": "logos/j109.png",
       "format": "png",
-      "sha256": "e6f0e1fce8ad8d974223208d557ad46e33c045f83da6dc64760fdbef1b09703d",
+      "sha256": "f523ee2c4a8f1ae713ab09a461ee6dcaaf4d8fc112a5fd4c2383dde2a178536b",
       "variants": [
         {
           "file": "logos/j109.png",
@@ -646,7 +646,7 @@
       "displayName": "J/24",
       "file": "logos/j24.png",
       "format": "png",
-      "sha256": "af49d3df988fa5c48cc90abf53cfdb4b4ed13d0ed295fa658e2968969f308cb8",
+      "sha256": "fb121bc8faccc4a127f1f975eed56e025108d77c81e7a6180d20332239e07515",
       "variants": [
         {
           "file": "logos/j24.png",
@@ -674,7 +674,7 @@
       "displayName": "J/70",
       "file": "logos/j70.png",
       "format": "png",
-      "sha256": "f627cad2291bbb6fb6f217212ebf753bac5720ef26e906f5efd734bedd3dfc27",
+      "sha256": "f9cc97043d42953317cea69dc13182a3f296438e316f4407c664ee6a3393eda0",
       "variants": [
         {
           "file": "logos/j70.png",
@@ -727,7 +727,7 @@
       "displayName": "Lough Derg Yacht Club",
       "file": "logos/lough-derg-yc.png",
       "format": "png",
-      "sha256": "ad87c5c14458b4ef3a6b98f894ac284149875889e2fa8e38391d64307c4ed1d2",
+      "sha256": "e6478c516bfa511224254664bcc119bbdb1032a0ed835c88ccf10a1fa1743477",
       "variants": [
         {
           "file": "logos/lough-derg-yc.png",
@@ -755,7 +755,7 @@
       "displayName": "Lough Ree Yacht Club",
       "file": "logos/lough-ree-yc.png",
       "format": "png",
-      "sha256": "4addf38349067736eb6fa24b191a61a5b87cefa0924be407e7dbce686f32236b",
+      "sha256": "0e001a30cb649e82ed80a850e8d8786f55b01140ee47f35513f236752352b3bb",
       "variants": [
         {
           "file": "logos/lough-ree-yc.png",
@@ -783,7 +783,7 @@
       "displayName": "Malahide Yacht Club",
       "file": "logos/malahide-yc.png",
       "format": "png",
-      "sha256": "1fa798f8ae987d44d242f58023662c5f5f48687e77c03b6372e331671b3ee5a8",
+      "sha256": "34dde0f7802ab54e7508e07ae779a2b38dfb42f94e79579793f4ebd8b445e52d",
       "variants": [
         {
           "file": "logos/malahide-yc.png",
@@ -811,7 +811,7 @@
       "displayName": "Melges 15",
       "file": "logos/melges-15.png",
       "format": "png",
-      "sha256": "3ce0a0f46b01011c61479b98779d9579c32a0ed03469bbc072888003909dfa55",
+      "sha256": "8c53d152888002a0b66f35eca916d7bed18d607cbab47e4b8eaeea3226a7681d",
       "variants": [
         {
           "file": "logos/melges-15.png",
@@ -839,7 +839,7 @@
       "displayName": "International Mirror",
       "file": "logos/mirror.png",
       "format": "png",
-      "sha256": "b67242dc66b57a71327fab60cd4a7dae641cc38cfc3e4e9bde090a7f455c8ec1",
+      "sha256": "d28a4e4c8d6691e8c7b5dddf6a3f5d4188898392419e79758a68e12e093df1f0",
       "variants": [
         {
           "file": "logos/mirror.png",
@@ -892,7 +892,7 @@
       "displayName": "National Yacht Club",
       "file": "logos/national-yc.png",
       "format": "png",
-      "sha256": "18df8c2f5cff5282cc24086e0270887da75dedda4001685bd4e43bb736d89b5d",
+      "sha256": "b35a54ef584eb18a63edfc5f6d2c3d5e711c9149ee81aca899bb9461a7115907",
       "variants": [
         {
           "file": "logos/national-yc.png",
@@ -920,7 +920,7 @@
       "displayName": "Provident",
       "file": "logos/provident.png",
       "format": "png",
-      "sha256": "32015d2a79ea7bbcd34c9e434d0ce869c12ad2d29ad822c0152ae2f1270f40c1",
+      "sha256": "5892f699933fabb5bb52a62d104428307e953e04b7d85934d9de4d083dc0deb4",
       "variants": [
         {
           "file": "logos/provident.png",
@@ -948,7 +948,7 @@
       "displayName": "Royal Irish Yacht Club",
       "file": "logos/riyc.png",
       "format": "png",
-      "sha256": "44e57fb4081add769f507a6863d2403eefc368893cf66a8c5e1b542edd44aca8",
+      "sha256": "14527fd22cfc00e043feed25b191169664c9c226448aae74363cfa48cd6201b5",
       "variants": [
         {
           "file": "logos/riyc.png",
@@ -976,7 +976,7 @@
       "displayName": "Round Ireland Yacht Race",
       "file": "logos/round-ireland.png",
       "format": "png",
-      "sha256": "3c1aa7191aaed2fff3957ea5b01f27607c4fd4a61b8caa0dee727e72c1352250",
+      "sha256": "db6ff7249477ce804cccd1a6e27f07bd2db50805e6d7fbea35d3795ff611e5ef",
       "variants": [
         {
           "file": "logos/round-ireland.png",
@@ -1029,7 +1029,7 @@
       "displayName": "RS Feva",
       "file": "logos/rs-feva.png",
       "format": "png",
-      "sha256": "e693a6fe315073005c03e419f0e6d4b4e2b9c2817b3de7b1aa119a6c46e1ba51",
+      "sha256": "91fe8b0da0055e3828b663f53b858c633519d7e47620edd89ec042490699a322",
       "variants": [
         {
           "file": "logos/rs-feva.png",
@@ -1057,7 +1057,7 @@
       "displayName": "RS200",
       "file": "logos/rs200.png",
       "format": "png",
-      "sha256": "e91dafc803404d00666092ad2292a674e7372d1d0cd593a722a23e8fcda64bd7",
+      "sha256": "f99570c0f0a5f29d405fcf521bc76851e478a6ff3df64a213a32b250e4d45bc3",
       "variants": [
         {
           "file": "logos/rs200.png",
@@ -1085,7 +1085,7 @@
       "displayName": "RS400",
       "file": "logos/rs400.png",
       "format": "png",
-      "sha256": "773769ccc32a2ab85f5b548e583913f06cce4a0fb5044ef697ad13d90b1001c0",
+      "sha256": "3eae6afdb4c06b0d7fbb3c38d05dd42c2bdbc2dfd4484514c5133ce3cc157d5f",
       "variants": [
         {
           "file": "logos/rs400.png",
@@ -1113,7 +1113,7 @@
       "displayName": "Royal St. George Yacht Club",
       "file": "logos/rsgyc.png",
       "format": "png",
-      "sha256": "5840bc92e3818f192b39f7d977be9f9a058c8e855d36d3e6ef7d4b249df66719",
+      "sha256": "1552fb0b69ff454bc02240baf70b77394b6dee8aae14b5ede5edbb49f4708895",
       "variants": [
         {
           "file": "logos/rsgyc.png",
@@ -1141,7 +1141,7 @@
       "displayName": "Ruffian",
       "file": "logos/ruffian.png",
       "format": "png",
-      "sha256": "5e027358797bd1905257fbc6a3b983d808ca708bd6075e44eb3a3002cf494665",
+      "sha256": "4f59e4701abb8d09fd354d8af611486a0a498a00b1d5b5da207db00568b538c5",
       "variants": [
         {
           "file": "logos/ruffian.png",
@@ -1169,7 +1169,7 @@
       "displayName": "Shannon One Design",
       "file": "logos/shannon-one-design.png",
       "format": "png",
-      "sha256": "4672c42a3b3171cddb24bae68ff54515a92f01afb3a46ced8536031058db3859",
+      "sha256": "e4a99976e6e787d729668acde457a03ed54ab2f674ee7f33fc89d3ef1d0a446c",
       "variants": [
         {
           "file": "logos/shannon-one-design.png",
@@ -1197,7 +1197,7 @@
       "displayName": "Skerries Sailing Club",
       "file": "logos/skerries-sc.png",
       "format": "png",
-      "sha256": "83fed733ea87ee8d4c7eb702bb221047a9e2bcaf549a13459e253e3c9ff1c14b",
+      "sha256": "00994dd0d1dd3a8814588ca2dd14260f495a019da73491f83805b3da0c656cda",
       "variants": [
         {
           "file": "logos/skerries-sc.png",
@@ -1225,7 +1225,7 @@
       "displayName": "Sovereign's Cup",
       "file": "logos/sovereigns-cup.png",
       "format": "png",
-      "sha256": "ccbd0d40056956982e15419926d7a84cca864370b8399b2352bfb8435d1229d5",
+      "sha256": "37fe41a32a4e2b3f7640a12d28b9e07d2330d985d328e5e2ec4d02abb12e47ea",
       "variants": [
         {
           "file": "logos/sovereigns-cup.png",
@@ -1253,7 +1253,7 @@
       "displayName": "Squib",
       "file": "logos/squib.png",
       "format": "png",
-      "sha256": "b96cd50eb17951b85b8530f797cf58f2cddbfb491596dffbb7d6cc26c688b470",
+      "sha256": "64126f8e3f8c138759c5698346368fb7425c374fde76d3431c65c936a2f98ea8",
       "variants": [
         {
           "file": "logos/squib.png",
@@ -1281,7 +1281,7 @@
       "displayName": "Strangford Lough Yacht Club",
       "file": "logos/strangford-lough-yc.png",
       "format": "png",
-      "sha256": "6e3f0b5ac66855f64c779b204f68e0b77dce5334bc272695f3178b8a3bc670cd",
+      "sha256": "c2059a9aa6ee353abc28a2a7665375836d28a9d7e3ac51813da19b31db200b1c",
       "variants": [
         {
           "file": "logos/strangford-lough-yc.png",
@@ -1309,7 +1309,7 @@
       "displayName": "Sutton Dinghy Club",
       "file": "logos/sutton-dc.png",
       "format": "png",
-      "sha256": "2a91fa3f56e1594ba5adbc42bb170df396811c49f62cfa03ee2931f24a255d62",
+      "sha256": "2100f8d2b6b379e3423b1875d540b80d7d49d909c67f66108e44d166bbde6589",
       "variants": [
         {
           "file": "logos/sutton-dc.png",
@@ -1362,7 +1362,7 @@
       "displayName": "Topper GBR",
       "file": "logos/topper-gbr.png",
       "format": "png",
-      "sha256": "8e943b83de74aba949ea027acb49b655f4b84143b5e3aa4d5f76e0c70b4114e7",
+      "sha256": "e79fc110bcc1ca925dd9155e31d0904b2ef7461df342b596b0716c2f6ab1cda7",
       "variants": [
         {
           "file": "logos/topper-gbr.png",
@@ -1390,7 +1390,7 @@
       "displayName": "Topper Ireland",
       "file": "logos/topper-ireland.png",
       "format": "png",
-      "sha256": "a314d2cc84c03641c13331c49c350d56e1237ae06c1d25eeb927e62de803bc47",
+      "sha256": "8c3f2629a258d4c71ec5a22e492e233fb14c32f1543a5f5b5a557500fc98b37d",
       "variants": [
         {
           "file": "logos/topper-ireland.png",
@@ -1418,7 +1418,7 @@
       "displayName": "WASZP",
       "file": "logos/waszp.png",
       "format": "png",
-      "sha256": "b7a7a341a98345bb3b1bdae4e70572b05337d7e782700091040a5d2acab944c8",
+      "sha256": "d0295626555c4ccefb00eecf5c1dbf580857d364bff114a0cf1345a0b704aec0",
       "variants": [
         {
           "file": "logos/waszp.png",
@@ -1446,7 +1446,7 @@
       "displayName": "Waterford Harbour Sailing Club",
       "file": "logos/waterford-harbour-sc.png",
       "format": "png",
-      "sha256": "524756648e7ab945acd0fb29b59e0b18daa7912f8e3945c2c11501dd9d18e5dc",
+      "sha256": "78507196fa9412c66f76106a6ede15b0b64bdaf92c9915d36229f90cadfcd212",
       "variants": [
         {
           "file": "logos/waterford-harbour-sc.png",
@@ -1474,7 +1474,7 @@
       "displayName": "Wave Regatta",
       "file": "logos/wave-regatta.png",
       "format": "png",
-      "sha256": "e96d0e04a6fbaca0db2bceb0b142c3ee3f39bc59d13721421ab0bf8765ff437b",
+      "sha256": "ce677370b12ef851e406b94889a5271cc016617c14020328c6ba721a943fb981",
       "variants": [
         {
           "file": "logos/wave-regatta.png",
