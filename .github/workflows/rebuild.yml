@@ -23,12 +23,10 @@ jobs:
 
       - name: Install uv
         uses: astral-sh/setup-uv@v3
-        with:
-          python-version: "3.12"
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Sync deps
         run: uv sync
@@ -51,44 +49,80 @@ jobs:
       - name: Tests
         run: uv run pytest -q
 
-      # Ignore the always-moving timestamps: only open a PR when the dataset
-      # changed semantically (a logo file, or a non-timestamp manifest field).
+      # Only open a PR on a *real* upstream change. The re-fetch/normalise
+      # toolchain (Pillow/zlib, SVGO) can re-encode an unchanged asset to
+      # byte-different output — a PNG whose pixels are identical, just packed
+      # differently — and the manifest carries a byte-derived sha256 plus moving
+      # timestamps for every entry. Comparing raw bytes/hashes trips on that
+      # noise every run (see the 2026-07 run that flagged all 52 logos, all
+      # pixel-identical). So: decode PNGs and compare *pixels*, byte-compare
+      # SVGs, and ignore timestamps + sha256 in the JSON. Structural manifest
+      # changes (added/removed entry, new source or quality flag) still survive.
       - name: Detect semantic changes
         id: diff
         run: |
-          python <<'EOF'
-          import hashlib, json, os, subprocess
+          uv run python <<'EOF'
+          import io, json, os, subprocess
           from pathlib import Path
+          from PIL import Image, ImageChops
 
-          PATHS = ["data/manifest.json", "data/unresolved.json", "data/provenance.json"]
-          TIMESTAMP_KEYS = {"generatedAt", "retrievedAt"}
+          JSON_PATHS = ["data/manifest.json", "data/unresolved.json", "data/provenance.json"]
+          IGNORE_KEYS = {"generatedAt", "retrievedAt", "sha256"}
 
           def strip(obj):
               if isinstance(obj, dict):
-                  return {k: strip(v) for k, v in obj.items() if k not in TIMESTAMP_KEYS}
+                  return {k: strip(v) for k, v in obj.items() if k not in IGNORE_KEYS}
               if isinstance(obj, list):
                   return [strip(x) for x in obj]
               return obj
 
-          def stable(raw):
-              return hashlib.sha256(
-                  json.dumps(strip(json.loads(raw)), sort_keys=True, ensure_ascii=False).encode()
-              ).hexdigest()
+          def canon(raw):
+              return json.dumps(strip(json.loads(raw)), sort_keys=True, ensure_ascii=False)
 
-          def now_hash(path):
-              return stable(Path(path).read_bytes()) if Path(path).is_file() else "missing"
-
-          def head_hash(path):
+          def head_bytes(path):
               try:
-                  return stable(subprocess.check_output(["git", "show", f"HEAD:{path}"]))
+                  return subprocess.check_output(
+                      ["git", "show", f"HEAD:{path}"], stderr=subprocess.DEVNULL)
               except subprocess.CalledProcessError:
-                  return "missing"
+                  return None
 
-          json_diff = any(head_hash(p) != now_hash(p) for p in PATHS)
-          logo_diff = subprocess.run(
-              ["git", "diff", "--quiet", "HEAD", "--", "logos/"], check=False
-          ).returncode != 0
-          changed = json_diff or logo_diff
+          json_changed = []
+          for p in JSON_PATHS:
+              now = Path(p).read_bytes() if Path(p).is_file() else None
+              old = head_bytes(p)
+              if (canon(now) if now is not None else None) != (canon(old) if old is not None else None):
+                  json_changed.append(p)
+
+          def pixels_differ(path):
+              old = head_bytes(path)
+              new = Path(path).read_bytes() if Path(path).is_file() else None
+              if (old is None) != (new is None):
+                  return True  # asset added or removed
+              a = Image.open(io.BytesIO(old)).convert("RGBA")
+              b = Image.open(io.BytesIO(new)).convert("RGBA")
+              if a.size != b.size:
+                  return True
+              # NB: don't use ImageChops.difference(...).getbbox() — on RGBA it
+              # defaults to alpha_only=True (Pillow >=11), so a pure recolour
+              # (RGB changes, alpha unchanged) reads as "no difference". Check
+              # every channel's extrema instead.
+              extrema = ImageChops.difference(a, b).getextrema()
+              return any(hi > 0 for _lo, hi in extrema)
+
+          asset_changed = []
+          for f in subprocess.check_output(
+                  ["git", "diff", "--name-only", "HEAD", "--", "logos/"], text=True).split():
+              if f.endswith(".html"):
+                  continue  # generated landing page; only its timestamp line moves
+              if f.endswith(".png"):
+                  if pixels_differ(f):
+                      asset_changed.append(f)
+              else:
+                  asset_changed.append(f)  # SVG or anything else: a byte diff is real
+
+          changed = bool(json_changed or asset_changed)
+          print("structural JSON changes:", json_changed or "none")
+          print("visual/asset changes:  ", asset_changed or "none")
           with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
               fh.write(f"changed={'true' if changed else 'false'}\n")
           EOF
