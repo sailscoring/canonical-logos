@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-17T21:57:48Z",
+  "generatedAt": "2026-07-18T15:08:01Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -385,6 +385,30 @@
       "fetchedFormat": "png",
       "rawSha256": "c66148d719fb87b79a1f4ef295e6d15b6d089280d6eaae7f86f1e43dc4fdc770",
       "retrievedAt": "2026-06-07T07:26:13Z"
+    },
+    {
+      "id": "rbc",
+      "assetUrl": "sources/assets/rbc.svg",
+      "file": "logos/rbc.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "7dcc0b7d997d665d345b130e72f6f2f329a9b4856d1d407b0615bc76cd060767",
+      "retrievedAt": "2026-07-18T15:08:01Z"
+    },
+    {
+      "id": "rbc-brewin-dolphin",
+      "assetUrl": "sources/assets/rbc-brewin-dolphin.png",
+      "file": "logos/rbc-brewin-dolphin.png",
+      "fetchedFormat": "png",
+      "rawSha256": "ede72954272e4e32c2a6208816e2b187f5d1e8c45f7e38f4ee4988977cff5f6c",
+      "retrievedAt": "2026-07-18T15:08:01Z"
+    },
+    {
+      "id": "rbc-wealth-management",
+      "assetUrl": "sources/assets/rbc-wealth-management.svg",
+      "file": "logos/rbc-wealth-management.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "ef8848a044a13bde17a1e779f7c590846d113e09def09c8442698f053e7ce799",
+      "retrievedAt": "2026-07-18T15:08:01Z"
     },
     {
       "id": "dlregatta",

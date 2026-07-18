@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-06-17T22:03:06Z",
+  "generatedAt": "2026-07-18T15:09:54Z",
   "logos": [
     {
       "id": "1720",
@@ -941,6 +941,84 @@
       "derivatives": {
         "small": "logos/provident.small.png"
       }
+    },
+    {
+      "id": "rbc",
+      "class": "sponsor",
+      "displayName": "RBC",
+      "file": "logos/rbc.svg",
+      "format": "svg",
+      "sha256": "7dcc0b7d997d665d345b130e72f6f2f329a9b4856d1d407b0615bc76cd060767",
+      "variants": [
+        {
+          "file": "logos/rbc.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.rbc.com/dvl/v1.0/assets/images/logos/rbc-logo-shield.svg",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.rbc.com",
+      "assetUrl": "sources/assets/rbc.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-18T15:08:01Z"
+    },
+    {
+      "id": "rbc-brewin-dolphin",
+      "class": "sponsor",
+      "displayName": "RBC Brewin Dolphin",
+      "file": "logos/rbc-brewin-dolphin.png",
+      "format": "png",
+      "sha256": "bff7356a5d26f5447a8604fd7c07155e8fd95bbfe0a3a8b8e144c72626051e0b",
+      "variants": [
+        {
+          "file": "logos/rbc-brewin-dolphin.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.rbcwealthmanagement.com/en-uk/",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.rbcwealthmanagement.com/en-uk/",
+      "assetUrl": "sources/assets/rbc-brewin-dolphin.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-18T15:08:01Z",
+      "derivatives": {
+        "small": "logos/rbc-brewin-dolphin.small.png"
+      }
+    },
+    {
+      "id": "rbc-wealth-management",
+      "class": "sponsor",
+      "displayName": "RBC Wealth Management",
+      "file": "logos/rbc-wealth-management.svg",
+      "format": "svg",
+      "sha256": "ef8848a044a13bde17a1e779f7c590846d113e09def09c8442698f053e7ce799",
+      "variants": [
+        {
+          "file": "logos/rbc-wealth-management.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.rbcwealthmanagement.com/en-uk/",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.rbcwealthmanagement.com/en-uk/",
+      "assetUrl": "sources/assets/rbc-wealth-management.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-18T15:08:01Z"
     },
     {
       "id": "riyc",

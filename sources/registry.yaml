@@ -585,6 +585,48 @@ logos:
     assetUrl: sources/assets/fingal-county-council.png
     homepageUrl: https://www.fingal.ie
 
+  - id: "rbc"
+    class: sponsor
+    displayName: "RBC"
+    source: https://www.rbc.com/dvl/v1.0/assets/images/logos/rbc-logo-shield.svg
+    sourceKind: brand-portal
+    assetUrl: sources/assets/rbc.svg
+    homepageUrl: https://www.rbc.com
+    note: >-
+      The plain Royal Bank of Canada shield, from RBC's own design-system asset
+      directory on rbc.com. Vector, transparent. Carries RBC's reversed-usage
+      white keyline on the shield edge, so it reads best on light surfaces.
+      The parent mark; the UK sailing sponsorship shows up as
+      rbc-brewin-dolphin / rbc-wealth-management. See issue #9.
+
+  - id: "rbc-brewin-dolphin"
+    class: sponsor
+    displayName: "RBC Brewin Dolphin"
+    source: https://www.rbcwealthmanagement.com/en-uk/
+    sourceKind: brand-portal
+    assetUrl: sources/assets/rbc-brewin-dolphin.png
+    homepageUrl: https://www.rbcwealthmanagement.com/en-uk/
+    note: >-
+      Official two-line lockup, 640x302 with clean transparency. The bytes come
+      from IODAI's sponsor upload (iodai.com/wp-content/uploads/2014/06/
+      RBCBrewinDolphin.png) because RBC's own remaining copy of this lockup is
+      only 133x65; the artwork is identical. RBC consolidated the umbrella brand
+      onto RBC Wealth Management around Jun/Jul 2026 (brewin.co.uk now redirects
+      there), but RBC Brewin Dolphin remains a live trading name of RBC Europe
+      Limited and is what events are still branding with. See issue #9.
+
+  - id: "rbc-wealth-management"
+    class: sponsor
+    displayName: "RBC Wealth Management"
+    source: https://www.rbcwealthmanagement.com/en-uk/
+    sourceKind: brand-portal
+    assetUrl: sources/assets/rbc-wealth-management.svg
+    homepageUrl: https://www.rbcwealthmanagement.com/en-uk/
+    note: >-
+      The successor umbrella lockup that brewin.co.uk now redirects to, taken
+      from the live UK site header. Vector, transparent. Shipped alongside
+      rbc-brewin-dolphin so events on either lockup are covered. See issue #9.
+
 
   # --- Regattas (issue #3 backlog) ---
   - id: "dlregatta"
