@@ -711,6 +711,22 @@ logos:
     qualityNote: 600px horizontal lockup (burgee + wordmark) from the site header, on a baked-in white background. Replace with a transparent PNG or vector of the same lockup from the club. See issue #10.
     note: The club also publishes a 1753x1240 JPEG of the stacked lockup and a 2026 flag-only JPEG, both likewise on white and with wide margins the pipeline cannot trim.
 
+  - id: "greystones-sc"
+    class: sailing-club
+    displayName: "Greystones Sailing Club"
+    source: https://www.gsc.ie/images/Greystones-Sailing-Club-Logo.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/greystones-sc.png
+    homepageUrl: https://www.gsc.ie
+    note: >-
+      Twin-sails mark, transparent, 253x200. Same artwork as the live site
+      header, which only serves an 80x63 copy; the bytes are the club's own
+      full-size upload from its previous WordPress site
+      (gsc.ie/wp-content/uploads/2023/11/Greystones-Sailing-Club-Logo.png),
+      retrieved from the Wayback Machine snapshot of 2024-01-22 after the site
+      move dropped it. The older sails+wordmark lockup is a different, darker
+      colourway and is not the current mark.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

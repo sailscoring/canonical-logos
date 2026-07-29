@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-29T20:40:20Z",
+  "generatedAt": "2026-07-29T21:37:01Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -473,6 +473,14 @@
       "fetchedFormat": "png",
       "rawSha256": "13a4bc5c5084f9f00d1ec246e358d9f52288e3660d7d4e60405aaa1017902558",
       "retrievedAt": "2026-07-29T20:14:20Z"
+    },
+    {
+      "id": "greystones-sc",
+      "assetUrl": "sources/assets/greystones-sc.png",
+      "file": "logos/greystones-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "bcc9e21bc616333a38cc27afad59f93d787eac46ec3f33aecc2e5bb66edf20f5",
+      "retrievedAt": "2026-07-29T21:37:01Z"
     }
   ],
   "unresolved": [

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-29T20:40:44Z",
+  "generatedAt": "2026-07-29T21:37:27Z",
   "logos": [
     {
       "id": "1720",
@@ -417,6 +417,34 @@
       "retrievedAt": "2026-06-07T11:36:22Z",
       "derivatives": {
         "small": "logos/gp14-ireland.small.png"
+      }
+    },
+    {
+      "id": "greystones-sc",
+      "class": "sailing-club",
+      "displayName": "Greystones Sailing Club",
+      "file": "logos/greystones-sc.png",
+      "format": "png",
+      "sha256": "cc1cbb813b1b4725ea63ffd987089f809a3461da54d7cb3881808a6221ff78d4",
+      "variants": [
+        {
+          "file": "logos/greystones-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.gsc.ie/images/Greystones-Sailing-Club-Logo.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.gsc.ie",
+      "assetUrl": "sources/assets/greystones-sc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-29T21:37:01Z",
+      "derivatives": {
+        "small": "logos/greystones-sc.small.png"
       }
     },
     {
