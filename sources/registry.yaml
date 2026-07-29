@@ -700,6 +700,17 @@ logos:
     assetUrl: sources/assets/baltimore-sc.png
     homepageUrl: https://www.baltimoresailingclub.ie
 
+  - id: "killaloe-sc"
+    class: sailing-club
+    displayName: "Killaloe Sailing Club"
+    source: https://www.killaloesailingclub.com/wp-content/uploads/2022/08/Killaloe-sailing-300x118-1.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/killaloe-sc.png
+    homepageUrl: https://www.killaloesailingclub.com
+    quality: provisional
+    qualityNote: 600px horizontal lockup (burgee + wordmark) from the site header, on a baked-in white background. Replace with a transparent PNG or vector of the same lockup from the club. See issue #10.
+    note: The club also publishes a 1753x1240 JPEG of the stacked lockup and a 2026 flag-only JPEG, both likewise on white and with wide margins the pipeline cannot trim.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

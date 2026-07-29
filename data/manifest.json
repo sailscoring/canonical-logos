@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-18T15:09:54Z",
+  "generatedAt": "2026-07-29T20:37:05Z",
   "logos": [
     {
       "id": "1720",
@@ -694,6 +694,34 @@
       "retrievedAt": "2026-06-07T07:26:13Z",
       "derivatives": {
         "small": "logos/j70.small.png"
+      }
+    },
+    {
+      "id": "killaloe-sc",
+      "class": "sailing-club",
+      "displayName": "Killaloe Sailing Club",
+      "file": "logos/killaloe-sc.png",
+      "format": "png",
+      "sha256": "dc3bf10c6af6de7687ae48ca2b66c2cef3d96d6935c3e113993767a86cf5ba9b",
+      "variants": [
+        {
+          "file": "logos/killaloe-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.killaloesailingclub.com/wp-content/uploads/2022/08/Killaloe-sailing-300x118-1.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.killaloesailingclub.com",
+      "assetUrl": "sources/assets/killaloe-sc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "600px horizontal lockup (burgee + wordmark) from the site header, on a baked-in white background. Replace with a transparent PNG or vector of the same lockup from the club. See issue",
+      "retrievedAt": "2026-07-29T20:14:20Z",
+      "derivatives": {
+        "small": "logos/killaloe-sc.small.png"
       }
     },
     {

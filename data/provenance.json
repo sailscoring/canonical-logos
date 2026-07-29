@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-18T15:08:01Z",
+  "generatedAt": "2026-07-29T20:34:01Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -465,6 +465,14 @@
       "fetchedFormat": "png",
       "rawSha256": "dbc7115e348984ce7312fe12f832eee5cfa39544fcd9c4d16f112b03c8fc6279",
       "retrievedAt": "2026-06-06T23:37:38Z"
+    },
+    {
+      "id": "killaloe-sc",
+      "assetUrl": "sources/assets/killaloe-sc.png",
+      "file": "logos/killaloe-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "13a4bc5c5084f9f00d1ec246e358d9f52288e3660d7d4e60405aaa1017902558",
+      "retrievedAt": "2026-07-29T20:14:20Z"
     }
   ],
   "unresolved": [
