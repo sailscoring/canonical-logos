@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-29T20:37:05Z",
+  "generatedAt": "2026-07-29T20:40:44Z",
   "logos": [
     {
       "id": "1720",
@@ -976,7 +976,7 @@
       "displayName": "RBC",
       "file": "logos/rbc.svg",
       "format": "svg",
-      "sha256": "7dcc0b7d997d665d345b130e72f6f2f329a9b4856d1d407b0615bc76cd060767",
+      "sha256": "9931d9d0c74cdd2b6a217dacce378971474507dabbdff549e93e374108cb470f",
       "variants": [
         {
           "file": "logos/rbc.svg",
@@ -1029,7 +1029,7 @@
       "displayName": "RBC Wealth Management",
       "file": "logos/rbc-wealth-management.svg",
       "format": "svg",
-      "sha256": "ef8848a044a13bde17a1e779f7c590846d113e09def09c8442698f053e7ce799",
+      "sha256": "c66639a7eadbc197cc79e2a0727f2526ef289cf136358a89d76817ea3d5a9852",
       "variants": [
         {
           "file": "logos/rbc-wealth-management.svg",
