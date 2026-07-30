@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T11:17:38Z",
+  "generatedAt": "2026-07-30T11:34:48Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -545,6 +545,14 @@
       "fetchedFormat": "png",
       "rawSha256": "6a1c202c53c5ac5c5befd9d3c936cb1a4162681978a4821b56a4fda358a63c2a",
       "retrievedAt": "2026-07-30T11:17:38Z"
+    },
+    {
+      "id": "blessington-sc",
+      "assetUrl": "sources/assets/blessington-sc.png",
+      "file": "logos/blessington-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "bd66999a0bf4a3069f652c8b769d9fb7fe689fa72162c836366e2a085b12517f",
+      "retrievedAt": "2026-07-30T11:34:48Z"
     }
   ],
   "unresolved": [

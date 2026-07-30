@@ -877,6 +877,24 @@ logos:
       Wicklow SC also runs the Round Ireland Yacht Race, which ships separately
       as `round-ireland`.
 
+  - id: "blessington-sc"
+    class: sailing-club
+    displayName: "Blessington Sailing Club"
+    source: https://boxstuff-development-thumbnails.s3.amazonaws.com/1985283_orig.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/blessington-sc.png
+    homepageUrl: https://www.blessingtonsailingclub.com
+    note: >-
+      The club device — a gold harp encircled by blue coiled rope, 400x400
+      transparent — matching the club's own definition of its burgee ("a Harp
+      surrounded by coiled rope in Blue on White Ground"). Chosen over the
+      current horizontal lockup (1220x150, transparent, "BLESSINGTON SAILING
+      CLUB" with this device inline), which trims to 908x125 and would publish
+      as a 512x71 sliver; here, unlike glandore-hyc, the device alone is both
+      better proportioned and higher resolution than the lockup. Note the old
+      blsc.ie domain is dead (no DNS) — the club moved to
+      blessingtonsailingclub.com.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

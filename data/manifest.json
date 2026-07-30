@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T11:18:02Z",
+  "generatedAt": "2026-07-30T11:35:14Z",
   "logos": [
     {
       "id": "1720",
@@ -137,6 +137,34 @@
       "retrievedAt": "2026-06-06T23:37:38Z",
       "derivatives": {
         "small": "logos/baltimore-sc.small.png"
+      }
+    },
+    {
+      "id": "blessington-sc",
+      "class": "sailing-club",
+      "displayName": "Blessington Sailing Club",
+      "file": "logos/blessington-sc.png",
+      "format": "png",
+      "sha256": "463b2684801a4ddc7c79458d79022de101dacc1f5ca3c4a2fa48013ccf5439b6",
+      "variants": [
+        {
+          "file": "logos/blessington-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://boxstuff-development-thumbnails.s3.amazonaws.com/1985283_orig.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.blessingtonsailingclub.com",
+      "assetUrl": "sources/assets/blessington-sc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-30T11:34:48Z",
+      "derivatives": {
+        "small": "logos/blessington-sc.small.png"
       }
     },
     {
