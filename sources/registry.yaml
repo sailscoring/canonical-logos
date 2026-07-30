@@ -545,9 +545,15 @@ logos:
   - id: "sb20"
     class: class-assoc
     displayName: "SB20"
-    source: https://sb20class.org/
+    source: https://sb20class.org/wp-content/uploads/2026/03/SB20_Logo-transparent.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/sb20.png
     homepageUrl: https://sb20class.org
+    note: >-
+      Official class wordmark from the international class association's own
+      site: navy "SB" with a white sail motif, cyan "20". 4000x2396 transparent,
+      content 3761x937. This is the full-size upload; WordPress also exposes a
+      `-scaled` 2560px rendition of the same file.
 
   - id: "shannon-one-design"
     class: class-assoc

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T16:16:45Z",
+  "generatedAt": "2026-07-30T16:36:55Z",
   "logos": [
     {
       "id": "1720",
@@ -1463,6 +1463,34 @@
       "retrievedAt": "2026-06-07T07:21:46Z",
       "derivatives": {
         "small": "logos/ruffian.small.png"
+      }
+    },
+    {
+      "id": "sb20",
+      "class": "class-assoc",
+      "displayName": "SB20",
+      "file": "logos/sb20.png",
+      "format": "png",
+      "sha256": "8a968a49d1b36a546e18b58fa068ea5d48722ce4d7c1d0cfcbf9ec86c7818ceb",
+      "variants": [
+        {
+          "file": "logos/sb20.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://sb20class.org/wp-content/uploads/2026/03/SB20_Logo-transparent.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://sb20class.org",
+      "assetUrl": "sources/assets/sb20.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-30T16:36:27Z",
+      "derivatives": {
+        "small": "logos/sb20.small.png"
       }
     },
     {

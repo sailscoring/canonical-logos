@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T16:16:18Z",
+  "generatedAt": "2026-07-30T16:36:27Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -355,6 +355,14 @@
       "retrievedAt": "2026-06-17T21:57:48Z"
     },
     {
+      "id": "sb20",
+      "assetUrl": "sources/assets/sb20.png",
+      "file": "logos/sb20.png",
+      "fetchedFormat": "png",
+      "rawSha256": "b4cf33ccbc60180f21587753c7a8de6d8a56cb7587f53eda68174031cc623e9a",
+      "retrievedAt": "2026-07-30T16:36:27Z"
+    },
+    {
       "id": "shannon-one-design",
       "assetUrl": "sources/assets/shannon-one-design.png",
       "file": "logos/shannon-one-design.png",
@@ -602,10 +610,6 @@
     },
     {
       "id": "sigma-33",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "sb20",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
