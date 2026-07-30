@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T17:40:33Z",
+  "generatedAt": "2026-07-30T17:54:18Z",
   "logos": [
     {
       "id": "1720",
@@ -1134,6 +1134,34 @@
       "quality": "ok",
       "qualityNote": null,
       "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "moth",
+      "class": "class-assoc",
+      "displayName": "International Moth",
+      "file": "logos/moth.png",
+      "format": "png",
+      "sha256": "4ecfd91fcaede6453c2592c25a5ca77b9c76fd97dcb6c11469b10d67dce61735",
+      "variants": [
+        {
+          "file": "logos/moth.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://static.wixstatic.com/media/eb1fae_883ddf4fd3fa49e1ab65bd6c21b0fa29~mv2.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.moth-sailing.org",
+      "assetUrl": "sources/assets/moth.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-30T17:53:37Z",
+      "derivatives": {
+        "small": "logos/moth.small.png"
+      }
     },
     {
       "id": "mullingar-sc",

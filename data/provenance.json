@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T17:39:52Z",
+  "generatedAt": "2026-07-30T17:53:37Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -233,6 +233,14 @@
       "fetchedFormat": "png",
       "rawSha256": "8286ffa95decc58772f4984aa41db6cefa3dafe3a8599eadbc83637dd347f449",
       "retrievedAt": "2026-06-06T23:30:23Z"
+    },
+    {
+      "id": "moth",
+      "assetUrl": "sources/assets/moth.png",
+      "file": "logos/moth.png",
+      "fetchedFormat": "png",
+      "rawSha256": "456f043559423d77e30f969cb1e6be6f2c0d686e3688da0c0766bb7f6607fb59",
+      "retrievedAt": "2026-07-30T17:53:37Z"
     },
     {
       "id": "29er",
@@ -606,10 +614,6 @@
     },
     {
       "id": "idra-14",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "moth",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

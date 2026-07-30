@@ -349,9 +349,19 @@ logos:
   - id: "moth"
     class: class-assoc
     displayName: "International Moth"
-    source: https://www.moth-sailing.org/
+    source: https://static.wixstatic.com/media/eb1fae_883ddf4fd3fa49e1ab65bd6c21b0fa29~mv2.png
     sourceKind: brand-portal
+    assetUrl: sources/assets/moth.png
     homepageUrl: https://www.moth-sailing.org
+    note: >-
+      The class emblem: a moth silhouette in a red vertical gradient, 2000x2000
+      transparent with content 1606x1223. Wix original, reached by stripping the
+      /v1/fill/ display transform off the media URL. The class also publishes a
+      horizontal "skinny" lockup (eb1fae_b9ea08018a23484c9c0a25092959b20d,
+      2000x400) pairing this moth with a "MOTH CLASS" wordmark, but the
+      wordmark is white and so would be invisible on a light header — the same
+      defect that keeps `topper` provisional. The emblem alone carries its own
+      colour and reads on any background.
 
   - id: "29er"
     class: class-assoc

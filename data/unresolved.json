@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T17:40:33Z",
+  "generatedAt": "2026-07-30T17:54:18Z",
   "entries": [
     {
       "id": "d2d",
@@ -20,10 +20,6 @@
     },
     {
       "id": "mermaid",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "moth",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
