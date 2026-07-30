@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T11:35:14Z",
+  "generatedAt": "2026-07-30T16:16:45Z",
   "logos": [
     {
       "id": "1720",
@@ -1463,6 +1463,34 @@
       "retrievedAt": "2026-06-07T07:21:46Z",
       "derivatives": {
         "small": "logos/ruffian.small.png"
+      }
+    },
+    {
+      "id": "schull-harbour-sc",
+      "class": "sailing-club",
+      "displayName": "Schull Harbour Sailing Club",
+      "file": "logos/schull-harbour-sc.png",
+      "format": "png",
+      "sha256": "2ecb616de29683a3660e2b21532b7d6bdc73d0067f382014224b6498146d3b69",
+      "variants": [
+        {
+          "file": "logos/schull-harbour-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.irishsailingleague.com/post/schull-harbour-sailing-club-get-first-entry-in-for-irish-sailing-league-2025",
+      "sourceKind": "direct",
+      "homepageUrl": "https://shsc.ie",
+      "assetUrl": "sources/assets/schull-harbour-sc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Burgee on an opaque",
+      "retrievedAt": "2026-07-30T16:16:18Z",
+      "derivatives": {
+        "small": "logos/schull-harbour-sc.small.png"
       }
     },
     {

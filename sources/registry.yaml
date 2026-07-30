@@ -778,21 +778,28 @@ logos:
   - id: "schull-harbour-sc"
     class: sailing-club
     displayName: "Schull Harbour Sailing Club"
-    source: https://shsc.ie
+    source: https://www.irishsailingleague.com/post/schull-harbour-sailing-club-get-first-entry-in-for-irish-sailing-league-2025
     sourceKind: direct
+    assetUrl: sources/assets/schull-harbour-sc.png
     homepageUrl: https://shsc.ie
+    quality: provisional
+    qualityNote: Burgee on an opaque #f0f0f0 grey field, so it shows as a grey box on a white header, and the bytes are a third party's crop rather than the club's own file. Replace with a transparent standalone burgee from the club. See issue #15.
     note: >-
-      Deliberately left unresolved — no assetUrl. The burgee (blue pennant,
-      SHSC in red, white lighthouse, green headland) is only ever published
-      inside composite banners: the current shsc.ie header pairs it with a
-      yacht photograph, and the previous site's 4000x600 banner added a Calves
-      Week / hotel sponsor panel as well. Cropping either is out under the
-      house standard, and shipping a whole banner would put a photograph in the
-      picker. Also checked: sail-world (60x60), trysailing.ie and sailing.ie
-      (no club images), the site favicon (empty), and the Calves Week
-      notice-of-race PDFs (embedded artwork is Calves Week and sponsor
-      branding, not the club burgee). See issue #15 — ask the club for the
-      standalone burgee.
+      Blue pennant with SHSC in red down the hoist, a white lighthouse and a
+      green headland. The club itself only ever publishes this burgee inside
+      composite banners — the shsc.ie header pairs it with a yacht photograph,
+      and the previous site's 4000x600 banner added a Calves Week / hotel
+      sponsor panel — so the bytes come from the Irish Sailing League's copy
+      (Wix media ca6a09_4483746b465c4a2eab6f05020eea37c7), which is the same
+      artwork with the photograph cropped away, at roughly 1.7x the resolution
+      of the burgee in the club's own banner. Identical grey field and slanted
+      white right edge confirm it is that banner. Four rows of navy/teal strip
+      along the bottom — Irish Sailing League page furniture caught in their
+      crop, no part of the mark — were removed before committing; nothing else
+      was touched. Also checked and rejected: sail-world (60x60), trysailing.ie
+      and sailing.ie (no club images), the site favicon (empty), and the Calves
+      Week notice-of-race PDFs (embedded artwork is Calves Week and sponsor
+      branding, not the club burgee).
 
   - id: "courtown-sc"
     class: sailing-club

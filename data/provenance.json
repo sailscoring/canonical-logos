@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T11:34:48Z",
+  "generatedAt": "2026-07-30T16:16:18Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -507,6 +507,14 @@
       "retrievedAt": "2026-07-30T09:30:03Z"
     },
     {
+      "id": "schull-harbour-sc",
+      "assetUrl": "sources/assets/schull-harbour-sc.png",
+      "file": "logos/schull-harbour-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "d1b0d67a3aee3ae854bec1829e9fbfb6a8fb36d2c49686f37ea59dece67b0c95",
+      "retrievedAt": "2026-07-30T16:16:18Z"
+    },
+    {
       "id": "courtown-sc",
       "assetUrl": "sources/assets/courtown-sc.png",
       "file": "logos/courtown-sc.png",
@@ -602,10 +610,6 @@
     },
     {
       "id": "d2d",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "schull-harbour-sc",
       "reason": "no assetUrl (not yet sourced)"
     }
   ]

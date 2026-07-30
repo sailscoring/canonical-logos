@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T11:35:14Z",
+  "generatedAt": "2026-07-30T16:16:45Z",
   "entries": [
     {
       "id": "29er",
@@ -40,10 +40,6 @@
     },
     {
       "id": "sb20",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "schull-harbour-sc",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
