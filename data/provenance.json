@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T10:25:19Z",
+  "generatedAt": "2026-07-30T10:51:36Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -521,6 +521,14 @@
       "fetchedFormat": "png",
       "rawSha256": "9a9c76a63888be7ee04640b797dc2ed353d93f2e0fde788d3e33c48c454a25aa",
       "retrievedAt": "2026-07-30T10:25:19Z"
+    },
+    {
+      "id": "lough-erne-yc",
+      "assetUrl": "sources/assets/lough-erne-yc.png",
+      "file": "logos/lough-erne-yc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "43da1dc6ddd7dcee39153de97248171d04d679b6ae571bb7976a5eea2b6c4655",
+      "retrievedAt": "2026-07-30T10:51:36Z"
     }
   ],
   "unresolved": [

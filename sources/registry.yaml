@@ -827,6 +827,20 @@ logos:
       favicon crop with the anchor and S cut off at the edges, so it is not
       usable.
 
+  - id: "lough-erne-yc"
+    class: sailing-club
+    displayName: "Lough Erne Yacht Club"
+    source: https://static.wixstatic.com/media/f7b5e2_a7284b25b83548e1ac7f8f1399818010~mv2.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/lough-erne-yc.png
+    homepageUrl: https://www.lougherneyc.com
+    note: >-
+      White pennant with a navy cross and a red two-towered castle device,
+      285x171. This is the original Wix upload — the site header only renders
+      it at 98x56. The field is opaque white with the surround transparent, so
+      it reads correctly on a dark header. Note leyc.org is an unrelated
+      organisation, not this club.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

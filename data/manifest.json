@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T10:25:44Z",
+  "generatedAt": "2026-07-30T10:52:01Z",
   "logos": [
     {
       "id": "1720",
@@ -887,6 +887,34 @@
       "retrievedAt": "2026-06-06T23:21:12Z",
       "derivatives": {
         "small": "logos/lough-derg-yc.small.png"
+      }
+    },
+    {
+      "id": "lough-erne-yc",
+      "class": "sailing-club",
+      "displayName": "Lough Erne Yacht Club",
+      "file": "logos/lough-erne-yc.png",
+      "format": "png",
+      "sha256": "3faefe614d598b75b5da80770cbb386a01ff98aad0b6e506dbba229ddf17c260",
+      "variants": [
+        {
+          "file": "logos/lough-erne-yc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://static.wixstatic.com/media/f7b5e2_a7284b25b83548e1ac7f8f1399818010~mv2.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.lougherneyc.com",
+      "assetUrl": "sources/assets/lough-erne-yc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-30T10:51:36Z",
+      "derivatives": {
+        "small": "logos/lough-erne-yc.small.png"
       }
     },
     {
