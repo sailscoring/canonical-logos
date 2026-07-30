@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T10:52:01Z",
+  "generatedAt": "2026-07-30T11:06:23Z",
   "logos": [
     {
       "id": "1720",
@@ -1053,6 +1053,34 @@
       "quality": "ok",
       "qualityNote": null,
       "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "mullingar-sc",
+      "class": "sailing-club",
+      "displayName": "Mullingar Sailing Club",
+      "file": "logos/mullingar-sc.png",
+      "format": "png",
+      "sha256": "741cca7e56b0fd0668b4f0d5b96737bb324dafdd163458319188eb97b055713c",
+      "variants": [
+        {
+          "file": "logos/mullingar-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.mullingarsailingclub.ie/uploads/4/8/0/1/48012527/msc-logo-horizontal-555-x-150px.jpg",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.mullingarsailingclub.ie",
+      "assetUrl": "sources/assets/mullingar-sc.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "555x150 horizontal lockup on a baked-in pure-white background. Replace with a transparent PNG or vector of the same lockup from the club. See issue",
+      "retrievedAt": "2026-07-30T11:05:59Z",
+      "derivatives": {
+        "small": "logos/mullingar-sc.small.png"
+      }
     },
     {
       "id": "national-yc",

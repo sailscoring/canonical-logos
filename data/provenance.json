@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T10:51:36Z",
+  "generatedAt": "2026-07-30T11:05:59Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -529,6 +529,14 @@
       "fetchedFormat": "png",
       "rawSha256": "43da1dc6ddd7dcee39153de97248171d04d679b6ae571bb7976a5eea2b6c4655",
       "retrievedAt": "2026-07-30T10:51:36Z"
+    },
+    {
+      "id": "mullingar-sc",
+      "assetUrl": "sources/assets/mullingar-sc.jpg",
+      "file": "logos/mullingar-sc.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "5fca7bb2fc114aff1897a73cafcfd7d042cc6a2d2bfc275e71527d4e26f4b255",
+      "retrievedAt": "2026-07-30T11:05:59Z"
     }
   ],
   "unresolved": [

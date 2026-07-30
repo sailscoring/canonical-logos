@@ -841,6 +841,24 @@ logos:
       it reads correctly on a dark header. Note leyc.org is an unrelated
       organisation, not this club.
 
+  - id: "mullingar-sc"
+    class: sailing-club
+    displayName: "Mullingar Sailing Club"
+    source: https://www.mullingarsailingclub.ie/uploads/4/8/0/1/48012527/msc-logo-horizontal-555-x-150px.jpg
+    sourceKind: brand-portal
+    assetUrl: sources/assets/mullingar-sc.jpg
+    homepageUrl: https://www.mullingarsailingclub.ie
+    quality: provisional
+    qualityNote: 555x150 horizontal lockup on a baked-in pure-white background. Replace with a transparent PNG or vector of the same lockup from the club. See issue #19.
+    note: >-
+      Green pennant with a yellow ship's wheel over blue wave lines, beside a
+      script "Mullingar Sailing Club / LOUGH OWEL" wordmark and a wave rule.
+      Bytes are the Weebly `_orig` upload; the page embeds a 370x100 rendition
+      of the same file. The burgee-only asset the club publishes is smaller
+      (238x136) and likewise on white, and the burgee embedded in its 2024
+      notice of race is smaller still (135x125), though that one does carry
+      alpha.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals
