@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-29T21:37:01Z",
+  "generatedAt": "2026-07-30T07:34:24Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -481,6 +481,14 @@
       "fetchedFormat": "png",
       "rawSha256": "bcc9e21bc616333a38cc27afad59f93d787eac46ec3f33aecc2e5bb66edf20f5",
       "retrievedAt": "2026-07-29T21:37:01Z"
+    },
+    {
+      "id": "foynes-yc",
+      "assetUrl": "sources/assets/foynes-yc.png",
+      "file": "logos/foynes-yc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "9090f01a1a10ec227b97c20adc005307425e2b291441a6f945e29c168ea74de5",
+      "retrievedAt": "2026-07-30T07:34:24Z"
     }
   ],
   "unresolved": [

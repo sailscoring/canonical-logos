@@ -727,6 +727,24 @@ logos:
       move dropped it. The older sails+wordmark lockup is a different, darker
       colourway and is not the current mark.
 
+  - id: "foynes-yc"
+    class: sailing-club
+    displayName: "Foynes Yacht Club"
+    source: https://foynesyachtclub.com/wp-content/uploads/2021/02/Logo_FYClub.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/foynes-yc.png
+    homepageUrl: https://www.foynesyachtclub.com
+    quality: provisional
+    qualityNote: 170x90 club burgee — the largest transparent copy the club has published, small enough that the primary barely exceeds the 200px small derivative. Replace with a higher-res or vector Foynes YC burgee. See issue #12.
+    note: >-
+      Red pennant with a yellow inner triangle and a white roundel carrying
+      Beeves Rock Lighthouse, the Shannon Estuary light off Foynes. Bytes are
+      the club's own header logo from its 2021-2024 WordPress site, retrieved
+      from the Wayback Machine; foynesyachtclub.com has since been rebuilt and
+      publishes no logo file at all — its header pennant is a hand-coded inline
+      SVG redraw (orange/red split, no red border, non-matching colours), not
+      the club's burgee, so it was not used.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

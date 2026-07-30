@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-29T21:37:27Z",
+  "generatedAt": "2026-07-30T07:34:47Z",
   "logos": [
     {
       "id": "1720",
@@ -333,6 +333,34 @@
       "retrievedAt": "2026-06-08T22:22:05Z",
       "derivatives": {
         "small": "logos/fireball-ireland.small.png"
+      }
+    },
+    {
+      "id": "foynes-yc",
+      "class": "sailing-club",
+      "displayName": "Foynes Yacht Club",
+      "file": "logos/foynes-yc.png",
+      "format": "png",
+      "sha256": "b3a5d84cfc36b0291b0b99f8cc62a04496912943264ca3e8ccafcefa5be822aa",
+      "variants": [
+        {
+          "file": "logos/foynes-yc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://foynesyachtclub.com/wp-content/uploads/2021/02/Logo_FYClub.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.foynesyachtclub.com",
+      "assetUrl": "sources/assets/foynes-yc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "170x90 club burgee — the largest transparent copy the club has published, small enough that the primary barely exceeds the 200px small derivative. Replace with a higher-res or vector Foynes YC burgee. See issue",
+      "retrievedAt": "2026-07-30T07:34:24Z",
+      "derivatives": {
+        "small": "logos/foynes-yc.small.png"
       }
     },
     {
