@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T16:53:12Z",
+  "generatedAt": "2026-07-30T17:10:00Z",
   "logos": [
     {
       "id": "1720",
@@ -29,6 +29,31 @@
       "derivatives": {
         "small": "logos/1720.small.png"
       }
+    },
+    {
+      "id": "29er",
+      "class": "class-assoc",
+      "displayName": "29er",
+      "file": "logos/29er.svg",
+      "format": "svg",
+      "sha256": "1adcd0c437b3d856ab0e7591622f74a79b3ab41c32a7c1f75b1beaeed1ecae79",
+      "variants": [
+        {
+          "file": "logos/29er.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.29er.org/assets/favicons/favicon.svg",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.29er.org",
+      "assetUrl": "sources/assets/29er.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "The class's icon badge — white \"29er\" on a full-bleed flat red square — because no standalone coloured mark is published. Replace with the \"29er class\" wordmark in the class's own colours if it is ever issued as a self-contained file. See issue",
+      "retrievedAt": "2026-07-30T17:09:33Z"
     },
     {
       "id": "420",

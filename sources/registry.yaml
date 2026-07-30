@@ -356,9 +356,21 @@ logos:
   - id: "29er"
     class: class-assoc
     displayName: "29er"
-    source: https://www.29er.org/
+    source: https://www.29er.org/assets/favicons/favicon.svg
     sourceKind: brand-portal
+    assetUrl: sources/assets/29er.svg
     homepageUrl: https://www.29er.org
+    quality: provisional
+    qualityNote: The class's icon badge — white "29er" on a full-bleed flat red square — because no standalone coloured mark is published. Replace with the "29er class" wordmark in the class's own colours if it is ever issued as a self-contained file. See issue #24.
+    note: >-
+      The class's actual logo is a horizontal "29er class" wordmark, present on
+      the site only as an inline SVG whose paths carry no fill of their own —
+      the colour comes from a CSS rule (.logofill{fill:#fff}). Extracted
+      standalone it would render black by SVG default, a colour the class never
+      uses, so choosing its colour ourselves was rejected as recolouring. The
+      icon badge is a genuine self-contained asset by comparison. The
+      apple-touch icons carry "INTERNATIONAL CLASS 29er" but sit on a
+      red-to-near-black gradient, so the flat-red vector was preferred.
 
   - id: "49er"
     class: class-assoc
