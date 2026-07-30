@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T09:53:13Z",
+  "generatedAt": "2026-07-30T10:05:56Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -505,6 +505,14 @@
       "fetchedFormat": "png",
       "rawSha256": "d440c0fc957249b4f2f20252938f5350bd99490b6c80af2b3828afc664b69fd1",
       "retrievedAt": "2026-07-30T09:30:03Z"
+    },
+    {
+      "id": "courtown-sc",
+      "assetUrl": "sources/assets/courtown-sc.png",
+      "file": "logos/courtown-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "ef98a90b7b44e8c1857e8619ee5d5a0658592bb1dc275535823929fa7071ddee",
+      "retrievedAt": "2026-07-30T10:05:56Z"
     }
   ],
   "unresolved": [

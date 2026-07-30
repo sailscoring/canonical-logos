@@ -794,6 +794,22 @@ logos:
       branding, not the club burgee). See issue #15 — ask the club for the
       standalone burgee.
 
+  - id: "courtown-sc"
+    class: sailing-club
+    displayName: "Courtown Sailing Club"
+    source: https://courtownsailingclub.ie/images/csc/2021_logo.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/courtown-sc.png
+    homepageUrl: https://courtownsailingclub.ie
+    note: >-
+      Navy-and-yellow club crest, 1024x935 transparent: "COURTOWN SAILING CLUB"
+      round a roundel enclosing a burgee on a staff marked C.S.C., over an "Est
+      1983" scroll. Same artwork as the live site header, which only serves an
+      80x73 copy; the bytes are the club's own full-size logo from its former
+      courtownsailingclub.com site (images/CSC_Logo.png), retrieved from the
+      Wayback Machine after the move to the .ie domain reorganised /images/.
+      Confirmed identical by crest aspect ratio (1.086 vs 1.077) and by eye.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals
