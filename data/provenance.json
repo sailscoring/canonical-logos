@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T07:34:24Z",
+  "generatedAt": "2026-07-30T09:17:42Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -489,6 +489,14 @@
       "fetchedFormat": "png",
       "rawSha256": "9090f01a1a10ec227b97c20adc005307425e2b291441a6f945e29c168ea74de5",
       "retrievedAt": "2026-07-30T07:34:24Z"
+    },
+    {
+      "id": "whbtc",
+      "assetUrl": "sources/assets/whbtc.webp",
+      "file": "logos/whbtc.webp",
+      "fetchedFormat": "webp",
+      "rawSha256": "3f94d7e7bc6c12a48fa10e4646c0db4544b08748e004e8196a0e989f37903449",
+      "retrievedAt": "2026-07-30T09:17:42Z"
     }
   ],
   "unresolved": [

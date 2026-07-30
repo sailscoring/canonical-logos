@@ -745,6 +745,20 @@ logos:
       SVG redraw (orange/red split, no red border, non-matching colours), not
       the club's burgee, so it was not used.
 
+  - id: "whbtc"
+    class: sailing-club
+    displayName: "Wexford Harbour Boat & Tennis Club"
+    source: https://whbtc.ie/wp-content/uploads/2024/02/WHBTC-Logo-01.webp
+    sourceKind: brand-portal
+    assetUrl: sources/assets/whbtc.webp
+    homepageUrl: https://whbtc.ie
+    note: >-
+      Circular red seal, 1000x1000 transparent: "WEXFORD HARBOUR BOAT & TENNIS
+      CLUB / FOUNDED 1873" around three arched, scaled, spiny-finned fish (two
+      above, one below) and a row of three small crowned fish between wavy
+      bars. Not the Wexford town arms, which are three burning ships. Bytes are
+      committed locally because whbtc.ie 403s non-browser user agents.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

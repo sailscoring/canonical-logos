@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T07:34:47Z",
+  "generatedAt": "2026-07-30T09:18:07Z",
   "logos": [
     {
       "id": "1720",
@@ -1656,6 +1656,34 @@
       "retrievedAt": "2026-06-06T23:37:38Z",
       "derivatives": {
         "small": "logos/wave-regatta.small.png"
+      }
+    },
+    {
+      "id": "whbtc",
+      "class": "sailing-club",
+      "displayName": "Wexford Harbour Boat & Tennis Club",
+      "file": "logos/whbtc.png",
+      "format": "png",
+      "sha256": "44679aacf7de861fba863cc21e443f54af9bcf3552235c8b67fb66d4881c662a",
+      "variants": [
+        {
+          "file": "logos/whbtc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://whbtc.ie/wp-content/uploads/2024/02/WHBTC-Logo-01.webp",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://whbtc.ie",
+      "assetUrl": "sources/assets/whbtc.webp",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-30T09:17:42Z",
+      "derivatives": {
+        "small": "logos/whbtc.small.png"
       }
     },
     {
