@@ -775,6 +775,25 @@ logos:
       reads badly in the picker, the upgrade is a larger burgee-only asset from
       the club, not a crop of this one.
 
+  - id: "schull-harbour-sc"
+    class: sailing-club
+    displayName: "Schull Harbour Sailing Club"
+    source: https://shsc.ie
+    sourceKind: direct
+    homepageUrl: https://shsc.ie
+    note: >-
+      Deliberately left unresolved — no assetUrl. The burgee (blue pennant,
+      SHSC in red, white lighthouse, green headland) is only ever published
+      inside composite banners: the current shsc.ie header pairs it with a
+      yacht photograph, and the previous site's 4000x600 banner added a Calves
+      Week / hotel sponsor panel as well. Cropping either is out under the
+      house standard, and shipping a whole banner would put a photograph in the
+      picker. Also checked: sail-world (60x60), trysailing.ie and sailing.ie
+      (no club images), the site favicon (empty), and the Calves Week
+      notice-of-race PDFs (embedded artwork is Calves Week and sponsor
+      branding, not the club burgee). See issue #15 — ask the club for the
+      standalone burgee.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

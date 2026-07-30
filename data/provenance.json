@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T09:30:03Z",
+  "generatedAt": "2026-07-30T09:53:13Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -554,6 +554,10 @@
     },
     {
       "id": "d2d",
+      "reason": "no assetUrl (not yet sourced)"
+    },
+    {
+      "id": "schull-harbour-sc",
       "reason": "no assetUrl (not yet sourced)"
     }
   ]
