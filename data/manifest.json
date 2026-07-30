@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T11:06:23Z",
+  "generatedAt": "2026-07-30T11:18:02Z",
   "logos": [
     {
       "id": "1720",
@@ -1824,6 +1824,34 @@
       "retrievedAt": "2026-07-30T09:17:42Z",
       "derivatives": {
         "small": "logos/whbtc.small.png"
+      }
+    },
+    {
+      "id": "wicklow-sc",
+      "class": "sailing-club",
+      "displayName": "Wicklow Sailing Club",
+      "file": "logos/wicklow-sc.png",
+      "format": "png",
+      "sha256": "63e6fbd0b6c8554141b5c339519a5c9ac16642578aa6f5d6c6963157fa4a33ad",
+      "variants": [
+        {
+          "file": "logos/wicklow-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://wicklowsailing.com/wp/wp-content/uploads/2023/02/WSC-header-logo.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://wicklowsailingclub.ie",
+      "assetUrl": "sources/assets/wicklow-sc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-30T11:17:38Z",
+      "derivatives": {
+        "small": "logos/wicklow-sc.small.png"
       }
     },
     {

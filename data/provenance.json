@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T11:05:59Z",
+  "generatedAt": "2026-07-30T11:17:38Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -537,6 +537,14 @@
       "fetchedFormat": "jpg",
       "rawSha256": "5fca7bb2fc114aff1897a73cafcfd7d042cc6a2d2bfc275e71527d4e26f4b255",
       "retrievedAt": "2026-07-30T11:05:59Z"
+    },
+    {
+      "id": "wicklow-sc",
+      "assetUrl": "sources/assets/wicklow-sc.png",
+      "file": "logos/wicklow-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "6a1c202c53c5ac5c5befd9d3c936cb1a4162681978a4821b56a4fda358a63c2a",
+      "retrievedAt": "2026-07-30T11:17:38Z"
     }
   ],
   "unresolved": [

@@ -859,6 +859,24 @@ logos:
       notice of race is smaller still (135x125), though that one does carry
       alpha.
 
+  - id: "wicklow-sc"
+    class: sailing-club
+    displayName: "Wicklow Sailing Club"
+    source: https://wicklowsailing.com/wp/wp-content/uploads/2023/02/WSC-header-logo.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/wicklow-sc.png
+    homepageUrl: https://wicklowsailingclub.ie
+    note: >-
+      Indigo burgee on a staff carrying a white castle device, over a "Wicklow
+      Sailing Club" wordmark. 500x294 transparent. The site is served from
+      wicklowsailingclub.ie but its assets live on wicklowsailing.com. Beware
+      `uploads/2025/07/site_logo.png` in the same media library: despite the
+      name it is the Little Dragon regatta wordmark, not the club mark. The
+      512x512 WordPress site icon is the burgee alone, transparent and
+      marginally larger in content (499x298), but without the club name.
+      Wicklow SC also runs the Round Ireland Yacht Race, which ships separately
+      as `round-ireland`.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals
