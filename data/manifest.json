@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T17:10:00Z",
+  "generatedAt": "2026-07-30T17:40:33Z",
   "logos": [
     {
       "id": "1720",
@@ -1877,6 +1877,34 @@
       "retrievedAt": "2026-06-06T23:21:12Z",
       "derivatives": {
         "small": "logos/waszp.small.png"
+      }
+    },
+    {
+      "id": "water-wags",
+      "class": "class-assoc",
+      "displayName": "Water Wags",
+      "file": "logos/water-wags.png",
+      "format": "png",
+      "sha256": "e250015c637d77599636f0a0bc804ccd9232cea2786dc8ae0c5df768fb84abd1",
+      "variants": [
+        {
+          "file": "logos/water-wags.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/641a30a7fb1ed93924d3d357/b67e4f7e-280a-4f26-8872-a57ed67637c3/favicon.ico",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.waterwags.com",
+      "assetUrl": "sources/assets/water-wags.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "125x100 site-icon copy of the class emblem (effective mark only 107x77) on a baked-in white background — the smallest asset in the set, and the only place the emblem is published at all. Replace with a larger transparent Water Wag emblem from the class. See issue",
+      "retrievedAt": "2026-07-30T17:39:51Z",
+      "derivatives": {
+        "small": "logos/water-wags.small.png"
       }
     },
     {

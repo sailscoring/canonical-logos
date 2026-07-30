@@ -506,9 +506,20 @@ logos:
   - id: "water-wags"
     class: class-assoc
     displayName: "Water Wags"
-    source: https://www.waterwags.com/
+    source: https://images.squarespace-cdn.com/content/v1/641a30a7fb1ed93924d3d357/b67e4f7e-280a-4f26-8872-a57ed67637c3/favicon.ico
     sourceKind: brand-portal
+    assetUrl: sources/assets/water-wags.png
     homepageUrl: https://www.waterwags.com
+    quality: provisional
+    qualityNote: 125x100 site-icon copy of the class emblem (effective mark only 107x77) on a baked-in white background — the smallest asset in the set, and the only place the emblem is published at all. Replace with a larger transparent Water Wag emblem from the class. See issue #25.
+    note: >-
+      The Water Wag Club emblem: a red pennant crossed by a white horizontal
+      stripe, on a staff, over a three-part scroll reading "THE WATER WAGS".
+      The pennant matches the class blazon recorded by Flags of the World, "a
+      white horizontal stripe traversing a red field". Despite the .ico name
+      the file is served as image/png. Everything else waterwags.com publishes
+      is photography; the previous Weebly-era site's favicon was smaller still
+      at 100x80, and dbsc.ie carries no Water Wags emblem.
 
   - id: "topper"
     class: class-assoc

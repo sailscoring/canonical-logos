@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T17:09:33Z",
+  "generatedAt": "2026-07-30T17:39:52Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -347,6 +347,14 @@
       "retrievedAt": "2026-06-06T23:21:12Z"
     },
     {
+      "id": "water-wags",
+      "assetUrl": "sources/assets/water-wags.png",
+      "file": "logos/water-wags.png",
+      "fetchedFormat": "png",
+      "rawSha256": "c074049d91b4243c94fac2a220592969f0f8f4f337d380a82e1ba962aa6de453",
+      "retrievedAt": "2026-07-30T17:39:51Z"
+    },
+    {
       "id": "topper",
       "assetUrl": "sources/assets/topper.svg",
       "file": "logos/topper.svg",
@@ -610,10 +618,6 @@
     },
     {
       "id": "mermaid",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "water-wags",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
