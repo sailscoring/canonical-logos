@@ -363,9 +363,19 @@ logos:
   - id: "49er"
     class: class-assoc
     displayName: "49er"
-    source: https://www.49er.org/
+    source: https://49er.org/wp-content/uploads/2024/03/49er-logo.png
     sourceKind: brand-portal
-    homepageUrl: https://www.49er.org
+    assetUrl: sources/assets/49er.png
+    homepageUrl: https://49er.org
+    note: >-
+      The International 49er Class Association's mark, 581x429 transparent
+      (content 382x318): blue "49er FX" over a yellow "49er". The association
+      governs both classes and brands them as one lockup, so this is the class
+      mark rather than a 49er-only wordmark — there is no separate 49er-only
+      asset. An FX-specific logo exists (uploads/2025/03/49erFX-logo.png,
+      1080x1080) if the FX fleet ever needs its own entry. Preferred over the
+      512x512 WordPress site icon, which has marginally larger content but is
+      upscaled from this same file.
 
   - id: "icra"
     class: class-assoc

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T16:36:55Z",
+  "generatedAt": "2026-07-30T16:53:12Z",
   "logos": [
     {
       "id": "1720",
@@ -54,6 +54,34 @@
       "quality": "ok",
       "qualityNote": null,
       "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "49er",
+      "class": "class-assoc",
+      "displayName": "49er",
+      "file": "logos/49er.png",
+      "format": "png",
+      "sha256": "91faecaba37656494c3f7e31b23b3bf0fcc9c5efd43136bfcfe3eaa1eb60666b",
+      "variants": [
+        {
+          "file": "logos/49er.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://49er.org/wp-content/uploads/2024/03/49er-logo.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://49er.org",
+      "assetUrl": "sources/assets/49er.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-30T16:52:44Z",
+      "derivatives": {
+        "small": "logos/49er.small.png"
+      }
     },
     {
       "id": "aib",

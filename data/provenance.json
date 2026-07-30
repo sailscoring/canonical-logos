@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T16:36:27Z",
+  "generatedAt": "2026-07-30T16:52:44Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -233,6 +233,14 @@
       "fetchedFormat": "png",
       "rawSha256": "8286ffa95decc58772f4984aa41db6cefa3dafe3a8599eadbc83637dd347f449",
       "retrievedAt": "2026-06-06T23:30:23Z"
+    },
+    {
+      "id": "49er",
+      "assetUrl": "sources/assets/49er.png",
+      "file": "logos/49er.png",
+      "fetchedFormat": "png",
+      "rawSha256": "7512845258765b79b2dd5287d128639893832a3193442a29125255463dfeba0b",
+      "retrievedAt": "2026-07-30T16:52:44Z"
     },
     {
       "id": "icra",
@@ -590,10 +598,6 @@
     },
     {
       "id": "29er",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "49er",
       "reason": "no assetUrl (not yet sourced)"
     },
     {
