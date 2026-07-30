@@ -759,6 +759,22 @@ logos:
       bars. Not the Wexford town arms, which are three burning ships. Bytes are
       committed locally because whbtc.ie 403s non-browser user agents.
 
+  - id: "glandore-hyc"
+    class: sailing-club
+    displayName: "Glandore Harbour Yacht Club"
+    source: https://glandoreyc.com/ycwp/wp-content/uploads/2016/10/GHYC-Logo-O.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/glandore-hyc.png
+    homepageUrl: https://glandoreyc.com
+    note: >-
+      Horizontal lockup, 1170x120 transparent: the club burgee (red-outlined
+      pennant over light blue, green headland and dark blue water) with the
+      "Glandore Harbour Yacht Club" wordmark. Wide at 9.75:1, so it renders
+      512x53; kept over the burgee-only alternatives because those top out at
+      177x114 (a 2015 banner crop and a 128px .ico). If the wide lockup ever
+      reads badly in the picker, the upgrade is a larger burgee-only asset from
+      the club, not a crop of this one.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

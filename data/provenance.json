@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T09:17:42Z",
+  "generatedAt": "2026-07-30T09:30:03Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -497,6 +497,14 @@
       "fetchedFormat": "webp",
       "rawSha256": "3f94d7e7bc6c12a48fa10e4646c0db4544b08748e004e8196a0e989f37903449",
       "retrievedAt": "2026-07-30T09:17:42Z"
+    },
+    {
+      "id": "glandore-hyc",
+      "assetUrl": "sources/assets/glandore-hyc.png",
+      "file": "logos/glandore-hyc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "d440c0fc957249b4f2f20252938f5350bd99490b6c80af2b3828afc664b69fd1",
+      "retrievedAt": "2026-07-30T09:30:03Z"
     }
   ],
   "unresolved": [

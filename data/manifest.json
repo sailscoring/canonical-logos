@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T09:18:07Z",
+  "generatedAt": "2026-07-30T09:30:28Z",
   "logos": [
     {
       "id": "1720",
@@ -389,6 +389,34 @@
       "retrievedAt": "2026-06-06T23:37:38Z",
       "derivatives": {
         "small": "logos/galway-bay-sc.small.png"
+      }
+    },
+    {
+      "id": "glandore-hyc",
+      "class": "sailing-club",
+      "displayName": "Glandore Harbour Yacht Club",
+      "file": "logos/glandore-hyc.png",
+      "format": "png",
+      "sha256": "967bd9218b72b3280ba10308d6a69eff615b88be97b76534b52e42765520afd5",
+      "variants": [
+        {
+          "file": "logos/glandore-hyc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://glandoreyc.com/ycwp/wp-content/uploads/2016/10/GHYC-Logo-O.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://glandoreyc.com",
+      "assetUrl": "sources/assets/glandore-hyc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-07-30T09:30:03Z",
+      "derivatives": {
+        "small": "logos/glandore-hyc.small.png"
       }
     },
     {
