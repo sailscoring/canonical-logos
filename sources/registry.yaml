@@ -810,6 +810,23 @@ logos:
       Wayback Machine after the move to the .ie domain reorganised /images/.
       Confirmed identical by crest aspect ratio (1.086 vs 1.077) and by eye.
 
+  - id: "sligo-yc"
+    class: sailing-club
+    displayName: "Sligo Yacht Club"
+    source: https://sligoyachtclub.ie/wp-content/uploads/2026/03/SYC_Club_Racing_NoR_2026.pdf
+    sourceKind: brand-portal
+    assetUrl: sources/assets/sligo-yc.png
+    homepageUrl: https://sligoyachtclub.ie
+    quality: provisional
+    qualityNote: 275x155 burgee recomposed from the image XObject + soft mask embedded in the club's own 2026 notice of race, because no standalone copy is published above 150x96. Ask the club for the burgee file its race documents are built from. See issue #17.
+    note: >-
+      Red pennant with a white fouled anchor and a black serif S. The website
+      header serves a different, "wavy" fluttering treatment of the same burgee
+      (SYC-logo-wavy.png) but only at 150x96 and visibly pixelated, losing the
+      rope detail on the anchor; the 512x512 "cropped-SYC-logo-wavy.png" is a
+      favicon crop with the anchor and S cut off at the edges, so it is not
+      usable.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals

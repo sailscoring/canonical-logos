@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T10:06:21Z",
+  "generatedAt": "2026-07-30T10:25:44Z",
   "logos": [
     {
       "id": "1720",
@@ -1435,6 +1435,34 @@
       "retrievedAt": "2026-06-07T11:37:58Z",
       "derivatives": {
         "small": "logos/skerries-sc.small.png"
+      }
+    },
+    {
+      "id": "sligo-yc",
+      "class": "sailing-club",
+      "displayName": "Sligo Yacht Club",
+      "file": "logos/sligo-yc.png",
+      "format": "png",
+      "sha256": "2c19f013529efb2c3b2853af5c5521e0a4f9c5dc882b997fd253dbbd5e1eb89e",
+      "variants": [
+        {
+          "file": "logos/sligo-yc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://sligoyachtclub.ie/wp-content/uploads/2026/03/SYC_Club_Racing_NoR_2026.pdf",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://sligoyachtclub.ie",
+      "assetUrl": "sources/assets/sligo-yc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "275x155 burgee recomposed from the image XObject + soft mask embedded in the club's own 2026 notice of race, because no standalone copy is published above 150x96. Ask the club for the burgee file its race documents are built from. See issue",
+      "retrievedAt": "2026-07-30T10:25:19Z",
+      "derivatives": {
+        "small": "logos/sligo-yc.small.png"
       }
     },
     {

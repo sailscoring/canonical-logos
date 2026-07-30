@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T10:05:56Z",
+  "generatedAt": "2026-07-30T10:25:19Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -513,6 +513,14 @@
       "fetchedFormat": "png",
       "rawSha256": "ef98a90b7b44e8c1857e8619ee5d5a0658592bb1dc275535823929fa7071ddee",
       "retrievedAt": "2026-07-30T10:05:56Z"
+    },
+    {
+      "id": "sligo-yc",
+      "assetUrl": "sources/assets/sligo-yc.png",
+      "file": "logos/sligo-yc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "9a9c76a63888be7ee04640b797dc2ed353d93f2e0fde788d3e33c48c454a25aa",
+      "retrievedAt": "2026-07-30T10:25:19Z"
     }
   ],
   "unresolved": [
