@@ -91,7 +91,10 @@ logos:
     assetUrl: sources/assets/ilca.svg
     licence: Public domain
     attribution: ILCA class association
-    homepageUrl: https://www.ilca-dinghy.org
+    homepageUrl: https://www.ilcasailing.org
+    note: >-
+      homepageUrl was https://www.ilca-dinghy.org until 2026-08-10; that domain
+      now serves a parked-domain lander. ILCA's live site is ilcasailing.org.
 
   - id: iodai
     class: class-assoc
