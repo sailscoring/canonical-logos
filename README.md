@@ -25,7 +25,9 @@ Each tagged GitHub Release will attach:
 - **`manifest.json`** — the canonical dataset: every logo, its `id`, `class`
   (`governing-body` / `sailing-club` / `class-assoc` / `sponsor` / `venue` / `regatta`),
   display name,
-  file + format + `sha256`, available colourway variants, source provenance
+  file + format + `sha256`, each variant and the `background` it is safe to sit
+  on (`any` for a transparent asset, or `light` / `dark` for one carrying a baked
+  fill — derived from the bytes, never hand-declared), source provenance
   (`sourceUrl`, `sourceKind`, `retrievedAt`), the org's official homepage
   (`homepageUrl`, optional — the default click-through target a consumer applies
   when a scorer picks the logo), and a `quality` flag (`ok`, or `provisional`

@@ -6,8 +6,9 @@ for fetching.
 
 If data/manifest.json exists, also validates it: every entry maps to a registry
 id that is not denylisted, its file (and any derivative) exists, the format is
-allowed and matches the file, the recorded sha256 matches the file on disk, and
-any asset with a non-free licence carries an attribution string.
+allowed and matches the file, the recorded sha256 matches the file on disk, each
+variant's `background` re-derives to the value published, and any asset with a
+non-free licence carries an attribution string.
 """
 
 from __future__ import annotations
@@ -16,6 +17,7 @@ import hashlib
 import json
 import sys
 
+from _background import VALID_BACKGROUNDS, derive_background
 from _registry import (
     MANIFEST_PATH,
     REPO_ROOT,
@@ -67,6 +69,28 @@ def _validate_manifest(problems: list[str]) -> None:
         small = rec.get("derivatives", {}).get("small")
         if small and not (REPO_ROOT / small).is_file():
             problems.append(f"{where}: derivative missing: {small}")
+
+        # Re-derive rather than trust: `background` is a claim a consumer acts on
+        # when placing the mark, so a stale or hand-edited value must not ship.
+        variants = rec.get("variants") or []
+        if not variants:
+            problems.append(f"{where}: no variants")
+        for i, variant in enumerate(variants):
+            vwhere = f"{where}: variant[{i}]"
+            claimed = variant.get("background")
+            vfile = variant.get("file", "")
+            vpath = REPO_ROOT / vfile
+            if claimed not in VALID_BACKGROUNDS:
+                problems.append(
+                    f"{vwhere}: background {claimed!r} not in {sorted(VALID_BACKGROUNDS)}"
+                )
+            elif not vpath.is_file():
+                problems.append(f"{vwhere}: file missing: {vfile}")
+            elif (actual := derive_background(vpath)) != claimed:
+                problems.append(
+                    f"{vwhere}: background claims {claimed!r} but {vfile} is {actual!r} "
+                    "— re-run 03_manifest.py"
+                )
 
         licence = rec.get("licence")
         if licence and licence.strip().lower() not in FREE_NO_ATTRIBUTION and not rec.get(

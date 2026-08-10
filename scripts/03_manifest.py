@@ -3,7 +3,8 @@
 Joins the curation decision (registry.yaml), the fetch provenance
 (provenance.json), and the normalised files on disk (logos/). One manifest
 record per shipped logo: id, class, displayName, file + format + post-
-normalisation sha256, any small derivative, colourway variants, source
+normalisation sha256, any small derivative, each variant and the backgrounds it
+is safe to sit on (derived from the bytes, see _background.py), source
 provenance, the org's official homepage (homepageUrl, the app's default
 click-through target), and any free-licence terms. Entities that could not be sourced, or
 are on the denylist, are carried into unresolved.json with their reason.
@@ -20,6 +21,7 @@ import sys
 from datetime import UTC, datetime
 from pathlib import Path
 
+from _background import derive_background
 from _registry import (
     LOGOS_DIR,
     MANIFEST_PATH,
@@ -235,7 +237,13 @@ def main() -> int:
             "file": _rel(primary),
             "format": fmt,
             "sha256": _sha256_file(primary),
-            "variants": [{"file": _rel(primary), "variant": "primary", "background": "any"}],
+            "variants": [
+                {
+                    "file": _rel(primary),
+                    "variant": "primary",
+                    "background": derive_background(primary),
+                }
+            ],
             "sourceUrl": entry["source"],
             "sourceKind": entry["sourceKind"],
             "homepageUrl": entry.get("homepageUrl"),
