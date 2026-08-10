@@ -731,6 +731,28 @@ logos:
     assetUrl: sources/assets/wave-regatta.jpg
     homepageUrl: https://www.waveregatta.com
 
+  - id: "ilca-worlds-2026"
+    class: regatta
+    displayName: "2026 ILCA World Championships, Dublin Bay"
+    source: https://2026ilca7men.ilca-worlds.org/
+    sourceKind: brand-portal
+    assetUrl: sources/assets/ilca-worlds-2026.png
+    homepageUrl: https://2026ilca7men.ilca-worlds.org
+    quality: provisional
+    qualityNote: >-
+      429x390 with a baked-in white background — the organisers publish no
+      transparent or vector version. Want the designer's original transparent
+      PNG or SVG from the NYC/RStGYC organising committee. See issue #27.
+    note: >-
+      One mark covers both Dún Laoghaire Worlds — the ILCA 7 Men's (23-30 Aug
+      2026) and the ILCA 6 Women's (4-12 Sep 2026) — jointly organised by the
+      National Yacht Club and the Royal St George YC. Both event sites serve
+      the byte-identical file and the mark itself carries no class or date
+      stamp beyond "2026". Depicts the Poolbeg chimneys, an ILCA under an IRL
+      sail number, and the two clubs' burgees (National YC left, Royal St
+      George right). The live URL is hotlink-safe but the bytes are committed
+      here so the entry survives the event site being retired after 2026.
+
 
   # --- Sailing clubs (issue #3 backlog) ---
   - id: "galway-bay-sc"

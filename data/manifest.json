@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-30T17:54:18Z",
+  "generatedAt": "2026-08-10T09:32:07Z",
   "logos": [
     {
       "id": "1720",
@@ -720,6 +720,34 @@
       "quality": "ok",
       "qualityNote": null,
       "retrievedAt": "2026-06-06T20:07:56Z"
+    },
+    {
+      "id": "ilca-worlds-2026",
+      "class": "regatta",
+      "displayName": "2026 ILCA World Championships, Dublin Bay",
+      "file": "logos/ilca-worlds-2026.png",
+      "format": "png",
+      "sha256": "7424391d91c86b09a5d186010a0fee05beb00176b8dca701ff0d33bfab4b37a5",
+      "variants": [
+        {
+          "file": "logos/ilca-worlds-2026.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://2026ilca7men.ilca-worlds.org/",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://2026ilca7men.ilca-worlds.org",
+      "assetUrl": "sources/assets/ilca-worlds-2026.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "429x390 with a baked-in white background — the organisers publish no transparent or vector version. Want the designer's original transparent PNG or SVG from the NYC/RStGYC organising committee. See issue #27.",
+      "retrievedAt": "2026-08-10T09:31:35Z",
+      "derivatives": {
+        "small": "logos/ilca-worlds-2026.small.png"
+      }
     },
     {
       "id": "iodai",

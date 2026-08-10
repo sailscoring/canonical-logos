@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-30T17:53:37Z",
+  "generatedAt": "2026-08-10T09:31:35Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -489,6 +489,14 @@
       "fetchedFormat": "jpg",
       "rawSha256": "ae59ae2b7c01d065b004480c15e04792f94c4483fe39b9305a275299bc06a6f1",
       "retrievedAt": "2026-06-06T23:37:38Z"
+    },
+    {
+      "id": "ilca-worlds-2026",
+      "assetUrl": "sources/assets/ilca-worlds-2026.png",
+      "file": "logos/ilca-worlds-2026.png",
+      "fetchedFormat": "png",
+      "rawSha256": "68f963257a0168793c9c61a88905050a0862a4cdd540d4292df9e80ee2aeb88d",
+      "retrievedAt": "2026-08-10T09:31:35Z"
     },
     {
       "id": "galway-bay-sc",
