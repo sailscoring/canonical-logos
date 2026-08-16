@@ -679,6 +679,21 @@ logos:
       from the live UK site header. Vector, transparent. Shipped alongside
       rbc-brewin-dolphin so events on either lockup are covered. See issue #9.
 
+  - id: "gibneys-of-malahide"
+    class: sponsor
+    displayName: "Gibney's of Malahide"
+    source: https://gibneys.com/wp-content/uploads/2025/01/Transparentlogo-02.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/gibneys-of-malahide.png
+    homepageUrl: https://gibneysofmalahide.com
+    note: >-
+      The black-ink "GIBNEY'S / EST.1937" wordmark, 650x554 transparent PNG from
+      Gibney's Group's own site — the same artwork HYC uses on its sponsor board
+      (hyc.ie/system/files/7387/original/gibney70.png) at 2.3x the resolution.
+      The venue-specific "GIBNEY'S of Malahide" lockup exists only as white ink
+      (gibneysofmalahide.com header), which is invisible on a light header, and
+      the house standard rules out recolouring it. No public SVG. See issue #29.
+
 
   # --- Regattas (issue #3 backlog) ---
   - id: "dlregatta"

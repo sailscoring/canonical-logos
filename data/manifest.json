@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-08-10T09:52:43Z",
+  "generatedAt": "2026-08-16T08:44:29Z",
   "logos": [
     {
       "id": "1720",
@@ -498,6 +498,34 @@
       "retrievedAt": "2026-06-06T23:37:38Z",
       "derivatives": {
         "small": "logos/galway-bay-sc.small.png"
+      }
+    },
+    {
+      "id": "gibneys-of-malahide",
+      "class": "sponsor",
+      "displayName": "Gibney's of Malahide",
+      "file": "logos/gibneys-of-malahide.png",
+      "format": "png",
+      "sha256": "5a46294847795098869a4684949253efc3de22b4c8a12b391fcbddeb9af11712",
+      "variants": [
+        {
+          "file": "logos/gibneys-of-malahide.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://gibneys.com/wp-content/uploads/2025/01/Transparentlogo-02.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://gibneysofmalahide.com",
+      "assetUrl": "sources/assets/gibneys-of-malahide.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-08-16T08:44:01Z",
+      "derivatives": {
+        "small": "logos/gibneys-of-malahide.small.png"
       }
     },
     {

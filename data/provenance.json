@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-10T09:31:35Z",
+  "generatedAt": "2026-08-16T08:44:01Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -449,6 +449,14 @@
       "fetchedFormat": "svg",
       "rawSha256": "ef8848a044a13bde17a1e779f7c590846d113e09def09c8442698f053e7ce799",
       "retrievedAt": "2026-07-18T15:08:01Z"
+    },
+    {
+      "id": "gibneys-of-malahide",
+      "assetUrl": "sources/assets/gibneys-of-malahide.png",
+      "file": "logos/gibneys-of-malahide.png",
+      "fetchedFormat": "png",
+      "rawSha256": "90608b8b119d52ce77b984c8070fa9a043b2a6fa6754a323cf37d6f02d16c08a",
+      "retrievedAt": "2026-08-16T08:44:01Z"
     },
     {
       "id": "dlregatta",
