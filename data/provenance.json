@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-16T08:44:01Z",
+  "generatedAt": "2026-08-16T10:03:19Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -505,6 +505,14 @@
       "fetchedFormat": "png",
       "rawSha256": "68f963257a0168793c9c61a88905050a0862a4cdd540d4292df9e80ee2aeb88d",
       "retrievedAt": "2026-08-10T09:31:35Z"
+    },
+    {
+      "id": "iodai-nats-2026",
+      "assetUrl": "sources/assets/iodai-nats-2026.png",
+      "file": "logos/iodai-nats-2026.png",
+      "fetchedFormat": "png",
+      "rawSha256": "9fdb7fc8a46d1597811df623a3eba787197b1fd1ce3663ca030fc01fc6e38595",
+      "retrievedAt": "2026-08-16T10:03:19Z"
     },
     {
       "id": "galway-bay-sc",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-08-16T08:44:29Z",
+  "generatedAt": "2026-08-16T10:03:45Z",
   "logos": [
     {
       "id": "1720",
@@ -803,6 +803,34 @@
       "retrievedAt": "2026-06-06T23:08:50Z",
       "derivatives": {
         "small": "logos/iodai.small.png"
+      }
+    },
+    {
+      "id": "iodai-nats-2026",
+      "class": "regatta",
+      "displayName": "2026 Irish & Open Optimist National Championships, Royal Cork",
+      "file": "logos/iodai-nats-2026.png",
+      "format": "png",
+      "sha256": "984e20346ef0274d0693ada99573015534273100819e60d027f62fa6f773c23d",
+      "variants": [
+        {
+          "file": "logos/iodai-nats-2026.png",
+          "variant": "primary",
+          "background": "light"
+        }
+      ],
+      "sourceUrl": "https://www.royalcork.com/wp-content/uploads/2026/06/Opti-Logo.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.royalcork.com/2026-irish-national-open-optimist-championships/",
+      "assetUrl": "sources/assets/iodai-nats-2026.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "1328x570 with a baked-in white background — the organisers publish no transparent or vector version. Want the designer's original transparent PNG or SVG from the RCYC organising committee. See issue #30.",
+      "retrievedAt": "2026-08-16T10:03:19Z",
+      "derivatives": {
+        "small": "logos/iodai-nats-2026.small.png"
       }
     },
     {

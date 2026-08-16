@@ -771,6 +771,30 @@ logos:
       George right). The live URL is hotlink-safe but the bytes are committed
       here so the entry survives the event site being retired after 2026.
 
+  - id: "iodai-nats-2026"
+    class: regatta
+    displayName: "2026 Irish & Open Optimist National Championships, Royal Cork"
+    source: https://www.royalcork.com/wp-content/uploads/2026/06/Opti-Logo.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/iodai-nats-2026.png
+    homepageUrl: https://www.royalcork.com/2026-irish-national-open-optimist-championships/
+    quality: provisional
+    qualityNote: >-
+      1328x570 with a baked-in white background — the organisers publish no
+      transparent or vector version. Want the designer's original transparent
+      PNG or SVG from the RCYC organising committee. See issue #30.
+    note: >-
+      The IODAI Irish & Open Optimist Nationals, hosted by the Royal Cork Yacht
+      Club 13-16 Aug 2026 (team racing 12 Aug). The mark is the event's "CORK
+      26" wordmark over "ROYAL CORK YACHT CLUB" with an Optimist under sail —
+      distinct from the RCYC 2026 spinnaker crest used for cork-week. Taken
+      from RCYC's own upload rather than the wide photo-composite page header
+      IODAI and RCYC both run above the event pages
+      (iodai.com/wp-content/uploads/2014/06/RCYC-Nats2026_R3_Header_02-copy-1.jpg
+      — 1417x482, a banner, not a mark). Flat 61-colour palette PNG, so
+      plainly exported from vector art we have not been given. The bytes are
+      committed here so the entry survives the event page being retired.
+
 
   # --- Sailing clubs (issue #3 backlog) ---
   - id: "galway-bay-sc"
