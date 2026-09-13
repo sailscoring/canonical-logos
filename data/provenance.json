@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-16T10:03:19Z",
+  "generatedAt": "2026-09-13T18:28:15Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -625,6 +625,14 @@
       "fetchedFormat": "png",
       "rawSha256": "bd66999a0bf4a3069f652c8b769d9fb7fe689fa72162c836366e2a085b12517f",
       "retrievedAt": "2026-07-30T11:34:48Z"
+    },
+    {
+      "id": "fastnet-marine-oec",
+      "assetUrl": "sources/assets/fastnet-marine-oec.png",
+      "file": "logos/fastnet-marine-oec.png",
+      "fetchedFormat": "png",
+      "rawSha256": "095ebc60e76d46a80053a7a617d5060978c94c5eda5ab7f9fc8b6117ef0d5007",
+      "retrievedAt": "2026-09-13T18:28:15Z"
     }
   ],
   "unresolved": [

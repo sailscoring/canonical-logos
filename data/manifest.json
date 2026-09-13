@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-08-16T10:03:45Z",
+  "generatedAt": "2026-09-13T18:28:42Z",
   "logos": [
     {
       "id": "1720",
@@ -358,6 +358,34 @@
       "retrievedAt": "2026-06-06T23:30:23Z",
       "derivatives": {
         "small": "logos/etchells.small.png"
+      }
+    },
+    {
+      "id": "fastnet-marine-oec",
+      "class": "venue",
+      "displayName": "Fastnet Marine & Outdoor Education Centre",
+      "file": "logos/fastnet-marine-oec.png",
+      "format": "png",
+      "sha256": "a85bfbbf6336d5c99cb7449fe5f0734cfa605679cbdb67da5380fe8990fc8592",
+      "variants": [
+        {
+          "file": "logos/fastnet-marine-oec.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.canoe.ie/wp-content/uploads/2021/11/Fastnet.png",
+      "sourceKind": "direct",
+      "homepageUrl": "https://schullsailing.ie",
+      "assetUrl": "sources/assets/fastnet-marine-oec.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "240x120 of content in a 250x200 canvas — transparent and on-standard, but small, and the bytes are Canoeing Ireland's copy rather than the centre's own file. Want the stacked lockup at 512px or better, or a vector, from the centre. See issue #31.",
+      "retrievedAt": "2026-09-13T18:28:15Z",
+      "derivatives": {
+        "small": "logos/fastnet-marine-oec.small.png"
       }
     },
     {

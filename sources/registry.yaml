@@ -1015,6 +1015,37 @@ logos:
       blsc.ie domain is dead (no DNS) — the club moved to
       blessingtonsailingclub.com.
 
+  # --- Venues ---------------------------------------------------------------
+  # A non-club racing location. The scorer picks the club logo when a club is
+  # the venue, so this class is for the ones that are not clubs.
+  - id: "fastnet-marine-oec"
+    class: venue
+    displayName: "Fastnet Marine & Outdoor Education Centre"
+    source: https://www.canoe.ie/wp-content/uploads/2021/11/Fastnet.png
+    sourceKind: direct
+    assetUrl: sources/assets/fastnet-marine-oec.png
+    homepageUrl: https://schullsailing.ie
+    quality: provisional
+    qualityNote: >-
+      240x120 of content in a 250x200 canvas — transparent and on-standard, but
+      small, and the bytes are Canoeing Ireland's copy rather than the centre's
+      own file. Want the stacked lockup at 512px or better, or a vector, from
+      the centre. See issue #31.
+    note: >-
+      The Cork ETB outdoor education centre on Colla Road, Schull Harbour —
+      host of the Fastnet Trophy (formerly the Fastnet International Schools
+      Regatta) and of national and regional events. Not a club: Schull Harbour
+      Sailing Club ships separately as `schull-harbour-sc`. The mark is three
+      stylised sails in green/orange/green beside a blue Fastnet Rock
+      silhouette, over a two-line "Fastnet Marine & / Outdoor Education Centre"
+      wordmark. The centre's own Wix site publishes this only inside a 826x71
+      three-logo strip on white (Irish Sailing + Fastnet + Schull Sailing,
+      static.wixstatic.com/media/ae9f44_6a2392b8d9214dbeb3ca69eed9e8aa5f~mv2.png)
+      — the Fastnet block is 434x71 there, and isolating it would mean cropping
+      two other organisations' logos away. The stacked lockup taken here is
+      Canoeing Ireland's approved-provider copy, the only standalone version
+      published with alpha.
+
 
 # Entities that have asked not to be hosted, or whose published terms forbid
 # third-party hosting. Never fetched or shipped, even if listed above. Removals
