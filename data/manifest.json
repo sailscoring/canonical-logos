@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-09-14T10:39:01Z",
+  "generatedAt": "2026-09-14T10:39:21Z",
   "logos": [
     {
       "id": "1720",
@@ -1357,6 +1357,34 @@
       "retrievedAt": "2026-09-14T10:37:53Z",
       "derivatives": {
         "small": "logos/orc.small.png"
+      }
+    },
+    {
+      "id": "orc-ireland",
+      "class": "governing-body",
+      "displayName": "ORC Ireland",
+      "file": "logos/orc-ireland.png",
+      "format": "png",
+      "sha256": "53d54ec0dce3b1b59fb782b3920deb6528dd32979d284ab751339a453edeedc2",
+      "variants": [
+        {
+          "file": "logos/orc-ireland.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://orc-ireland.org/wp-content/uploads/2026/02/MasterLogo.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://orc-ireland.org",
+      "assetUrl": "sources/assets/orc-ireland.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-09-14T10:39:16Z",
+      "derivatives": {
+        "small": "logos/orc-ireland.small.png"
       }
     },
     {

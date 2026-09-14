@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-14T10:38:29Z",
+  "generatedAt": "2026-09-14T10:39:16Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -25,6 +25,14 @@
       "fetchedFormat": "png",
       "rawSha256": "93e8552b9c92962dc60956ac90d329a33f0f6f39a9a14ebe64b524a68c8eb289",
       "retrievedAt": "2026-09-14T10:37:53Z"
+    },
+    {
+      "id": "orc-ireland",
+      "assetUrl": "sources/assets/orc-ireland.png",
+      "file": "logos/orc-ireland.png",
+      "fetchedFormat": "png",
+      "rawSha256": "8dd3f5e1f308bc2f40369187583ae69b40b9c78a6f66c480257ce9bfb66d4ae2",
+      "retrievedAt": "2026-09-14T10:39:16Z"
     },
     {
       "id": "hyc",

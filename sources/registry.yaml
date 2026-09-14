@@ -86,6 +86,25 @@ logos:
       from any page, so the bytes are committed). No vector is published; the
       site's other assets are third-party sponsor logos. See issue #32.
 
+  - id: orc-ireland
+    class: governing-body
+    displayName: "ORC Ireland"
+    source: https://orc-ireland.org/wp-content/uploads/2026/02/MasterLogo.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/orc-ireland.png
+    homepageUrl: https://orc-ireland.org
+    note: >-
+      The Irish ORC rating office — a voluntary body affiliated to and
+      registered with the Offshore Racing Congress as its representative in
+      Ireland, with a National Rating Officer issuing ORC certificates
+      (established 2025; ORC held its 2025 AGM in Dún Laoghaire). The mark is
+      a navy/light-blue spinnaker-and-mainsail over a stylised wake, with
+      "ORC Ireland" in green. Taken: the site's own "MasterLogo" horizontal
+      lockup, 1716x709 16-bit RGBA with alpha (1587x605 of content). The site
+      also publishes a stacked "SimpleLogo" variant (475x591, alpha) with the
+      wordmark "ORC IRL", used as its site icon — kept in reserve if a squarer
+      mark is ever wanted. No vector is published. See issue #33.
+
   # --- Sailing clubs --------------------------------------------------------
   - id: hyc
     class: sailing-club
