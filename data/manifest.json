@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-09-13T18:28:42Z",
+  "generatedAt": "2026-09-14T10:39:01Z",
   "logos": [
     {
       "id": "1720",
@@ -1329,6 +1329,34 @@
       "retrievedAt": "2026-06-07T07:19:06Z",
       "derivatives": {
         "small": "logos/national-yc.small.png"
+      }
+    },
+    {
+      "id": "orc",
+      "class": "governing-body",
+      "displayName": "Offshore Racing Congress (ORC)",
+      "file": "logos/orc.png",
+      "format": "png",
+      "sha256": "15b91fe36e050eb07e65ddb6ed05619586c46dd9ac7112b05361bafadf9b8a94",
+      "variants": [
+        {
+          "file": "logos/orc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://orc.org/uploads/images/ORC-reflex-Ocean-Blue.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://orc.org",
+      "assetUrl": "sources/assets/orc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": "orc.org's website terms of use (orc.org/offshore-racing-congress---website-terms-of-use) state that \"ORC\", \"Offshore Racing Congress\" and the ORC logo are protected marks not to be used without ORC's prior written permission. Recorded, not a gate: the usage basis sits with the organiser running an ORC-rated event (README → Nature of this dataset). Remove on request.",
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-09-14T10:37:53Z",
+      "derivatives": {
+        "small": "logos/orc.small.png"
       }
     },
     {

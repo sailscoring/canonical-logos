@@ -63,6 +63,29 @@ logos:
     assetUrl: sources/assets/irish-sailing.png
     homepageUrl: https://www.sailing.ie
 
+  - id: orc
+    class: governing-body
+    displayName: "Offshore Racing Congress (ORC)"
+    source: https://orc.org/uploads/images/ORC-reflex-Ocean-Blue.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/orc.png
+    homepageUrl: https://orc.org
+    usageNote: >-
+      orc.org's website terms of use (orc.org/offshore-racing-congress---website-terms-of-use)
+      state that "ORC", "Offshore Racing Congress" and the ORC logo are
+      protected marks not to be used without ORC's prior written permission.
+      Recorded, not a gate: the usage basis sits with the organiser running an
+      ORC-rated event (README → Nature of this dataset). Remove on request.
+    note: >-
+      The international rating authority behind the ORC handicap system, a
+      World Sailing-affiliated body. The mark is the "reflex" roundel: a navy
+      disc with a glossy highlight, a white globe-and-sail device over a rule,
+      and "ORC" in white, ringed in white/navy. orc.org's own header uses a
+      78x74 webp (`ORC-reflex-Ocean-Blue-1.webp`); the full-size 504x473
+      transparent PNG lives at the sibling path taken as `source` (not linked
+      from any page, so the bytes are committed). No vector is published; the
+      site's other assets are third-party sponsor logos. See issue #32.
+
   # --- Sailing clubs --------------------------------------------------------
   - id: hyc
     class: sailing-club
