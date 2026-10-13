@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-09-14T10:39:21Z",
+  "generatedAt": "2026-10-13T17:47:25Z",
   "logos": [
     {
       "id": "1720",
@@ -218,6 +218,34 @@
       "retrievedAt": "2026-07-30T11:34:48Z",
       "derivatives": {
         "small": "logos/blessington-sc.small.png"
+      }
+    },
+    {
+      "id": "bray-sc",
+      "class": "sailing-club",
+      "displayName": "Bray Sailing Club",
+      "file": "logos/bray-sc.png",
+      "format": "png",
+      "sha256": "ebba2193d7b0e77b4ccdd1696faca555f443156a4d0f82dffaafb2aa867e3ace",
+      "variants": [
+        {
+          "file": "logos/bray-sc.png",
+          "variant": "primary",
+          "background": "light"
+        }
+      ],
+      "sourceUrl": "https://boxstuff-development-thumbnails.s3.amazonaws.com/813815_orig.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.braysailingclub.ie",
+      "assetUrl": "sources/assets/bray-sc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "270x79 horizontal lockup on a baked-in pure-white background — the PNG is RGBA but alpha is 255 everywhere, so it is not transparent. Replace with an SVG or high-res transparent PNG of the same lockup from the club (info@braysailingclub.ie). See issue #36.",
+      "retrievedAt": "2026-10-13T17:46:45Z",
+      "derivatives": {
+        "small": "logos/bray-sc.small.png"
       }
     },
     {

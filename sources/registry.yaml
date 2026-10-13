@@ -1057,6 +1057,31 @@ logos:
       blsc.ie domain is dead (no DNS) — the club moved to
       blessingtonsailingclub.com.
 
+  - id: "bray-sc"
+    class: sailing-club
+    displayName: "Bray Sailing Club"
+    source: https://boxstuff-development-thumbnails.s3.amazonaws.com/813815_orig.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/bray-sc.png
+    homepageUrl: https://www.braysailingclub.ie
+    quality: provisional
+    qualityNote: >-
+      270x79 horizontal lockup on a baked-in pure-white background — the PNG
+      is RGBA but alpha is 255 everywhere, so it is not transparent. Replace
+      with an SVG or high-res transparent PNG of the same lockup from the club
+      (info@braysailingclub.ie). See issue #36.
+    note: >-
+      "BRAY" in grey over "SAILING CLUB" in blue, beside the burgee — a blue
+      pennant with a white gull in flight, matching the constitution's "navy
+      blue pennant with a white gull in flight as its centrepiece". The site
+      header since at least 2015 (the old DNN site's Portals/0/Images/Logo.png
+      is pixel-identical) and embedded unchanged in the club's own PDFs, so
+      this is the club's working master; no larger version is published.
+      Some club forms instead carry an older serif "Bray / Sailing / Club"
+      stack with the burgee on a staff (<=314x157, JPEG colour + soft mask);
+      not the current mark. Bytes committed because the boxstuff thumbnail
+      bucket is a platform CDN, not a stable public URL.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.

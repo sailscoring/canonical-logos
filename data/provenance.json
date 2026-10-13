@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-14T10:39:16Z",
+  "generatedAt": "2026-10-13T17:46:45Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -641,6 +641,14 @@
       "fetchedFormat": "png",
       "rawSha256": "bd66999a0bf4a3069f652c8b769d9fb7fe689fa72162c836366e2a085b12517f",
       "retrievedAt": "2026-07-30T11:34:48Z"
+    },
+    {
+      "id": "bray-sc",
+      "assetUrl": "sources/assets/bray-sc.png",
+      "file": "logos/bray-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "0136bc52f2dcf535832d69d7dce1c725d7f1a770b15d93709864192c501398ec",
+      "retrievedAt": "2026-10-13T17:46:45Z"
     },
     {
       "id": "fastnet-marine-oec",
