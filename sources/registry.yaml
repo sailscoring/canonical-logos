@@ -123,6 +123,11 @@ logos:
     sourceKind: brand-portal
     assetUrl: sources/assets/dbsc.png
     homepageUrl: https://dbsc.ie
+    note: >-
+      Incorporates the Royal Alfred Yacht Club (merged by RAYC EGM vote,
+      2016): the roundel reads "incorporating The Royal Alfred Yacht Club"
+      and the burgee combines DBSC's cross with the RAYC anchor. There is no
+      separate royal-alfred-yc entry. See issue #43.
 
   # --- Class associations ---------------------------------------------------
   - id: ilca
@@ -267,13 +272,6 @@ logos:
     sourceKind: brand-portal
     assetUrl: sources/assets/sutton-dc.jpg
     homepageUrl: https://sdc.ie
-
-  - id: "royal-alfred-yc"
-    class: sailing-club
-    displayName: "Royal Alfred Yacht Club"
-    source: https://www.royalalfredyachtclub.com/
-    sourceKind: brand-portal
-    homepageUrl: https://www.royalalfredyachtclub.com
 
   - id: "riyc"
     class: sailing-club

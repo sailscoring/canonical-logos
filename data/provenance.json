@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:26:47Z",
+  "generatedAt": "2026-10-30T13:27:46Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -708,10 +708,6 @@
     }
   ],
   "unresolved": [
-    {
-      "id": "royal-alfred-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
     {
       "id": "d2d",
       "reason": "no assetUrl (not yet sourced)"
