@@ -1291,6 +1291,24 @@ logos:
       header logo, 250x60 with real alpha. Bytes committed because the store
       CDN path carries a cache-busting timestamp. See issue #51.
 
+  - id: "viking-marine"
+    class: sponsor
+    displayName: "Viking Marine"
+    source: https://vikingmarine.ie/cdn/shop/files/vmrevised4_blk.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/viking-marine.png
+    homepageUrl: https://vikingmarine.ie
+    quality: provisional
+    qualityNote: >-
+      Official positive wordmark but only 300x22 (the original upload), a thin
+      ~14:1 strip that reads as a line in a logo slot. Replace with an SVG or
+      high-res transparent PNG, or a compact/stacked version, from Viking
+      Marine. See issue #52.
+    note: >-
+      Teal wave glyph followed by "VIKING MARINE" in black caps; the header's
+      vmrevised4.png twin is the white reversed variant. Bytes committed for
+      stability.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.

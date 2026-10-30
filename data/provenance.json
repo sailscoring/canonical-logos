@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:46:17Z",
+  "generatedAt": "2026-10-30T13:46:25Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -761,6 +761,14 @@
       "fetchedFormat": "png",
       "rawSha256": "1928125c1c5fea37d8b5c9044490503ed20719ba83b4f1e4ed561074eac7e8ae",
       "retrievedAt": "2026-10-30T13:46:17Z"
+    },
+    {
+      "id": "viking-marine",
+      "assetUrl": "sources/assets/viking-marine.png",
+      "file": "logos/viking-marine.png",
+      "fetchedFormat": "png",
+      "rawSha256": "3cd73b24d80bcc08f5437f02021803a53191f98580a405c5f844d4b415e5cd3e",
+      "retrievedAt": "2026-10-30T13:46:25Z"
     },
     {
       "id": "fastnet-marine-oec",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:46:23Z",
+  "generatedAt": "2026-10-30T13:46:30Z",
   "logos": [
     {
       "id": "1720",
@@ -2400,6 +2400,34 @@
       "retrievedAt": "2026-06-17T21:57:48Z",
       "derivatives": {
         "small": "logos/topper-ireland.small.png"
+      }
+    },
+    {
+      "id": "viking-marine",
+      "class": "sponsor",
+      "displayName": "Viking Marine",
+      "file": "logos/viking-marine.png",
+      "format": "png",
+      "sha256": "fdc6ddc5fb81371e924f54510d52675d1f71bacd42d2bd7dc061720b8aa11a9a",
+      "variants": [
+        {
+          "file": "logos/viking-marine.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://vikingmarine.ie/cdn/shop/files/vmrevised4_blk.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://vikingmarine.ie",
+      "assetUrl": "sources/assets/viking-marine.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Official positive wordmark but only 300x22 (the original upload), a thin ~14:1 strip that reads as a line in a logo slot. Replace with an SVG or high-res transparent PNG, or a compact/stacked version, from Viking Marine. See issue #52.",
+      "retrievedAt": "2026-10-30T13:46:25Z",
+      "derivatives": {
+        "small": "logos/viking-marine.small.png"
       }
     },
     {
