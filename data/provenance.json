@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:46:25Z",
+  "generatedAt": "2026-10-30T13:46:32Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -769,6 +769,14 @@
       "fetchedFormat": "png",
       "rawSha256": "3cd73b24d80bcc08f5437f02021803a53191f98580a405c5f844d4b415e5cd3e",
       "retrievedAt": "2026-10-30T13:46:25Z"
+    },
+    {
+      "id": "dubarry",
+      "assetUrl": "sources/assets/dubarry.svg",
+      "file": "logos/dubarry.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "8a44dc2360b9a5f02e2f53e18533b633c2a999c4745aeb75b8fb2368c6149639",
+      "retrievedAt": "2026-10-30T13:46:32Z"
     },
     {
       "id": "fastnet-marine-oec",

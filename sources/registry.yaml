@@ -1309,6 +1309,24 @@ logos:
       vmrevised4.png twin is the white reversed variant. Bytes committed for
       stability.
 
+  - id: "dubarry"
+    class: sponsor
+    displayName: "Dubarry of Ireland"
+    source: https://dubarry.com/cdn/shop/t/269/assets/static-logo-top.svg
+    sourceKind: brand-portal
+    assetUrl: sources/assets/dubarry.svg
+    homepageUrl: https://dubarry.com
+    quality: provisional
+    qualityNote: >-
+      Official vector but the wordmark only, ~18:1 with fine gold strokes, so
+      it reads as a thin line when small. The site stacks it over a separate
+      crest SVG; no combined file is published. Replace with Dubarry's
+      combined stacked lockup as an SVG. See issue #53.
+    note: >-
+      "DUBARRY OF IRELAND" in gold spaced serif caps. The published file has
+      width/height but no viewBox, so viewBox="0 0 250 14" (its own declared
+      dimensions) was added so it scales; nothing else changed.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.

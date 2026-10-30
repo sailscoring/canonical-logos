@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:46:30Z",
+  "generatedAt": "2026-10-30T13:46:37Z",
   "logos": [
     {
       "id": "1720",
@@ -387,6 +387,31 @@
       "derivatives": {
         "small": "logos/dlregatta.small.png"
       }
+    },
+    {
+      "id": "dubarry",
+      "class": "sponsor",
+      "displayName": "Dubarry of Ireland",
+      "file": "logos/dubarry.svg",
+      "format": "svg",
+      "sha256": "8a44dc2360b9a5f02e2f53e18533b633c2a999c4745aeb75b8fb2368c6149639",
+      "variants": [
+        {
+          "file": "logos/dubarry.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://dubarry.com/cdn/shop/t/269/assets/static-logo-top.svg",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://dubarry.com",
+      "assetUrl": "sources/assets/dubarry.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Official vector but the wordmark only, ~18:1 with fine gold strokes, so it reads as a thin line when small. The site stacks it over a separate crest SVG; no combined file is published. Replace with Dubarry's combined stacked lockup as an SVG. See issue #53.",
+      "retrievedAt": "2026-10-30T13:46:32Z"
     },
     {
       "id": "east-antrim-bc",
