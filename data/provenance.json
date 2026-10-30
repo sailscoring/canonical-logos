@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:24:13Z",
+  "generatedAt": "2026-10-30T13:26:47Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -313,6 +313,14 @@
       "fetchedFormat": "png",
       "rawSha256": "144179c09df8df92cc5d994502f4704ad1b7e277efee8467274e3e0bc86fde03",
       "retrievedAt": "2026-06-06T23:30:23Z"
+    },
+    {
+      "id": "j80",
+      "assetUrl": "sources/assets/j80.jpg",
+      "file": "logos/j80.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "71b14135e396f726f694440b2c8dc03afe55fab213777b74ae23088f7b720d8b",
+      "retrievedAt": "2026-10-30T13:26:47Z"
     },
     {
       "id": "j70",
@@ -702,10 +710,6 @@
   "unresolved": [
     {
       "id": "royal-alfred-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "j80",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

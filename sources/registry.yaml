@@ -502,9 +502,23 @@ logos:
   - id: "j80"
     class: class-assoc
     displayName: "J/80"
-    source: https://www.sailj80.com/
+    source: https://j80.org/images/pdf/J80_CR_2024-06June-01-2.pdf
     sourceKind: brand-portal
-    homepageUrl: https://www.sailj80.com
+    assetUrl: sources/assets/j80.jpg
+    homepageUrl: https://j80.org
+    quality: provisional
+    qualityNote: >-
+      Owner-issued J/80 sail insignia, but a 166x298 JPEG on a baked-in
+      pure-white background. Replace with an SVG or high-res transparent PNG
+      of the insignia from the International J/80 Class Association or
+      J/Boats. See issue #42.
+    note: >-
+      The J/80 sail insignia (navy italic "J" with registered mark, bar, "80"),
+      the same family as the j24 entry. Cover image of the official J/80
+      Class Rules (effective 2024-06-01), extracted as the original DCT stream
+      (no re-encode). Preferred over the class association's 158x100 roundel
+      on the j80.org header, whose ring lettering is unreadable at logo sizes.
+      The previous placeholder, sailj80.com, does not resolve.
 
   - id: "j70"
     class: class-assoc

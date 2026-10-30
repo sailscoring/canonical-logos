@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:24:18Z",
+  "generatedAt": "2026-10-30T13:26:52Z",
   "logos": [
     {
       "id": "1720",
@@ -1083,6 +1083,34 @@
       "retrievedAt": "2026-06-07T07:26:13Z",
       "derivatives": {
         "small": "logos/j70.small.png"
+      }
+    },
+    {
+      "id": "j80",
+      "class": "class-assoc",
+      "displayName": "J/80",
+      "file": "logos/j80.png",
+      "format": "png",
+      "sha256": "ff8cff5db5670fb81d0783d4e342ebd5c43fe38253032c9e448e6dc26cc65213",
+      "variants": [
+        {
+          "file": "logos/j80.png",
+          "variant": "primary",
+          "background": "light"
+        }
+      ],
+      "sourceUrl": "https://j80.org/images/pdf/J80_CR_2024-06June-01-2.pdf",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://j80.org",
+      "assetUrl": "sources/assets/j80.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Owner-issued J/80 sail insignia, but a 166x298 JPEG on a baked-in pure-white background. Replace with an SVG or high-res transparent PNG of the insignia from the International J/80 Class Association or J/Boats. See issue #42.",
+      "retrievedAt": "2026-10-30T13:26:47Z",
+      "derivatives": {
+        "small": "logos/j80.small.png"
       }
     },
     {
