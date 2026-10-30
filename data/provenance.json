@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:21:48Z",
+  "generatedAt": "2026-10-30T13:22:53Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -241,6 +241,14 @@
       "fetchedFormat": "webp",
       "rawSha256": "b4ac3e33da49f6090e142b777ec0f5ebc0ec4d11d016da104ca2b8c63111401f",
       "retrievedAt": "2026-06-07T07:21:46Z"
+    },
+    {
+      "id": "idra-14",
+      "assetUrl": "sources/assets/idra-14.jpg",
+      "file": "logos/idra-14.jpg",
+      "fetchedFormat": "jpg",
+      "rawSha256": "6b1bee895b29fe4b120016431f1e1be80a829e772faa13193a855932e37416fe",
+      "retrievedAt": "2026-10-30T13:22:53Z"
     },
     {
       "id": "mirror",
@@ -690,10 +698,6 @@
     },
     {
       "id": "east-antrim-bc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "idra-14",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

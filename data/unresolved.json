@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:21:54Z",
+  "generatedAt": "2026-10-30T13:22:58Z",
   "entries": [
     {
       "id": "d2d",
@@ -8,10 +8,6 @@
     },
     {
       "id": "east-antrim-bc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "idra-14",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

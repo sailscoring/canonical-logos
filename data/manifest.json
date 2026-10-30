@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:21:54Z",
+  "generatedAt": "2026-10-30T13:22:58Z",
   "logos": [
     {
       "id": "1720",
@@ -778,6 +778,34 @@
       "retrievedAt": "2026-06-06T23:26:34Z",
       "derivatives": {
         "small": "logos/icra.small.png"
+      }
+    },
+    {
+      "id": "idra-14",
+      "class": "class-assoc",
+      "displayName": "IDRA 14",
+      "file": "logos/idra-14.png",
+      "format": "png",
+      "sha256": "a7db90d8aa8272d7bd299388253c0096c9bcae8ab807c192a77ccaa636b6892f",
+      "variants": [
+        {
+          "file": "logos/idra-14.png",
+          "variant": "primary",
+          "background": "light"
+        }
+      ],
+      "sourceUrl": "https://www.idra14.ie/",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.idra14.ie",
+      "assetUrl": "sources/assets/idra-14.jpg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "The class's only published logo, but a 617x617 JPEG on a baked-in pure-white background, and a thin monochrome line drawing that reads lightly at small sizes. Replace with an SVG or high-res transparent PNG of the same mark from the IDRA 14 Class Association. See issue #40.",
+      "retrievedAt": "2026-10-30T13:22:53Z",
+      "derivatives": {
+        "small": "logos/idra-14.small.png"
       }
     },
     {

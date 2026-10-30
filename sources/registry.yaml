@@ -379,9 +379,23 @@ logos:
   - id: "idra-14"
     class: class-assoc
     displayName: "IDRA 14"
-    source: https://www.idra14.com/
+    source: https://www.idra14.ie/
     sourceKind: brand-portal
-    homepageUrl: https://www.idra14.com
+    assetUrl: sources/assets/idra-14.jpg
+    homepageUrl: https://www.idra14.ie
+    quality: provisional
+    qualityNote: >-
+      The class's only published logo, but a 617x617 JPEG on a baked-in
+      pure-white background, and a thin monochrome line drawing that reads
+      lightly at small sizes. Replace with an SVG or high-res transparent PNG
+      of the same mark from the IDRA 14 Class Association. See issue #40.
+    note: >-
+      Line drawing of an IDRA 14 under sail ("14 / 100" on the main) beside
+      bold italic "IDRA 14", over the tagline "Classical and Progressive".
+      Published on idra14.ie (Google Sites) via a tokenised
+      googleusercontent.com render URL, so source records the page and the
+      bytes are committed. The previous placeholder, idra14.com, does not
+      resolve.
 
   - id: "mirror"
     class: class-assoc
