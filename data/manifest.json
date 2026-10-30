@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:20:18Z",
+  "generatedAt": "2026-10-30T13:21:54Z",
   "logos": [
     {
       "id": "1720",
@@ -1248,6 +1248,34 @@
       "retrievedAt": "2026-06-06T22:44:45Z",
       "derivatives": {
         "small": "logos/melges-15.small.png"
+      }
+    },
+    {
+      "id": "mermaid",
+      "class": "class-assoc",
+      "displayName": "Dublin Bay Mermaid",
+      "file": "logos/mermaid.png",
+      "format": "png",
+      "sha256": "696a740a19ba0fdff50e77e9231285876c11bbd9c74d37480174daeb51f6d4f9",
+      "variants": [
+        {
+          "file": "logos/mermaid.png",
+          "variant": "primary",
+          "background": "light"
+        }
+      ],
+      "sourceUrl": "https://dublinbaymermaids.com/wp-content/uploads/2016/05/Dublin-Bay-Mermaid-Logo.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://dublinbaymermaids.com",
+      "assetUrl": "sources/assets/mermaid.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Official mark but only 229x300 on a baked-in pure-white background (RGB PNG, no alpha). It is the site's schema.org logo and the original upload; no larger rendition exists. Replace with an SVG or high-res transparent PNG of the same mark from the Mermaid Sailing Association. See issue #39.",
+      "retrievedAt": "2026-10-30T13:21:48Z",
+      "derivatives": {
+        "small": "logos/mermaid.small.png"
       }
     },
     {

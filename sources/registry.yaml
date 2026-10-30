@@ -553,10 +553,23 @@ logos:
 
   - id: "mermaid"
     class: class-assoc
-    displayName: "Mermaid"
-    source: https://www.mermaidsailing.ie/
+    displayName: "Dublin Bay Mermaid"
+    source: https://dublinbaymermaids.com/wp-content/uploads/2016/05/Dublin-Bay-Mermaid-Logo.png
     sourceKind: brand-portal
-    homepageUrl: https://www.mermaidsailing.ie
+    assetUrl: sources/assets/mermaid.png
+    homepageUrl: https://dublinbaymermaids.com
+    quality: provisional
+    qualityNote: >-
+      Official mark but only 229x300 on a baked-in pure-white background (RGB
+      PNG, no alpha). It is the site's schema.org logo and the original upload;
+      no larger rendition exists. Replace with an SVG or high-res transparent
+      PNG of the same mark from the Mermaid Sailing Association. See issue #39.
+    note: >-
+      A sail (yellow luff, grey leech) with a navy mermaid seated on a rock,
+      over "DUBLIN BAY MERMAID" in navy serif and "Since 1932". The previous
+      placeholder homepage, mermaidsailing.ie, does not resolve; the class
+      association's live site is dublinbaymermaids.com. Bytes committed for
+      stability.
 
   - id: "water-wags"
     class: class-assoc
