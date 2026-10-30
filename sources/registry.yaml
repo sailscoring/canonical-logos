@@ -1260,6 +1260,25 @@ logos:
       the Volvo Group mark). volvocars.com returns 403 to automated requests,
       so the public-domain Commons vector is used. See issue #49.
 
+  - id: "helly-hansen"
+    class: sponsor
+    displayName: "Helly Hansen"
+    source: https://commons.wikimedia.org/wiki/File:Helly_Hansen_logo_12.png
+    sourceKind: wikimedia
+    assetUrl: sources/assets/helly-hansen.png
+    licence: Public domain
+    attribution: Helly Hansen
+    homepageUrl: https://www.hellyhansen.com
+    quality: provisional
+    qualityNote: >-
+      Faithful current badge but a 387x231 raster from Wikimedia Commons, not
+      an owner-hosted vector (hellyhansen.com returns 403 to automated
+      requests). Replace with an SVG of the HH badge from Helly Hansen's site
+      or press kit. See issue #50.
+    note: >-
+      Red field with the navy "HH" monogram over white "HELLY HANSEN"; the red
+      rectangle is the mark itself, not a background fill.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.

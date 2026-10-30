@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:46:03Z",
+  "generatedAt": "2026-10-30T13:46:10Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -745,6 +745,14 @@
       "fetchedFormat": "svg",
       "rawSha256": "22b9f85ebf48e314a38f59cd697c8819c1453830a0d71a328db298a6b3787132",
       "retrievedAt": "2026-10-30T13:46:03Z"
+    },
+    {
+      "id": "helly-hansen",
+      "assetUrl": "sources/assets/helly-hansen.png",
+      "file": "logos/helly-hansen.png",
+      "fetchedFormat": "png",
+      "rawSha256": "11b50e6fd94df8b50d3e7c3f46f5018589331bc3e2d59de2f06cac12a1f437a1",
+      "retrievedAt": "2026-10-30T13:46:10Z"
     },
     {
       "id": "fastnet-marine-oec",

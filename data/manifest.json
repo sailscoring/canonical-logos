@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:46:08Z",
+  "generatedAt": "2026-10-30T13:46:15Z",
   "logos": [
     {
       "id": "1720",
@@ -747,6 +747,34 @@
       "retrievedAt": "2026-07-29T21:37:01Z",
       "derivatives": {
         "small": "logos/greystones-sc.small.png"
+      }
+    },
+    {
+      "id": "helly-hansen",
+      "class": "sponsor",
+      "displayName": "Helly Hansen",
+      "file": "logos/helly-hansen.png",
+      "format": "png",
+      "sha256": "9c4115c56c12d0ed174f0172b125d13bddfb51d505cdd30d54a424e8ebac52ee",
+      "variants": [
+        {
+          "file": "logos/helly-hansen.png",
+          "variant": "primary",
+          "background": "dark"
+        }
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Helly_Hansen_logo_12.png",
+      "sourceKind": "wikimedia",
+      "homepageUrl": "https://www.hellyhansen.com",
+      "assetUrl": "sources/assets/helly-hansen.png",
+      "licence": "Public domain",
+      "attribution": "Helly Hansen",
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Faithful current badge but a 387x231 raster from Wikimedia Commons, not an owner-hosted vector (hellyhansen.com returns 403 to automated requests). Replace with an SVG of the HH badge from Helly Hansen's site or press kit. See issue #50.",
+      "retrievedAt": "2026-10-30T13:46:10Z",
+      "derivatives": {
+        "small": "logos/helly-hansen.small.png"
       }
     },
     {
