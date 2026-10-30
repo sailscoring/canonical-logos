@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:36:41Z",
+  "generatedAt": "2026-10-30T13:45:35Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -705,6 +705,14 @@
       "fetchedFormat": "png",
       "rawSha256": "a9f055221639dfc088001c96bc1c072c27e7085ae32fcc24aab1e309de7f667e",
       "retrievedAt": "2026-10-30T13:03:59Z"
+    },
+    {
+      "id": "rooster",
+      "assetUrl": "sources/assets/rooster.png",
+      "file": "logos/rooster.png",
+      "fetchedFormat": "png",
+      "rawSha256": "d65ac26a0093eb437d73fc2f8bc068c64d0bb8cf534e12af3a588372ab830eb2",
+      "retrievedAt": "2026-10-30T13:45:35Z"
     },
     {
       "id": "fastnet-marine-oec",

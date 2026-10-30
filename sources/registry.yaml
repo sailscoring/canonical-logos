@@ -1190,6 +1190,20 @@ logos:
       over a one-line wordmark) exists only at 188x188. Bytes committed for
       stability; source is the live upload.
 
+  # --- Sponsors (issue #3 backlog) ---
+  - id: "rooster"
+    class: sponsor
+    displayName: "Rooster"
+    source: https://www.roostersailing.com/cdn/shop/files/ROOSTER_ELEMENT-NOSTRAP_RGB_LIGHT_58ae56d3-7fb5-463c-a241-ac4fdfed5a9b.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/rooster.png
+    homepageUrl: https://www.roostersailing.com
+    note: >-
+      Black "ROOSTER" wordmark beside the red square element (white rooster
+      comb), the brand's own RGB_LIGHT export for light backgrounds, 4615x1525
+      with real alpha. The RGB_DARK twin is the reversed variant. Bytes
+      committed for stability. See issue #45.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.

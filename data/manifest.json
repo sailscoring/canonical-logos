@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:36:46Z",
+  "generatedAt": "2026-10-30T13:45:40Z",
   "logos": [
     {
       "id": "1720",
@@ -1687,6 +1687,34 @@
       "retrievedAt": "2026-06-06T23:21:12Z",
       "derivatives": {
         "small": "logos/riyc.small.png"
+      }
+    },
+    {
+      "id": "rooster",
+      "class": "sponsor",
+      "displayName": "Rooster",
+      "file": "logos/rooster.png",
+      "format": "png",
+      "sha256": "9c8cf6961fdc6a140543092df357022ad3a5ceebb6cc07638016236d5e91fba0",
+      "variants": [
+        {
+          "file": "logos/rooster.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.roostersailing.com/cdn/shop/files/ROOSTER_ELEMENT-NOSTRAP_RGB_LIGHT_58ae56d3-7fb5-463c-a241-ac4fdfed5a9b.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.roostersailing.com",
+      "assetUrl": "sources/assets/rooster.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-10-30T13:45:35Z",
+      "derivatives": {
+        "small": "logos/rooster.small.png"
       }
     },
     {
