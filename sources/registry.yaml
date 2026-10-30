@@ -1279,6 +1279,18 @@ logos:
       Red field with the navy "HH" monogram over white "HELLY HANSEN"; the red
       rectangle is the mark itself, not a background fill.
 
+  - id: "ch-marine"
+    class: sponsor
+    displayName: "CH Marine"
+    source: https://cdn11.bigcommerce.com/s-lmnt0zg7g8/images/stencil/original/chmarine_logo_1787930537__08640.original.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/ch-marine.png
+    homepageUrl: https://www.chmarine.com
+    note: >-
+      Blue breaking-wave roundel beside "CH Marine", the current chmarine.com
+      header logo, 250x60 with real alpha. Bytes committed because the store
+      CDN path carries a cache-busting timestamp. See issue #51.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.

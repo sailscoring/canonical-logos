@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:46:15Z",
+  "generatedAt": "2026-10-30T13:46:23Z",
   "logos": [
     {
       "id": "1720",
@@ -246,6 +246,34 @@
       "retrievedAt": "2026-10-13T17:46:45Z",
       "derivatives": {
         "small": "logos/bray-sc.small.png"
+      }
+    },
+    {
+      "id": "ch-marine",
+      "class": "sponsor",
+      "displayName": "CH Marine",
+      "file": "logos/ch-marine.png",
+      "format": "png",
+      "sha256": "1d7edb14dcc18a5152b812e29b68f885165a8df7b20679947a831565beebcf6b",
+      "variants": [
+        {
+          "file": "logos/ch-marine.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-lmnt0zg7g8/images/stencil/original/chmarine_logo_1787930537__08640.original.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.chmarine.com",
+      "assetUrl": "sources/assets/ch-marine.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-10-30T13:46:17Z",
+      "derivatives": {
+        "small": "logos/ch-marine.small.png"
       }
     },
     {

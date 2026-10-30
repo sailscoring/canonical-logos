@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:46:10Z",
+  "generatedAt": "2026-10-30T13:46:17Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -753,6 +753,14 @@
       "fetchedFormat": "png",
       "rawSha256": "11b50e6fd94df8b50d3e7c3f46f5018589331bc3e2d59de2f06cac12a1f437a1",
       "retrievedAt": "2026-10-30T13:46:10Z"
+    },
+    {
+      "id": "ch-marine",
+      "assetUrl": "sources/assets/ch-marine.png",
+      "file": "logos/ch-marine.png",
+      "fetchedFormat": "png",
+      "rawSha256": "1928125c1c5fea37d8b5c9044490503ed20719ba83b4f1e4ed561074eac7e8ae",
+      "retrievedAt": "2026-10-30T13:46:17Z"
     },
     {
       "id": "fastnet-marine-oec",
