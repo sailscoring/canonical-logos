@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:22:53Z",
+  "generatedAt": "2026-10-30T13:24:13Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -225,6 +225,14 @@
       "fetchedFormat": "png",
       "rawSha256": "7535674982dae83942a48007eae78eea10da93d42309fa6736d996a75c79ff22",
       "retrievedAt": "2026-06-06T23:26:34Z"
+    },
+    {
+      "id": "east-antrim-bc",
+      "assetUrl": "sources/assets/east-antrim-bc.png",
+      "file": "logos/east-antrim-bc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "d7a0d21f3f62607e6749b1dfefa5abc47559a2201c3e15d0b15793703e5e5c3e",
+      "retrievedAt": "2026-10-30T13:24:13Z"
     },
     {
       "id": "strangford-lough-yc",
@@ -694,10 +702,6 @@
   "unresolved": [
     {
       "id": "royal-alfred-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "east-antrim-bc",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

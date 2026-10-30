@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:22:58Z",
+  "generatedAt": "2026-10-30T13:24:18Z",
   "logos": [
     {
       "id": "1720",
@@ -358,6 +358,34 @@
       "retrievedAt": "2026-06-07T07:26:13Z",
       "derivatives": {
         "small": "logos/dlregatta.small.png"
+      }
+    },
+    {
+      "id": "east-antrim-bc",
+      "class": "sailing-club",
+      "displayName": "East Antrim Boat Club",
+      "file": "logos/east-antrim-bc.png",
+      "format": "png",
+      "sha256": "3ca852bb4b0c6af73b082f50b1727f7d65f14b94029ac42a3e173f8e30043ac4",
+      "variants": [
+        {
+          "file": "logos/east-antrim-bc.png",
+          "variant": "primary",
+          "background": "light"
+        }
+      ],
+      "sourceUrl": "https://www.gp14ireland.com/app/download/38116021/Welcome+GP14+Ulsters+May+2023+%40EABC.pdf",
+      "sourceKind": "direct",
+      "homepageUrl": "https://www.eabc.club",
+      "assetUrl": "sources/assets/east-antrim-bc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "The club's permanent roundel, but only 290x267 on a baked-in pure-white background (extracted losslessly from a club PDF; its soft mask is fully opaque). Replace with an SVG or high-res transparent PNG of the plain roundel (without the 2025 \"Celebrating 75 years\" ribbon) from the club. See issue #41.",
+      "retrievedAt": "2026-10-30T13:24:13Z",
+      "derivatives": {
+        "small": "logos/east-antrim-bc.small.png"
       }
     },
     {

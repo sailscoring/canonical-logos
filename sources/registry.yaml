@@ -352,9 +352,26 @@ logos:
   - id: "east-antrim-bc"
     class: sailing-club
     displayName: "East Antrim Boat Club"
-    source: https://www.eastantrimboatclub.com/
-    sourceKind: brand-portal
-    homepageUrl: https://www.eastantrimboatclub.com
+    source: https://www.gp14ireland.com/app/download/38116021/Welcome+GP14+Ulsters+May+2023+%40EABC.pdf
+    sourceKind: direct
+    assetUrl: sources/assets/east-antrim-bc.png
+    homepageUrl: https://www.eabc.club
+    quality: provisional
+    qualityNote: >-
+      The club's permanent roundel, but only 290x267 on a baked-in pure-white
+      background (extracted losslessly from a club PDF; its soft mask is fully
+      opaque). Replace with an SVG or high-res transparent PNG of the plain
+      roundel (without the 2025 "Celebrating 75 years" ribbon) from the club.
+      See issue #41.
+    note: >-
+      Navy double ring lettered "EAST ANTRIM BOAT CLUB" with "1950", around
+      the burgee: a navy pennant bearing a red six-pointed star with a yellow
+      tower. Page-1 header of the club's own GP14 Ulster Championships 2023
+      welcome pack, hosted by GP14 Ireland; the club site (eabc.club, a
+      boxstuff CMS) publishes no standalone logo. A 500x500 JPEG of the 75th
+      anniversary variant exists on the club's Facebook but was passed over
+      as commemorative. The previous placeholder, eastantrimboatclub.com,
+      does not resolve.
 
   - id: "strangford-lough-yc"
     class: sailing-club
