@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:45:47Z",
+  "generatedAt": "2026-10-30T13:45:54Z",
   "logos": [
     {
       "id": "1720",
@@ -748,6 +748,31 @@
       "derivatives": {
         "small": "logos/greystones-sc.small.png"
       }
+    },
+    {
+      "id": "henri-lloyd",
+      "class": "sponsor",
+      "displayName": "Henri-Lloyd",
+      "file": "logos/henri-lloyd.svg",
+      "format": "svg",
+      "sha256": "b7568b64d63e11e756b3cf0a10bb2187ec26c25ffa3c4728d1a31aa285a3c77a",
+      "variants": [
+        {
+          "file": "logos/henri-lloyd.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.henrilloyd.com/cdn/shop/files/trade_logo_c7ccda1a-c22a-49d8-b176-7ffff741c63a.svg",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.henrilloyd.com",
+      "assetUrl": "sources/assets/henri-lloyd.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-10-30T13:45:49Z"
     },
     {
       "id": "howth-17",
