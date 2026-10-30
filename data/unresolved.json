@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:04:04Z",
+  "generatedAt": "2026-10-30T13:20:18Z",
   "entries": [
     {
       "id": "d2d",
@@ -24,10 +24,6 @@
     },
     {
       "id": "royal-alfred-yc",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "sigma-33",
       "reason": "no assetUrl (not yet sourced)"
     }
   ]

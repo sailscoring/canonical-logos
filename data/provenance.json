@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:03:59Z",
+  "generatedAt": "2026-10-30T13:20:13Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -403,6 +403,14 @@
       "retrievedAt": "2026-06-17T21:57:48Z"
     },
     {
+      "id": "sigma-33",
+      "assetUrl": "sources/assets/sigma-33.png",
+      "file": "logos/sigma-33.png",
+      "fetchedFormat": "png",
+      "rawSha256": "59ce99d9a908e733a9ac71b068cce184febfb4c5158ca6deacc39a2c6d046d02",
+      "retrievedAt": "2026-10-30T13:20:13Z"
+    },
+    {
       "id": "sb20",
       "assetUrl": "sources/assets/sb20.png",
       "file": "logos/sb20.png",
@@ -686,10 +694,6 @@
     },
     {
       "id": "mermaid",
-      "reason": "no assetUrl (not yet sourced)"
-    },
-    {
-      "id": "sigma-33",
       "reason": "no assetUrl (not yet sourced)"
     },
     {

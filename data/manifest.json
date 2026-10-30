@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:04:04Z",
+  "generatedAt": "2026-10-30T13:20:18Z",
   "logos": [
     {
       "id": "1720",
@@ -1852,6 +1852,34 @@
       "retrievedAt": "2026-06-07T07:24:04Z",
       "derivatives": {
         "small": "logos/shannon-one-design.small.png"
+      }
+    },
+    {
+      "id": "sigma-33",
+      "class": "class-assoc",
+      "displayName": "Sigma 33",
+      "file": "logos/sigma-33.png",
+      "format": "png",
+      "sha256": "3d723d025d106247afcbd30bb79a84674ea3ece3c32ec77cd253ed329608605f",
+      "variants": [
+        {
+          "file": "logos/sigma-33.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://static.wixstatic.com/media/44bf0a_eed3d4b9353d438c9f2c853bcd339124~mv2.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.sigma33.org",
+      "assetUrl": "sources/assets/sigma-33.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-10-30T13:20:13Z",
+      "derivatives": {
+        "small": "logos/sigma-33.small.png"
       }
     },
     {
