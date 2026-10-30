@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:45:40Z",
+  "generatedAt": "2026-10-30T13:45:47Z",
   "logos": [
     {
       "id": "1720",
@@ -611,6 +611,31 @@
       "derivatives": {
         "small": "logos/gibneys-of-malahide.small.png"
       }
+    },
+    {
+      "id": "gill",
+      "class": "sponsor",
+      "displayName": "Gill",
+      "file": "logos/gill.svg",
+      "format": "svg",
+      "sha256": "1f487cc8a6cac2e28259a03ef1efe122cb830558dc99a4bb4b55cd12ce7fd35c",
+      "variants": [
+        {
+          "file": "logos/gill.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.gillmarine.com/",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.gillmarine.com",
+      "assetUrl": "sources/assets/gill.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-10-30T13:45:42Z"
     },
     {
       "id": "glandore-hyc",

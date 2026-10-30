@@ -1204,6 +1204,19 @@ logos:
       with real alpha. The RGB_DARK twin is the reversed variant. Bytes
       committed for stability. See issue #45.
 
+  - id: "gill"
+    class: sponsor
+    displayName: "Gill"
+    source: https://www.gillmarine.com/
+    sourceKind: brand-portal
+    assetUrl: sources/assets/gill.svg
+    homepageUrl: https://www.gillmarine.com
+    note: >-
+      Black "Gill" wordmark, extracted verbatim from the gillmarine.com header's
+      inline SVG (viewBox 0 0 200 97), so source records the page. Paths use
+      fill="currentColor", which renders black standalone (the positive
+      colourway); kept as published. See issue #46.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.
