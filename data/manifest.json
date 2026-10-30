@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:27:51Z",
+  "generatedAt": "2026-10-30T13:36:46Z",
   "logos": [
     {
       "id": "1720",
@@ -2409,6 +2409,34 @@
       "retrievedAt": "2026-07-30T11:17:38Z",
       "derivatives": {
         "small": "logos/wicklow-sc.small.png"
+      }
+    },
+    {
+      "id": "wiora",
+      "class": "class-assoc",
+      "displayName": "WIORA",
+      "file": "logos/wiora.png",
+      "format": "png",
+      "sha256": "594761594a10bb8bcb4c905e79640bf114571025834570062256b49768e98e76",
+      "variants": [
+        {
+          "file": "logos/wiora.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://wiora.ie/wp-content/uploads/2023/05/flag-removebg-preview.webp",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://wiora.ie",
+      "assetUrl": "sources/assets/wiora.webp",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-10-30T13:36:41Z",
+      "derivatives": {
+        "small": "logos/wiora.small.png"
       }
     },
     {

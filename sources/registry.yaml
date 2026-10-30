@@ -724,6 +724,22 @@ logos:
     assetUrl: sources/assets/isora.jpg
     homepageUrl: https://www.isora.org
 
+  - id: "wiora"
+    class: class-assoc
+    displayName: "WIORA"
+    source: https://wiora.ie/wp-content/uploads/2023/05/flag-removebg-preview.webp
+    sourceKind: brand-portal
+    assetUrl: sources/assets/wiora.webp
+    homepageUrl: https://wiora.ie
+    note: >-
+      West of Ireland Offshore Racing Association (est. 1976; runs the West
+      Coast Championships and the Atlantic Cup), registered as class-assoc
+      like its east-coast counterpart isora. The burgee: a royal-blue pennant
+      with a yellow Celtic (ringed) cross at the hoist, 300x157 with real
+      alpha, cut out by the association with remove.bg (hence the filename).
+      The 512x512 site icon is a square crop of it that loses the fly.
+      Bytes committed for stability. See issue #44.
+
 
   # --- Sponsors (issue #1 backlog — sourcing in progress) ---
   - id: "monday"

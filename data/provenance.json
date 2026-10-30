@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:27:46Z",
+  "generatedAt": "2026-10-30T13:36:41Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -465,6 +465,14 @@
       "fetchedFormat": "jpg",
       "rawSha256": "15a6c049809cb2584efcd08814a58fd880cc25790a71cccf90e044037ba38c7d",
       "retrievedAt": "2026-06-06T23:21:12Z"
+    },
+    {
+      "id": "wiora",
+      "assetUrl": "sources/assets/wiora.webp",
+      "file": "logos/wiora.webp",
+      "fetchedFormat": "webp",
+      "rawSha256": "1e977f936fc5628b9b31850fb9cd01e77a92ee45f1cab9755802489b91dc77d3",
+      "retrievedAt": "2026-10-30T13:36:41Z"
     },
     {
       "id": "monday",
