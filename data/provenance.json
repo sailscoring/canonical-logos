@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:46:32Z",
+  "generatedAt": "2026-10-30T13:48:06Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -777,6 +777,14 @@
       "fetchedFormat": "svg",
       "rawSha256": "8a44dc2360b9a5f02e2f53e18533b633c2a999c4745aeb75b8fb2368c6149639",
       "retrievedAt": "2026-10-30T13:46:32Z"
+    },
+    {
+      "id": "musto",
+      "assetUrl": "sources/assets/musto.svg",
+      "file": "logos/musto.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "e682642fcec148a6da05fb2142fab817ee782361dc327c5cb1756b54e5650495",
+      "retrievedAt": "2026-10-30T13:48:06Z"
     },
     {
       "id": "fastnet-marine-oec",

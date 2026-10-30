@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:46:37Z",
+  "generatedAt": "2026-10-30T13:48:11Z",
   "logos": [
     {
       "id": "1720",
@@ -1601,6 +1601,31 @@
       "derivatives": {
         "small": "logos/mullingar-sc.small.png"
       }
+    },
+    {
+      "id": "musto",
+      "class": "sponsor",
+      "displayName": "Musto",
+      "file": "logos/musto.svg",
+      "format": "svg",
+      "sha256": "e682642fcec148a6da05fb2142fab817ee782361dc327c5cb1756b54e5650495",
+      "variants": [
+        {
+          "file": "logos/musto.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.musto.com/",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.musto.com",
+      "assetUrl": "sources/assets/musto.svg",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-10-30T13:48:06Z"
     },
     {
       "id": "national-yc",
