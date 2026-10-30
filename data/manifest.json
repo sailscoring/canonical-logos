@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:45:54Z",
+  "generatedAt": "2026-10-30T13:46:01Z",
   "logos": [
     {
       "id": "1720",
@@ -1548,6 +1548,31 @@
       "derivatives": {
         "small": "logos/national-yc.small.png"
       }
+    },
+    {
+      "id": "north-sails",
+      "class": "sponsor",
+      "displayName": "North Sails",
+      "file": "logos/north-sails.svg",
+      "format": "svg",
+      "sha256": "a69116c9c935b0f220fc128d78c7733702524fae2c5a94efd93760fae52b3214",
+      "variants": [
+        {
+          "file": "logos/north-sails.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NorthSails_Logo_2024.svg",
+      "sourceKind": "wikimedia",
+      "homepageUrl": "https://www.northsails.com",
+      "assetUrl": "sources/assets/north-sails.svg",
+      "licence": "Public domain",
+      "attribution": "North Sails",
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-10-30T13:45:56Z"
     },
     {
       "id": "orc",

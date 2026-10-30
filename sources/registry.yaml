@@ -1229,6 +1229,21 @@ logos:
       brand's own full-colour vector. The header's Frame_*.svg is the
       all-white reversed variant. Bytes committed for stability. See issue #47.
 
+  - id: "north-sails"
+    class: sponsor
+    displayName: "North Sails"
+    source: https://commons.wikimedia.org/wiki/File:NorthSails_Logo_2024.svg
+    sourceKind: wikimedia
+    assetUrl: sources/assets/north-sails.svg
+    licence: Public domain
+    attribution: North Sails
+    homepageUrl: https://www.northsails.com
+    note: >-
+      The 2024 roundel: blue disc with white "N" / "NORTH SAILS" / "S" inside
+      a white keyline. northsails.com publishes no standalone logo file, so
+      the public-domain Commons vector is used (as for monday); it supersedes
+      the older wave-split roundel. See issue #48.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:45:49Z",
+  "generatedAt": "2026-10-30T13:45:56Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -729,6 +729,14 @@
       "fetchedFormat": "svg",
       "rawSha256": "b7568b64d63e11e756b3cf0a10bb2187ec26c25ffa3c4728d1a31aa285a3c77a",
       "retrievedAt": "2026-10-30T13:45:49Z"
+    },
+    {
+      "id": "north-sails",
+      "assetUrl": "sources/assets/north-sails.svg",
+      "file": "logos/north-sails.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "a69116c9c935b0f220fc128d78c7733702524fae2c5a94efd93760fae52b3214",
+      "retrievedAt": "2026-10-30T13:45:56Z"
     },
     {
       "id": "fastnet-marine-oec",
