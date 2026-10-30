@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-13T17:47:25Z",
+  "generatedAt": "2026-10-30T13:04:04Z",
   "logos": [
     {
       "id": "1720",
@@ -1192,6 +1192,34 @@
       "retrievedAt": "2026-06-06T23:26:34Z",
       "derivatives": {
         "small": "logos/malahide-yc.small.png"
+      }
+    },
+    {
+      "id": "mayo-sc",
+      "class": "sailing-club",
+      "displayName": "Mayo Sailing Club",
+      "file": "logos/mayo-sc.png",
+      "format": "png",
+      "sha256": "ff7f59f83bb0192bd04012d3cdc53447877571335efb3588cf90fe78c9c71e22",
+      "variants": [
+        {
+          "file": "logos/mayo-sc.png",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://www.mayosailingclub.com/wp-content/uploads/2024/11/MSC-Logo-noBG.png",
+      "sourceKind": "brand-portal",
+      "homepageUrl": "https://www.mayosailingclub.com",
+      "assetUrl": "sources/assets/mayo-sc.png",
+      "licence": null,
+      "attribution": null,
+      "usageNote": null,
+      "quality": "provisional",
+      "qualityNote": "Clean 1024x289 transparent PNG, but a reversed mark only: the white main, white \"mayo\" and light-grey coordinates are drawn for the club's navy, so on a light header only the lime headsail and \"sailing club\" show. Every copy the club publishes (site, PDFs) is reversed. Replace with a positive/light-background version of the lockup (SVG or high-res transparent PNG) from the club; failing that, the 1432x404 original export (MSC-Logo-noBG-01-01.png, in the WP media library but 404). See issue #37.",
+      "retrievedAt": "2026-10-30T13:03:59Z",
+      "derivatives": {
+        "small": "logos/mayo-sc.small.png"
       }
     },
     {

@@ -1082,6 +1082,33 @@ logos:
       not the current mark. Bytes committed because the boxstuff thumbnail
       bucket is a platform CDN, not a stable public URL.
 
+  - id: "mayo-sc"
+    class: sailing-club
+    displayName: "Mayo Sailing Club"
+    source: https://www.mayosailingclub.com/wp-content/uploads/2024/11/MSC-Logo-noBG.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/mayo-sc.png
+    homepageUrl: https://www.mayosailingclub.com
+    quality: provisional
+    qualityNote: >-
+      Clean 1024x289 transparent PNG, but a reversed mark only: the white
+      main, white "mayo" and light-grey coordinates are drawn for the club's
+      navy, so on a light header only the lime headsail and "sailing club"
+      show. Every copy the club publishes (site, PDFs) is reversed. Replace
+      with a positive/light-background version of the lockup (SVG or high-res
+      transparent PNG) from the club; failing that, the 1432x404 original
+      export (MSC-Logo-noBG-01-01.png, in the WP media library but 404).
+      See issue #37.
+    note: >-
+      Horizontal lockup: a sloop (white main, lime headsail, white wave
+      strokes) beside "mayo" in white and "sailing club" in lime, over the
+      clubhouse coordinates "53° 49.45' N - 09° 37.12' W" (Rosmoney,
+      Westport). The same mark has been on the site since at least 2017
+      (msc-logo-hz.png, opaque navy field); this is the 2024 rebuild's "noBG"
+      upload, the largest copy that resolves. A stacked square variant (sail
+      over a one-line wordmark) exists only at 188x188. Bytes committed for
+      stability; source is the live upload.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.

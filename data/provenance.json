@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-13T17:46:45Z",
+  "generatedAt": "2026-10-30T13:03:59Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -649,6 +649,14 @@
       "fetchedFormat": "png",
       "rawSha256": "0136bc52f2dcf535832d69d7dce1c725d7f1a770b15d93709864192c501398ec",
       "retrievedAt": "2026-10-13T17:46:45Z"
+    },
+    {
+      "id": "mayo-sc",
+      "assetUrl": "sources/assets/mayo-sc.png",
+      "file": "logos/mayo-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "a9f055221639dfc088001c96bc1c072c27e7085ae32fcc24aab1e309de7f667e",
+      "retrievedAt": "2026-10-30T13:03:59Z"
     },
     {
       "id": "fastnet-marine-oec",
