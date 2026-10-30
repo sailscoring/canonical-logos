@@ -860,9 +860,15 @@ logos:
   - id: "d2d"
     class: regatta
     displayName: "Dún Laoghaire to Dingle Race"
-    source: https://www.d2d.ie/
+    source: https://www.d2drace.ie/
     sourceKind: brand-portal
-    homepageUrl: https://www.d2d.ie
+    homepageUrl: https://www.d2drace.ie
+    note: >-
+      Organised by the National Yacht Club (nyc.ie/d2d). The placeholder
+      d2d.ie does not resolve; the race site is d2drace.ie. Not yet sourced:
+      as of 2026-10-30 the 2025 NOR and SIs carry only partner logos (NYC,
+      RORC, DBSC, Volvo, Dingle Skellig Hotel) and the only race artwork is a
+      year-stamped 2021 thumbnail, so no stable series mark was found.
 
   - id: "wave-regatta"
     class: regatta
