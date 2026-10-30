@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:45:56Z",
+  "generatedAt": "2026-10-30T13:46:03Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -737,6 +737,14 @@
       "fetchedFormat": "svg",
       "rawSha256": "a69116c9c935b0f220fc128d78c7733702524fae2c5a94efd93760fae52b3214",
       "retrievedAt": "2026-10-30T13:45:56Z"
+    },
+    {
+      "id": "volvo",
+      "assetUrl": "sources/assets/volvo.svg",
+      "file": "logos/volvo.svg",
+      "fetchedFormat": "svg",
+      "rawSha256": "22b9f85ebf48e314a38f59cd697c8819c1453830a0d71a328db298a6b3787132",
+      "retrievedAt": "2026-10-30T13:46:03Z"
     },
     {
       "id": "fastnet-marine-oec",

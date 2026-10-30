@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-10-30T13:46:01Z",
+  "generatedAt": "2026-10-30T13:46:08Z",
   "logos": [
     {
       "id": "1720",
@@ -2345,6 +2345,31 @@
       "derivatives": {
         "small": "logos/topper-ireland.small.png"
       }
+    },
+    {
+      "id": "volvo",
+      "class": "sponsor",
+      "displayName": "Volvo",
+      "file": "logos/volvo.svg",
+      "format": "svg",
+      "sha256": "22b9f85ebf48e314a38f59cd697c8819c1453830a0d71a328db298a6b3787132",
+      "variants": [
+        {
+          "file": "logos/volvo.svg",
+          "variant": "primary",
+          "background": "any"
+        }
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volvo_Iron_Mark_-_black.svg",
+      "sourceKind": "wikimedia",
+      "homepageUrl": "https://www.volvocars.com/ie/",
+      "assetUrl": "sources/assets/volvo.svg",
+      "licence": "Public domain",
+      "attribution": "Volvo Cars",
+      "usageNote": null,
+      "quality": "ok",
+      "qualityNote": null,
+      "retrievedAt": "2026-10-30T13:46:03Z"
     },
     {
       "id": "waszp",

@@ -1244,6 +1244,22 @@ logos:
       the public-domain Commons vector is used (as for monday); it supersedes
       the older wave-split roundel. See issue #48.
 
+  - id: "volvo"
+    class: sponsor
+    displayName: "Volvo"
+    source: https://commons.wikimedia.org/wiki/File:Volvo_Iron_Mark_-_black.svg
+    sourceKind: wikimedia
+    assetUrl: sources/assets/volvo.svg
+    licence: Public domain
+    attribution: Volvo Cars
+    homepageUrl: https://www.volvocars.com/ie/
+    note: >-
+      Volvo Cars' 2021 flat iron mark (black ring and arrow with VOLVO across
+      it), title sponsor of dlregatta and the Dun Laoghaire to Dingle race via
+      Volvo Car Ireland. Chosen over the classic blue serif wordmark (still
+      the Volvo Group mark). volvocars.com returns 403 to automated requests,
+      so the public-domain Commons vector is used. See issue #49.
+
   # --- Venues ---------------------------------------------------------------
   # A non-club racing location. The scorer picks the club logo when a club is
   # the venue, so this class is for the ones that are not clubs.
