@@ -1196,6 +1196,31 @@ logos:
       over a one-line wordmark) exists only at 188x188. Bytes committed for
       stability; source is the live upload.
 
+  - id: "garrykennedy-sc"
+    class: sailing-club
+    displayName: "Garrykennedy Sailing Club"
+    source: https://garrykennedysailing.org/wp-content/uploads/2016/10/header.png
+    sourceKind: brand-portal
+    assetUrl: sources/assets/garrykennedy-sc.png
+    homepageUrl: https://garrykennedysailing.org
+    quality: provisional
+    qualityNote: >-
+      Clean transparent lockup, but only 699x118: the site header with a
+      harbour photo removed from its right-hand end, not a file the club
+      issued standalone. Replace with an SVG or high-res transparent PNG of
+      the same burgee + wordmark lockup from the club
+      (garrykennedysailingclub@gmail.com). See issue #55.
+    note: >-
+      Garrykennedy harbour, Portroe, Co Tipperary, on the east shore of
+      Lough Derg; filed next to lough-derg-yc and killaloe-sc. The mark is
+      the club burgee, a blue pennant with a white swan, on a staff, beside
+      "Garrykennedy / Sailing Club" in heavy rounded blue type. The live
+      header.png (950x120) is a composite: the lockup, about 88 fully
+      transparent columns, then a photo of the harbour. The committed bytes
+      are crop((0, 0, 699, 120)) of it, with every remaining pixel unchanged.
+      The site icon is the burgee alone on opaque white (250x250), and the
+      club PDFs and forms carry the burgee at 145px or less.
+
   # --- Sponsors (issue #3 backlog) ---
   - id: "rooster"
     class: sponsor

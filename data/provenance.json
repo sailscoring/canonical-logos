@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T13:49:40Z",
+  "generatedAt": "2026-11-17T12:32:34Z",
   "assets": [
     {
       "id": "world-sailing",
@@ -705,6 +705,14 @@
       "fetchedFormat": "png",
       "rawSha256": "a9f055221639dfc088001c96bc1c072c27e7085ae32fcc24aab1e309de7f667e",
       "retrievedAt": "2026-10-30T13:03:59Z"
+    },
+    {
+      "id": "garrykennedy-sc",
+      "assetUrl": "sources/assets/garrykennedy-sc.png",
+      "file": "logos/garrykennedy-sc.png",
+      "fetchedFormat": "png",
+      "rawSha256": "2840d3c2148a2e8526681ba2ac987415899eb483128e857aa25884dbb469fbd9",
+      "retrievedAt": "2026-11-17T12:32:34Z"
     },
     {
       "id": "rooster",
